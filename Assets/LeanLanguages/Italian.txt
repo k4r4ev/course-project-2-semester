@@ -1,0 +1,196 @@
+﻿Wrong Orbit=Velocità errata per questa orbita!
+Right Orbit=Velocità corretta per questa orbita!
+Start=Avvia
+OK=Ok
+exit=Esci
+Scan the pages of the book=Scorri la pagina del libro
+Floating and sinking=Galleggiamento e affondamento
+(Scene A) Objects that float or sink=Oggetti che galleggiano o affondano
+(Scene B) The shape of the objects=La forma degli oggetti
+Can you help Yiannis? What kind of objects do you think that float? Make a hypothesis.” Select one from the following:=Puoi aiutare Yiannis? Quale dei seguenti tipi di oggetti pensi che galleggiano? Fai un’ipotesi e selezionane una delle seguenti:
+a. All big and heavy objects float=a. Tutti gli oggetti grandi e pesanti galleggiano
+b. All small and light objects float=b. Tutti gli oggetti piccoli e leggeri galleggiano
+c. All objects made of metal float=c. Tutti gli oggetti di metallo galleggiano
+d. All objects made of wood float=d. Tutti gli oggetti di legno galleggiano
+e. All objects made of glass float=e. Tutti gli oggetti di vetro galleggiano
+“Fine! Now, you can make an experiment to test your hypothesis. Put the three big and   heavy objects on the sea to test your hypothesis”.=Bene! ora puoi fare un esperimento per testare la tua ipotesi. Metti i tre oggetti grandi e pesanti sul mare e verifica la tua ipotesi.
+“This is a small and light object. Try all the big and heavy objects”=Questo è un oggetto piccolo e leggero. Prova tutti gli oggetti grandi e pesanti
+Your   experiment showed that only some big and heavy objects float while others sink.   Your hypothesis was not proved. Try another hypothesis.”=Il tuo esperimento ha dimostrato che solo alcuni oggetti grandi e pesanti galleggiano mentre altri affondano. La tua ipotesi non è stata confermata. Prova un'altra ipotesi.
+try another hypothesis=Prova un’altra ipotesi
+Scenario 2=
+English=Italian
+Rotation button=Pulsante rotazione
+calendar=calendario
+January=Gennaio
+February=Febbraio
+March=Marzo
+April=Aprile
+May=Maggio
+June=Giugno
+July=Luglio
+August=Agosto
+September=Settembre
+October=Ottobre
+November=Novembre
+December=Dicembre
+Return=Torna indietro
+Continue=Continua
+Day/Night Cycle=Ciclo Giorno/Notte
+(Scene A) Earth – Sun relative size=Terra - Dimensioni relative del Sole
+(Scene B) Sun - Earth distance – Phenomenal Sun’s size explained=Distanza Sole - Terra - Spiegazione del fenomeno della grandezza del sole
+(Scene C) Earth’s revolution around the Sun= Rivoluzione della terra attorno al sole
+(Scene D) Earth’s rotation around itself= Rotazione della terra attorno a se stessa
+(Scene E) Day/night explanation=Spiegazione giorno/notte
+The Sun looks like a ball of fire on the sky but   how big is the Sun? Which of the following is true?=Il Sole sembra una palla di fuoco sul cielo ma quanto è grande il Sole? Quale delle seguenti affermazioni è vera?
+a.The Sun is a little bigger than the Earth=a.Il Sole è un po' più grande della Terra
+b. The Sun is much bigger than the Earth=b. Il Sole è molto più grande della Terra
+c. The Earth is a little bigger than the Sun=c. La Terra è un po' più grande del Sole
+d. The Earth is much bigger than the Sun=d. La Terra è molto più grande del Sole
+You are right!=Giusto!
+The Sun’s diameter is about 100 times bigger than   the Earth’s diameter. This means that a million Earths put together make the size of the Sun.=Il diametro del Sole è circa 100 volte più grande del diametro della Terra. Questo significa che il volume di un milione di Terre messe insieme fa la dimensione del Sole.
+RETURN (SCENES MENU)=TORNA INDIETRO
+You're wrong=Sbagliato
+Often things are not the way they look. In reality the Sun’s diameter is about 100 times bigger than the Earth’s diameter. This means that a million Earths put together make the size of the Sun.=Spesso le cose non sono come sembrano. In realtà il diametro del Sole è circa 100 volte più grande del diametro della Terra. Questo significa che un milione di Terre messe insieme fanno la dimensione del Sole.
+The truth is that    The Sun’s diameter is about 100 times bigger than the Earth’s diameter. his means that a million Earths put together make the size of the Sun.=La verità è che Il diametro del Sole è circa 100 volte più grande del diametro della Terra. Ciò significa che un milione di Terre messe insieme fanno la dimensione del Sole.
+Do you know how far away from us the Sun is? Which   of the following is true?=Sai quanto è lontano da noi il Sole? Quale   di queste affermazioni è vera?
+a. The Sun is a little further from the Earth than the clouds=a. Il Sole è un po' più lontano dalla Terra delle nuvole
+b. The Sun is about the same distance from the Earth as the moon=b. Il Sole e la Luna sono circa alla stessa distanza dalla Terra
+c. The Sun is further away from the Earth than the clouds and the moon=c. Il Sole è molto più lontano dalla Terra delle nuvole e della luna
+The Sun is about 150 million km away from the Earth. That is why such a huge object looks like a ball in the sky.=Il Sole è a circa 150 milioni di km dalla Terra. Ecco perché un oggetto così enorme sembra una palla nel cielo.
+Often things are not the way they look. The truth is that the   Sun is much further away from the Earth than the clouds or even the moon. The Sun is about 150 million km away from the Earth. That is why such a huge object looks like a ball in the sky.=Spesso le cose non sono come sembrano. La verità è che il Sole è molto più lontano dalla Terra rispetto alle nuvole o addirittura alla luna. Il Sole è a circa 150 milioni di km dalla Terra. Ecco perché un oggetto così enorme sembra una palla nel cielo.
+The earth revolves around the Sun. Do you know how   long it takes to come a full circle? Make a   hypothesis and then test it.=La terra gira intorno al Sole. Sai quanto tempo ci vuole per fare il giro completo? Fai un'ipotesi e provala.
+a. 24 hours=a. 24 ore
+b. A day and a night=b. Un giorno e una notte
+c. A year=c. Un anno
+Fine! Now test your hypothesis by making the earth move around the Sun and looking at the calendar=Bene! Ora prova la tua ipotesi facendo muovere la terra intorno al Sole e guardando il calendario
+GO=VAI
+Your hypothesis is not true. You observed that it takes much longer than one day for the Earth to make a revolution around the Sun. In fact the Earth makes a complete revolution around the Sun in one year, that is in 365 days=La tua ipotesi non è vera. Tu hai osservato che ci vuole molto più di un giorno perché la Terra faccia una rivoluzione intorno al Sole. In realtà la Terra fa una rivoluzione completa intorno al Sole in un anno, cioè in 365 giorni
+Your hypothesis is true. As you observed the Earth makes a complete revolution around the Sun in 365 days, that is in one year.=La tua ipotesi è vera. Come avete osservato, la Terra compie una rivoluzione completa intorno al Sole in 365 giorni, cioè in un anno.
+You know that the Earth revolves around itself. Do   you know how long it takes to make a revolution around itself? Make a   hypothesis and then test it.=Sai che la Terra ruota intorno a se stessa. Sai quanto tempo ci vuole per fare una rotazione intorno a se stessa? Fai un’ipotesi e provala.
+a. One year=a. Un anno
+b. 24 hours=b. 24 ore
+c. 365 days=c. 365 giorni
+Your hypothesis is not true. As the chronometer   showed, it takes 24 hours, that is one day and one night, for the Earth to   complete a revolution around itself.=La tua ipotesi non è vera. Come ha mostrato il cronometro, ci vogliono 24 ore, cioè un giorno e una notte, perché la terra completi una rotazione intorno a se stessa.
+Your hypothesis is true. As the chronometer showed, it takes 24   hours, that is one day and a night, for the Earth to complete a revolution   around itself.=La tua ipotesi è vera. Come ha mostrato il cronometro, ci vogliono 24 ore, cioè un giorno e una notte, perché la Terra compia una rotazione intorno a se stessa.
+“Very well. Continue if you like”. It is day   January the 3rd in this country. Make it day, March the 23rd for this country.=Molto bene. Continua se vuoi. È il 3 di gennaio in questo paese. Facciamo che sia il 23 marzo per questo paese".
+“Very   well. Continue if you like”=È mezzanotte del 3 Gennaio fai in modo che siano le 13:00.
+It is day March the 23st in this country. Make it night   July the 3rd="In questo paese è la mattina del 23 marzo. Fai in modo che sia la notte   del 3 luglio"
+Very well. Continue if you like”. It is night   July the 3d in this country. Make it day    September the 23d.=Molto bene. Continua se vuoi. Ora in questo paese è la notte del 3 luglio. Fai in modo che sia il mattino del 23 settembre.
+Excellent. You know very well how day and night   come. It is day for the side of the Earth that is illuminated from the Sun. But   as the Earth revolves around itself this side is not illuminated anymore and night   comes. Imagine that if the Earth stopped revolving around itself some places   would have always day, while others would have night all the time.=Ottimo. Ora sai molto bene come si susseguono il giorno e la notte. È giorno per il lato della Terra che è illuminato dal Sole. Ma dato che la Terra gira intorno a se stessa, la notte arriva quando questo lato non è più illuminato. Immagina che se la Terra smettesse di ruotare intorno a se stessa in alcuni luoghi sarebbe sempre giorno, mentre in altri sarebbe notte tutto il tempo.
+Scenario 3=
+English=Italian
+SCENARIO 3: GRAVITY=SCENARIO 3: Gravità
+(Scene A) The effect of gravity on a satellite: The force of gravity becomes zero=L'effetto della gravità su un satellite: La forza di gravità diventa zero
+(Scene B) The effect of velocity on satellite’s orbit: The velocity becomes zero=L'effetto della velocità sull'orbita del satellite: La velocità diventa zero
+(Scene C) Orbit and velocity=Orbita e velocità
+View from the satellite on/off=Vista dal satellite attiva/disattiva
+Gravity on/off=Gravità attiva/disattiva
+Remember that the force of gravity attracts the   satellite and makes it revolve around the Earth. What would happen to the satellite   if the force of gravity stopped? Make a hypothesis and test it.="Ricorda che la forza di gravità attira il satellite   e lo fa ruotare intorno alla Terra. Cosa accadrebbe al satellite   se la forza di gravità si fermasse? Fai un'ipotesi e provala.
+1.The satellite would fall on the earth=1.Il satellite cadrebbe sulla terra
+2.The satellite would continue moving on a straight line=2.Il satellite continuerebbe a muoversi su una linea retta
+3. The satellite would fall down=3. Il satellite cadrebbe giù
+4.The satellite would continue   moving on a curved line="4.Il satellite continuerebbe a muoversi su una linea curva"
+Fine. Now test your hypothesis: Put the gravity off   and watch the result.=Bene. Ora prova la tua ipotesi: Attiva la gravità e guarda il risultato.
+Your hypothesis is not true. If we could stop the   force of gravity, the satellite would continue moving on a straight line. This   would happen because there would be nothing to change its motion.=La tua ipotesi è sbagliata. Se potessimo fermare la forza di gravità, il satellite continuerebbe a muoversi su una linea retta. Questo accade perché non c'è nulla che possa cambiare il suo movimento.
+Excellent! Your hypothesis is true. If we could   stop the force of gravity, the satellite would continue moving on a straight   line, because there would be nothing to change its motion.=Eccellente! La tua ipotesi è corretta. Se potessimo fermare la forza di gravità, il satellite continuerebbe a muoversi su una linea retta, perchè nulla può cambiare il suo movimento".
+You can see the earth as if you were in the satellite.   Put gravity off at different points and watch from the window of the satellite.=Puoi vedere la terra come se fossi nel satellite.  Disattiva la gravità in differenti momenti e guarda dal finestrino del satellite.
+velocity on/off=velocità attiva/disattiva
+Remember that the satellite revolves around the   Earth with a certain velocity. What would happen to the satellite if, for some   reason, the satellite stopped? Make a hypothesis and test it.=Ricorda che il satellite ruota intorno al Terra con una certa velocità. Cosa succederebbe al satellite se, per qualche motivo, si fermasse? Fai un'ipotesi e provala.
+1.The satellite would fall on the earth=1.Il satellite cadrebbe sulla terra
+2.The satellite would continue moving on a straight line=2.Il satellite continuerebbe a muoversi su una linea retta
+3.The satellite would fall down=3.Il satellite cadrebbe giù
+4.The satellite would continue moving on a curved line=4.Il satellite continuerebbe a muoversi su una linea curva
+5.The satellite would stay at this point away from the earth=5.Il satellite rimarrebbe fermo a una certa distanza dalla terra
+Fine. Now test your hypothesis: Put the velocity off   and watch the result.=Bene. Ora prova la tua ipotesi: Disattiva la velocita' e guarda cosa succede.
+Your hypothesis is not true. The force of gravity   still attracts the satellite even if the satellite stops. That is why the   satellite falls towards the center of the earth.=La tua ipotesi è sbagliata. La forza di gravità attrae ancora il satellite anche se questo è fermo. Per questo motivo il satellite cade verso il centro della terra.
+Excellent! Your hypothesis proved true. If the   satellite stops, then the force of gravity would attract (pull) it towards the   center of the earth.=Eccellente! La tua ipotesi è corretta. Se il satellite si ferma, allora la forza di gravità lo attira (tira) verso il centro della terra.
+The hero of our fairy tale said to the engineer of the ship that even if the satellite was above the “down side” of the Earth, and stopped for some reason, it would move towards the Earth and it would fall on the ground οn the same side”. Can you test his hypothesis? Is it true? Look from the window of the satellite.=L'eroe della nostra favola disse al macchinista della nave che anche se il satellite fosse stato nella parte "inferiore" della Terra, e si fosse fermato per qualche motivo, sarebbe comunque caduto sulla Terra, dalla stessa parte. Puoi verificare la sua ipotesi? È vera? Guarda dal finestrino del satellite.
+You can see that the satellite would fall on the “down   side” of the Earth. Yiannis was right! It seems strange to us but in this case   to “fall down” means to move upwards. Remember that always to fall “down” means   to move towards the center of the Εarth, due to earth’s attraction. And to go   “up” means to move away from the Εarth.=Puoi vedere il satellite cadere giù verso la Terra. Yiannis aveva ragione! Sembra strano, ma in questo caso "cadere" significa muoversi verso l'alto. Ricordati che cadere "giù" significa sempre muoversi verso il centro della Τerra a causa dell'attrazione terrestre. E andare "su" significa allontanarsi dalla Τerra.
+satellite velocity=Velocità del satellite
+Put the satellite on an orbit around the Earth.   Choose the right velocity for each orbit.=Metti il satellite in un orbita intorno alla Terra.   Scegli la giusta velocità per ogni orbita.
+Now that you have put the satellite on the three different orbits , can you tell which of the following is true:=Adesso che hai messo il satellite in tre orbite diverse, puoi dirci quale delle seguenti affermazioni è vera?
+1.  The closer to the earth the orbit, the greater its velocity should be=1. Più l'orbita è vicina alla Terra, maggiore è la velocità del satellite
+2.  The  closer to the earth the orbit, the less its velocity should be =2. Più l'orbita è vicina alla Terra, minore è la velocità del satellite
+3.  A satellite can move on any orbit regardless its velocity=3. Un satellite può muoversi lungo qualunque orbita indipendentemente dalla sua velocità
+Excellent! The closer to the earth, the greater is the force of gravity with which the earth attracts the satellite. Therefore, the satellite must move faster in order not to fall on the earth. =Eccellente! Più il satellite è vicino alla Terra, maggiore è la forza di gravità con cui la Terra lo attrae. Di conseguenza, il satellite deve muoversi a una velocità maggiore per non cadere sulla Terra. 
+Not really! Try again and you find out that the closer to the earth the satellite is, the greater its velocity should be. And here is the reason: You know that the closer to the earth, the greater is the force of gravity with which the earth attracts the satellite. Therefore, the satellite must move faster in order not to fall on the earth.=No, purtroppo! Prova di nuovo e scoprirai che più il satellite è vicino alla Terra, maggiore è la sua velocità. E questa è la spiegazione: sai che più il satellite è vicino alla Terra, maggiore è la forza di gravità con cui la Terra lo attrae. Di conseguenza, il satellite deve muoversi a una velocità maggiore per non cadere sulla Terra.
+Try the first orbit=Prova la prima orbita
+Try the second orbit=Prova la seconda orbita
+Try the third orbit=Prova la terza orbita
+Set the speed and select orbit=Seleziona la velocità e scegli l'orbita
+
+Fine! Now put the three small and light objects on the sea to test your hypothesis.=Bene! Ora metti i tre oggetti piccoli e leggeri sul mare per testare la tua ipotesi.
+Fine! Now put the two metal objects on the sea to test your hypothesis.=Bene! Ora metti i due oggetti metallici sul mare per testare la tua ipotesi.
+Fine! Now put the two wooden objects on the sea to test your hypothesis=Bene! Ora metti i due oggetti di legno sul mare per testare la tua ipotesi
+Fine! Now put the two glass objects on the sea to test your hypothesis.=Bene! Ora metti i due oggetti di vetro sul mare per testare la tua ipotesi.
+
+This is a big and heavy object. Try all the small and light objects=Questo è un oggetto grande e pesante. Prova tutti gli oggetti piccoli e leggeri
+This is not made of metal. Try all the objects which are made of metal=Questo non è fatto di metallo. Prova tutti gli oggetti che sono fatti di metallo
+This is not made of wood. Try all the objects which are made of wood=Questo non è fatto di legno. Prova tutti gli oggetti che sono in legno
+This is not made of glass. Try all the objects which are made of glass=Questo non è fatto di vetro. Prova tutti gli oggetti che sono fatti di vetro
+
+Your experiment that only some small and light objects float while others sink. Your hypothesis was not proved. Try another hypothesis.=Il tuo esperimento ha dimostrato che solo alcuni oggetti piccoli e leggeri galleggiano mentre altri affondano. La tua ipotesi non è stata confermata. Prova un’altra ipotesi
+Your experiment that the objects which are made of metal do not float. Your hypothesis was not proved. Try another hypothesis.=Il tuo esperimento ha dimostrato che gli oggetti di metallo affondano. La tua ipotesi non è stata confermata. Prova un’altra ipotesi
+Your experiment that the objects which are made of wood float no matter whether they are big and heavy or small and light. Your hypothesis was proved. Excellent!=Il tuo esperimento ha dimostrato che tutti gli oggetti fatti di legno galleggiano. Non importa se sono grandi e pesanti o piccoli e leggeri. La tua ipotesi è stata confermata. Ottimo!
+Your experiment that the objects which are made of glass do not float. Your hypothesis was not proved. Try another hypothesis.=Il tuo esperimento che gli oggetti fatti di vetro non galleggiano. La tua ipotesi non è stata dimostrata. Prova un'altra ipotesi.
+
+
+
+
+
+Fine! Now put the three small and light objects on the sea to test your hypothesis.=Bene! Ora metti i tre oggetti piccoli e leggeri sul mare per testare la tua ipotesi.
+Fine! Now put the two metal objects on the sea to test your hypothesis.=Bene! Ora metti i due oggetti di metallo sul mare per testare la tua ipotesi.
+Fine! Now put the two wooden objects on the sea to test your hypothesis=Bene! Ora netti i due oggetti di legno sul mare per testare la tua ipotesi.
+Fine! Now put the two glass objects on the sea to test your hypothesis.=Bene! Ora metti i due oggetti di vetro sul mare per testare la tua ipotesi.
+
+This is a big and heavy object. Try all the small and light objects=Questo è un oggetto grande e pesante. Prova con tutti gli oggetti piccoli e leggeri
+This is not made of metal. Try all the objects which are made of metal=Questo oggetto non è fatto di metallo. Prova con tutti gli oggetti che sono fatti di metallo
+This is not made of wood. Try all the objects which are made of wood=Questo ogetto non è fatto di legno. Prova con tutti gli oggetti che sono fatti di legno
+This is not made of glass. Try all the objects which are made of glass=Questo oggetto non è fatto di vetro. Prova con tutti gli oggetti che sono fatti di vetro
+
+Your experiment showed that only some small and light objects float while others sink. Your hypothesis was not proved. Try another hypothesis.=Il tuo esperimento ha mostrato che solo alcuni oggetti piccoli e leggeri galleggiano mentre altri affondano. La tua ipotesi non è stata confermata. Prova con un'altra ipotesi.
+Your experiment showed that the objects which are made of metal do not float. Your hypothesis was not proved. Try another hypothesis.=Il tuo esperimento ha mostrato che gli oggetti di metallo non galleggiano. La tuo ipotesi non è stata confermata. Prova con un'altra ipotesi.
+Your experiment showed that the objects which are made of wood float no matter whether they are big and heavy or small and light. Your hypothesis was proved. Excellent!=Il tuo esperimento ha mostrato che gli oggetti di legno galleggiano indipendentemente dal fatto che siano grandi e pesanti o piccoli e leggeri. La tua ipotesi è stata confermata. Eccellente!
+Your experiment showed that the objects which are made of glass do not float. Your hypothesis was not proved. Try another hypothesis.=Il tuo esperimento ha mostrato che gli oggetti di vetro non galleggiano. La tua ipotesi non è stata confermata. Prova con un'altra ipotesi.
+
+Fine! Now make these objects hollow and put them on the sea to test your hypothesis=Bene! Ora fai diventare questi oggetti cavi e mettili sul mare per testare la tua ipotesi
+Fine! Now make these objects curved and put them on the sea to test your hypothesis=Bene! Ora fai diventare questi oggetti curvi e mettili sul mare per testare la tua ipotesi
+Fine! Now make these objects solid and put them on the sea to test your hypothesis=Bene! Ora fai diventare questi oggetti solidi e mettili sul mare per testare la tua ipotesi
+
+Your experiment showed that the hollow object made of metal (or glass depending on the selected object) floats. Try another object=Il tuo esperimento ha mostrato che l'oggetto cavo di metallo (o di vetro a seconda dell'oggetto selezionato) galleggia. Prova con un altro oggetto
+Your experiment showed that the curved object made of metal (or glass depending on the selected object) floats. Try another object=Il tuo esperimento ha mostrato che l'oggetto curvo di metallo (o di vetro a seconda dell'oggetto selezionato) galleggia. Prova con un altro oggetto
+Your experiment showed that the solid object made of metal (or glass depending on the selected object) floats. Try another object=Il tuo esperimento ha mostrato che l'oggetto solido di metallo (o di vetro a seconda dell'oggetto selezionato) galleggia. Prova con un altro oggetto
+
+Your experiment showed that all hollow objects float. Your hypothesis was proved. Perhaps another hypothesis is also true. Try another hypothesis=Il tuo esperimento ha mostrato che tutti gli oggetti cavi galleggiano. La tua ipotesi è stata confermata. Forse anche un'altra ipotesi è vera. Prova con un'altra ipotesi
+Your experiment showed that all the curved objects float. Your hypothesis was proved. Perhaps another hypothesis is also true. Try another hypothesis=Il tuo esperimento ha mostrato che tutti gli oggetti curvi galleggiano. La tua ipotesi è stata confermata. Forse anche un'altra ipotesi è vera. Prova con un'altra ipotesi
+Your experiment showed that all the solid objects sink. Your hypothesis was not proved. Perhaps another hypothesis is true. Try another hypothesis=Il tuo esperimento ha mostrato che tutti gli oggetti solidi affondano. La tua ipotesi non è stata confermata. Forse un'altra ipotesi è vera. Prova con un'altra ipotesi
+
+You are almost right=Hai quasi ragione
+
+Wood plank=asse di legno
+Wood door=porta di legno
+Big metal plate=Grande lastra metallica
+Small metal plate=Piccola lastra metallica
+Big glass=Grande pezzo di vetro
+Small glass=Piccolo pezzo di vetro
+SCAN THE PAGES OF THE BOOK=SCANSIONA LE PAGINE DEL LIBRO
+
+Can you help Yiannis?=Puoi aiutare Yiannis?
+Your previous experiment showed that these four objects do not float. What would happen If you change their shape? Is it possible to float? Make a hypothesis and then test it.=Il tuo precedente esperimento ha mostrato che questi quattro oggetti non galleggiano. Cosa succederebbe se cambiassi la loro forma? È possibile galleggiare? Fai un'ipotesi e poi verificala.
+a. 	Hollow objects float=Gli oggetti cavi galleggiano
+b.	Curved objects float=Gli oggetti curvi galleggiano
+c.	Solid objects float=Gli oggetti pieni galleggiano
+
+It is day March the 21st in this country. Make it night July the 3rd. =È il giorno 23 Marzo in questo paese. Vai alla notte del 3 luglio.
+
+Put the satellite in an orbit around the Earth. Choose the right velocity for the first orbit=Metti il satellite in orbita attorno alla Terra. Scegli la velocità giusta per la prima orbita
+Choose the right velocity for the second orbit=Scegli la velocità giusta per la seconda orbita
+Choose the right velocity for the third orbit=Scegli la velocità giusta per la terza orbita
+
+SAFETY WARNING=CLICCA PER PROSEGUIRE
+“We kindly remind you of the importance of parental supervision during using the app by little kids. Please be aware of physical hazards in the real world.=Vi ricordiamo l'importanza della supervisione dei genitori durante l'utilizzo dell'applicazione da parte dei bambini. Si prega di prestare attenzione ad eventuali pericoli circostanti muovendosi nell’ambiente reale.
+START USING THE APP=CLICCA PER PROSEGUIRE
+1 orbit=1 orbita
+2 orbit=2 orbita
+3 orbit=3 orbita
+velocity=velocità

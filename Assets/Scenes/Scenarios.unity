@@ -1,0 +1,3828 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 11
+  m_GIWorkflowMode: 0
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 500
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 2
+    m_PVRDenoiserTypeDirect: 0
+    m_PVRDenoiserTypeIndirect: 0
+    m_PVRDenoiserTypeAO: 0
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 0
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_UseShadowmask: 1
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &11337633
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 11337634}
+  - component: {fileID: 11337636}
+  - component: {fileID: 11337635}
+  - component: {fileID: 11337637}
+  m_Layer: 5
+  m_Name: Title
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &11337634
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 11337633}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2052865170}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: 0, y: 88.6001}
+  m_SizeDelta: {x: -200, y: 87.599976}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &11337635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 11337633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 40
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 3
+    m_MaxSize: 111
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: SCAN THE PAGES OF THE BOOK
+--- !u!222 &11337636
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 11337633}
+  m_CullTransparentMesh: 0
+--- !u!114 &11337637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 11337633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ee4021ce59f313499a5cab041f02aba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  translationName: SCAN THE PAGES OF THE BOOK
+  FallbackText: SCAN THE PAGES OF THE BOOK
+--- !u!1 &102559182
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 102559186}
+  - component: {fileID: 102559185}
+  - component: {fileID: 102559184}
+  - component: {fileID: 102559183}
+  m_Layer: 5
+  m_Name: MainCanvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &102559183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 102559182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &102559184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 102559182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 1280, y: 800}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0.5
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+--- !u!223 &102559185
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 102559182}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 31
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &102559186
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 102559182}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 2052865170}
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!1001 &373299959
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1180761479238358, guid: 5a99091c6aef6cd4191c57f9eac6486a, type: 3}
+      propertyPath: m_Name
+      value: EasyAR_ImageTracker-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180761479238358, guid: 5a99091c6aef6cd4191c57f9eac6486a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4009923227746670, guid: 5a99091c6aef6cd4191c57f9eac6486a, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4009923227746670, guid: 5a99091c6aef6cd4191c57f9eac6486a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4009923227746670, guid: 5a99091c6aef6cd4191c57f9eac6486a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4009923227746670, guid: 5a99091c6aef6cd4191c57f9eac6486a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4009923227746670, guid: 5a99091c6aef6cd4191c57f9eac6486a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4009923227746670, guid: 5a99091c6aef6cd4191c57f9eac6486a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4009923227746670, guid: 5a99091c6aef6cd4191c57f9eac6486a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4009923227746670, guid: 5a99091c6aef6cd4191c57f9eac6486a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4009923227746670, guid: 5a99091c6aef6cd4191c57f9eac6486a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4009923227746670, guid: 5a99091c6aef6cd4191c57f9eac6486a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4009923227746670, guid: 5a99091c6aef6cd4191c57f9eac6486a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114276289254369694, guid: 5a99091c6aef6cd4191c57f9eac6486a,
+        type: 3}
+      propertyPath: CameraSize.y
+      value: 720
+      objectReference: {fileID: 0}
+    - target: {fileID: 114341116390488418, guid: 5a99091c6aef6cd4191c57f9eac6486a,
+        type: 3}
+      propertyPath: TargetCamera
+      value: 
+      objectReference: {fileID: 1026109058}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5a99091c6aef6cd4191c57f9eac6486a, type: 3}
+--- !u!1 &660044960
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 660044963}
+  - component: {fileID: 660044962}
+  m_Layer: 0
+  m_Name: ImageTargetScenario1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &660044962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 660044960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f8c7feab99e861479c02aee5b54b004, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ActiveControl: 0
+  HorizontalFlip: 0
+  SourceType: 0
+  ImageFileSource:
+    PathType: 1
+    Path: 2_5260563398264883031-1.jpg
+    Name: 2_5260563398264883031-1
+    Scale: 29.7
+  TargetDataFileSource:
+    PathType: 1
+    Path: 
+  trackerHasSet: 1
+  tracker: {fileID: 777782269}
+--- !u!4 &660044963
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 660044960}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 29.7, y: 29.7, z: 29.7}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!1 &733065325
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 733065328}
+  - component: {fileID: 733065327}
+  - component: {fileID: 733065326}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &733065326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 733065325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &733065327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 733065325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &733065328
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 733065325}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &763187430
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 763187431}
+  - component: {fileID: 763187433}
+  - component: {fileID: 763187432}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &763187431
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 763187430}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1658680748}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &763187432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 763187430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 28
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "\u041E\u0431\u043D\u0430\u0440\u0443\u0436\u0435\u043D \u043C\u0430\u0440\u043A\u0435\u0440
+    \u0441\u0446\u0435\u043D\u044B 2"
+--- !u!222 &763187433
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 763187430}
+  m_CullTransparentMesh: 0
+--- !u!1 &777782267
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 777782268}
+  - component: {fileID: 777782269}
+  m_Layer: 0
+  m_Name: Image Tracker
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &777782268
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 777782267}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2138433758}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &777782269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 777782267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f3bd5189df208f4ead26ed7eabd92cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TrackerMode: 0
+  simultaneousNum: 1
+  enableMotionFusion: 0
+--- !u!1 &943205268
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 943205270}
+  - component: {fileID: 943205269}
+  - component: {fileID: 943205271}
+  m_Layer: 0
+  m_Name: '[Logic]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &943205269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 943205268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02ebcb5267c655344bf589917592d422, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StartWindow: {fileID: 0}
+  scenario1Object: {fileID: 0}
+  curObject: {fileID: 0}
+  ImageTargets:
+  - {fileID: 660044963}
+  - {fileID: 1986309231}
+  - {fileID: 1736744929}
+--- !u!4 &943205270
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 943205268}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 698.0344, y: 274.25244, z: -70.375}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &943205271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 943205268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9a36d4e2439e9047877ed30ce0ac06f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ImageTargetController1: {fileID: 660044962}
+  ImageTargetController2: {fileID: 1986309230}
+  ImageTargetController3: {fileID: 1736744928}
+  aMarkers:
+  - {fileID: 660044960}
+  - {fileID: 1986309228}
+  - {fileID: 1736744926}
+  scanMarkerWindow: {fileID: 2052865169}
+--- !u!1 &1026109054
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1026109059}
+  - component: {fileID: 1026109058}
+  - component: {fileID: 1026109057}
+  m_Layer: 0
+  m_Name: ARCamera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &1026109057
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1026109054}
+  m_Enabled: 1
+--- !u!20 &1026109058
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1026109054}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 1}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.05
+  far clip plane: 2000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &1026109059
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1026109054}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1207342384
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1207342385}
+  - component: {fileID: 1207342387}
+  - component: {fileID: 1207342386}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1207342385
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1207342384}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1369357554}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1207342386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1207342384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 28
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "\u041E\u0431\u043D\u0430\u0440\u0443\u0436\u0435\u043D \u043C\u0430\u0440\u043A\u0435\u0440
+    \u0441\u0446\u0435\u043D\u044B 1"
+--- !u!222 &1207342387
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1207342384}
+  m_CullTransparentMesh: 0
+--- !u!1 &1238512209
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1238512210}
+  - component: {fileID: 1238512213}
+  - component: {fileID: 1238512212}
+  - component: {fileID: 1238512211}
+  m_Layer: 0
+  m_Name: Frame Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1238512210
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1238512209}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2138433758}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1238512211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1238512209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1046a0bb047ad0045b78b6fea91459f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  arCamera: {fileID: 1026109058}
+  FilePathType: 0
+  FilePath: 
+  worldRoot: {fileID: 0}
+--- !u!114 &1238512212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1238512209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 827d788c59357834d9adc4815a9a065c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1238512213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1238512209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfaf5bea4c10a8141a92abc840879a12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1369357553
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1369357554}
+  - component: {fileID: 1369357557}
+  - component: {fileID: 1369357556}
+  - component: {fileID: 1369357555}
+  m_Layer: 5
+  m_Name: ButtonScene1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1369357554
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1369357553}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1207342385}
+  m_Father: {fileID: 2052865170}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 674.6638, y: -379.44827}
+  m_SizeDelta: {x: 418.35, y: 87.6}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1369357555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1369357553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1369357556}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 943205269}
+        m_MethodName: SceneSelected
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1369357556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1369357553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1369357557
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1369357553}
+  m_CullTransparentMesh: 0
+--- !u!1 &1454030799
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1454030800}
+  - component: {fileID: 1454030802}
+  - component: {fileID: 1454030801}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1454030800
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1454030799}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2052865170}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 45.61}
+  m_SizeDelta: {x: 400, y: 400}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1454030801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1454030799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 4a6fc419ada84c04d9c7a62c6fce09da, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1454030802
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1454030799}
+  m_CullTransparentMesh: 0
+--- !u!1 &1471621738
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1471621740}
+  - component: {fileID: 1471621739}
+  - component: {fileID: 1471621743}
+  - component: {fileID: 1471621742}
+  - component: {fileID: 1471621741}
+  m_Layer: 0
+  m_Name: '[LeanLocalization]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1471621739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1471621738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 806f0696300aeac44a0e17efee222854, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DefaultLanguage: English
+  DetectLanguage: 1
+  SaveLanguage: 0
+  languages:
+  - name: Italian
+    cultures:
+    - it
+    - it-IT
+    - it-CH
+  - name: Greek
+    cultures: []
+  - name: English
+    cultures:
+    - en
+    - en-GB
+    - en-US
+    - en-AU
+    - en-CA
+    - en-NZ
+    - en-IE
+    - en-ZA
+    - en-JM
+    - en-en029
+    - en-BZ
+    - en-BZ
+    - en-TT
+    - en-ZW
+    - en-PH
+  prefabs: []
+--- !u!4 &1471621740
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1471621738}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1471621741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1471621738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 086ae75064fca9f46b315403da7f5d20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Source: {fileID: 4900000, guid: 1ba42092d9ef4c84198e67c0c4e95ca0, type: 3}
+  Language: Italian
+  Separator: =
+  NewLine: \n
+  Comment: ' // '
+  Cache: 0
+  entries:
+  - Name: Wrong Orbit
+    Text: "Velocit\xE0 errata per questa orbita!"
+  - Name: Right Orbit
+    Text: "Velocit\xE0 corretta per questa orbita!"
+  - Name: Start
+    Text: Avvia
+  - Name: OK
+    Text: Ok
+  - Name: exit
+    Text: Esci
+  - Name: Scan the pages of the book
+    Text: Scorri la pagina del libro
+  - Name: Floating and sinking
+    Text: Galleggiamento e affondamento
+  - Name: (Scene A) Objects that float or sink
+    Text: Oggetti che galleggiano o affondano
+  - Name: (Scene B) The shape of the objects
+    Text: La forma degli oggetti
+  - Name: "Can you help Yiannis? What kind of objects do you think that float? Make
+      a hypothesis.\u201D Select one from the following:"
+    Text: "Puoi aiutare Yiannis? Quale dei seguenti tipi di oggetti pensi che galleggiano?
+      Fai un\u2019ipotesi e selezionane una delle seguenti:"
+  - Name: a. All big and heavy objects float
+    Text: a. Tutti gli oggetti grandi e pesanti galleggiano
+  - Name: b. All small and light objects float
+    Text: b. Tutti gli oggetti piccoli e leggeri galleggiano
+  - Name: c. All objects made of metal float
+    Text: c. Tutti gli oggetti di metallo galleggiano
+  - Name: d. All objects made of wood float
+    Text: d. Tutti gli oggetti di legno galleggiano
+  - Name: e. All objects made of glass float
+    Text: e. Tutti gli oggetti di vetro galleggiano
+  - Name: "\u201CFine! Now, you can make an experiment to test your hypothesis. Put
+      the three big and   heavy objects on the sea to test your hypothesis\u201D."
+    Text: Bene! ora puoi fare un esperimento per testare la tua ipotesi. Metti i
+      tre oggetti grandi e pesanti sul mare e verifica la tua ipotesi.
+  - Name: "\u201CThis is a small and light object. Try all the big and heavy objects\u201D"
+    Text: "Questo \xE8 un oggetto piccolo e leggero. Prova tutti gli oggetti grandi
+      e pesanti"
+  - Name: "Your   experiment showed that only some big and heavy objects float while
+      others sink.   Your hypothesis was not proved. Try another hypothesis.\u201D"
+    Text: "Il tuo esperimento ha dimostrato che solo alcuni oggetti grandi e pesanti
+      galleggiano mentre altri affondano. La tua ipotesi non \xE8 stata confermata.
+      Prova un'altra ipotesi."
+  - Name: try another hypothesis
+    Text: "Prova un\u2019altra ipotesi"
+  - Name: Scenario 2
+    Text: 
+  - Name: English
+    Text: Italian
+  - Name: Rotation button
+    Text: Pulsante rotazione
+  - Name: calendar
+    Text: calendario
+  - Name: January
+    Text: Gennaio
+  - Name: February
+    Text: Febbraio
+  - Name: March
+    Text: Marzo
+  - Name: April
+    Text: Aprile
+  - Name: May
+    Text: Maggio
+  - Name: June
+    Text: Giugno
+  - Name: July
+    Text: Luglio
+  - Name: August
+    Text: Agosto
+  - Name: September
+    Text: Settembre
+  - Name: October
+    Text: Ottobre
+  - Name: November
+    Text: Novembre
+  - Name: December
+    Text: Dicembre
+  - Name: Return
+    Text: Torna indietro
+  - Name: Continue
+    Text: Continua
+  - Name: Day/Night Cycle
+    Text: Ciclo Giorno/Notte
+  - Name: "(Scene A) Earth \u2013 Sun relative size"
+    Text: Terra - Dimensioni relative del Sole
+  - Name: "(Scene B) Sun - Earth distance \u2013 Phenomenal Sun\u2019s size explained"
+    Text: Distanza Sole - Terra - Spiegazione del fenomeno della grandezza del sole
+  - Name: "(Scene C) Earth\u2019s revolution around the Sun"
+    Text: Rivoluzione della terra attorno al sole
+  - Name: "(Scene D) Earth\u2019s rotation around itself"
+    Text: Rotazione della terra attorno a se stessa
+  - Name: (Scene E) Day/night explanation
+    Text: Spiegazione giorno/notte
+  - Name: The Sun looks like a ball of fire on the sky but   how big is the Sun?
+      Which of the following is true?
+    Text: "Il Sole sembra una palla di fuoco sul cielo ma quanto \xE8 grande il Sole?
+      Quale delle seguenti affermazioni \xE8 vera?"
+  - Name: a.The Sun is a little bigger than the Earth
+    Text: "a.Il Sole \xE8 un po' pi\xF9 grande della Terra"
+  - Name: b. The Sun is much bigger than the Earth
+    Text: "b. Il Sole \xE8 molto pi\xF9 grande della Terra"
+  - Name: c. The Earth is a little bigger than the Sun
+    Text: "c. La Terra \xE8 un po' pi\xF9 grande del Sole"
+  - Name: d. The Earth is much bigger than the Sun
+    Text: "d. La Terra \xE8 molto pi\xF9 grande del Sole"
+  - Name: You are right!
+    Text: Giusto!
+  - Name: "The Sun\u2019s diameter is about 100 times bigger than   the Earth\u2019s
+      diameter. This means that a million Earths put together make the size of the
+      Sun."
+    Text: "Il diametro del Sole \xE8 circa 100 volte pi\xF9 grande del diametro della
+      Terra. Questo significa che il volume di un milione di Terre messe insieme
+      fa la dimensione del Sole."
+  - Name: RETURN (SCENES MENU)
+    Text: TORNA INDIETRO
+  - Name: You're wrong
+    Text: Sbagliato
+  - Name: "Often things are not the way they look. In reality the Sun\u2019s diameter
+      is about 100 times bigger than the Earth\u2019s diameter. This means that a
+      million Earths put together make the size of the Sun."
+    Text: "Spesso le cose non sono come sembrano. In realt\xE0 il diametro del Sole
+      \xE8 circa 100 volte pi\xF9 grande del diametro della Terra. Questo significa
+      che un milione di Terre messe insieme fanno la dimensione del Sole."
+  - Name: "The truth is that    The Sun\u2019s diameter is about 100 times bigger
+      than the Earth\u2019s diameter. his means that a million Earths put together
+      make the size of the Sun."
+    Text: "La verit\xE0 \xE8 che Il diametro del Sole \xE8 circa 100 volte pi\xF9
+      grande del diametro della Terra. Ci\xF2 significa che un milione di Terre messe
+      insieme fanno la dimensione del Sole."
+  - Name: Do you know how far away from us the Sun is? Which   of the following is
+      true?
+    Text: "Sai quanto \xE8 lontano da noi il Sole? Quale   di queste affermazioni
+      \xE8 vera?"
+  - Name: a. The Sun is a little further from the Earth than the clouds
+    Text: "a. Il Sole \xE8 un po' pi\xF9 lontano dalla Terra delle nuvole"
+  - Name: b. The Sun is about the same distance from the Earth as the moon
+    Text: b. Il Sole e la Luna sono circa alla stessa distanza dalla Terra
+  - Name: c. The Sun is further away from the Earth than the clouds and the moon
+    Text: "c. Il Sole \xE8 molto pi\xF9 lontano dalla Terra delle nuvole e della
+      luna"
+  - Name: The Sun is about 150 million km away from the Earth. That is why such a
+      huge object looks like a ball in the sky.
+    Text: "Il Sole \xE8 a circa 150 milioni di km dalla Terra. Ecco perch\xE9 un
+      oggetto cos\xEC enorme sembra una palla nel cielo."
+  - Name: Often things are not the way they look. The truth is that the   Sun is
+      much further away from the Earth than the clouds or even the moon. The Sun
+      is about 150 million km away from the Earth. That is why such a huge object
+      looks like a ball in the sky.
+    Text: "Spesso le cose non sono come sembrano. La verit\xE0 \xE8 che il Sole \xE8
+      molto pi\xF9 lontano dalla Terra rispetto alle nuvole o addirittura alla luna.
+      Il Sole \xE8 a circa 150 milioni di km dalla Terra. Ecco perch\xE9 un oggetto
+      cos\xEC enorme sembra una palla nel cielo."
+  - Name: The earth revolves around the Sun. Do you know how   long it takes to come
+      a full circle? Make a   hypothesis and then test it.
+    Text: La terra gira intorno al Sole. Sai quanto tempo ci vuole per fare il giro
+      completo? Fai un'ipotesi e provala.
+  - Name: a. 24 hours
+    Text: a. 24 ore
+  - Name: b. A day and a night
+    Text: b. Un giorno e una notte
+  - Name: c. A year
+    Text: c. Un anno
+  - Name: Fine! Now test your hypothesis by making the earth move around the Sun
+      and looking at the calendar
+    Text: Bene! Ora prova la tua ipotesi facendo muovere la terra intorno al Sole
+      e guardando il calendario
+  - Name: GO
+    Text: VAI
+  - Name: Your hypothesis is not true. You observed that it takes much longer than
+      one day for the Earth to make a revolution around the Sun. In fact the Earth
+      makes a complete revolution around the Sun in one year, that is in 365 days
+    Text: "La tua ipotesi non \xE8 vera. Tu hai osservato che ci vuole molto pi\xF9
+      di un giorno perch\xE9 la Terra faccia una rivoluzione intorno al Sole. In
+      realt\xE0 la Terra fa una rivoluzione completa intorno al Sole in un anno,
+      cio\xE8 in 365 giorni"
+  - Name: Your hypothesis is true. As you observed the Earth makes a complete revolution
+      around the Sun in 365 days, that is in one year.
+    Text: "La tua ipotesi \xE8 vera. Come avete osservato, la Terra compie una rivoluzione
+      completa intorno al Sole in 365 giorni, cio\xE8 in un anno."
+  - Name: You know that the Earth revolves around itself. Do   you know how long
+      it takes to make a revolution around itself? Make a   hypothesis and then test
+      it.
+    Text: "Sai che la Terra ruota intorno a se stessa. Sai quanto tempo ci vuole
+      per fare una rotazione intorno a se stessa? Fai un\u2019ipotesi e provala."
+  - Name: a. One year
+    Text: a. Un anno
+  - Name: b. 24 hours
+    Text: b. 24 ore
+  - Name: c. 365 days
+    Text: c. 365 giorni
+  - Name: Your hypothesis is not true. As the chronometer   showed, it takes 24 hours,
+      that is one day and one night, for the Earth to   complete a revolution around
+      itself.
+    Text: "La tua ipotesi non \xE8 vera. Come ha mostrato il cronometro, ci vogliono
+      24 ore, cio\xE8 un giorno e una notte, perch\xE9 la terra completi una rotazione
+      intorno a se stessa."
+  - Name: Your hypothesis is true. As the chronometer showed, it takes 24   hours,
+      that is one day and a night, for the Earth to complete a revolution   around
+      itself.
+    Text: "La tua ipotesi \xE8 vera. Come ha mostrato il cronometro, ci vogliono
+      24 ore, cio\xE8 un giorno e una notte, perch\xE9 la Terra compia una rotazione
+      intorno a se stessa."
+  - Name: "\u201CVery well. Continue if you like\u201D. It is day   January the 3rd
+      in this country. Make it day, March the 23rd for this country."
+    Text: "Molto bene. Continua se vuoi. \xC8 il 3 di gennaio in questo paese. Facciamo
+      che sia il 23 marzo per questo paese\"."
+  - Name: "\u201CVery   well. Continue if you like\u201D"
+    Text: "\xC8 mezzanotte del 3 Gennaio fai in modo che siano le 13:00."
+  - Name: It is day March the 23st in this country. Make it night   July the 3rd
+    Text: "\"In questo paese \xE8 la mattina del 23 marzo. Fai in modo che sia la
+      notte   del 3 luglio\""
+  - Name: "Very well. Continue if you like\u201D. It is night   July the 3d in this
+      country. Make it day    September the 23d."
+    Text: "Molto bene. Continua se vuoi. Ora in questo paese \xE8 la notte del 3
+      luglio. Fai in modo che sia il mattino del 23 settembre."
+  - Name: Excellent. You know very well how day and night   come. It is day for the
+      side of the Earth that is illuminated from the Sun. But   as the Earth revolves
+      around itself this side is not illuminated anymore and night   comes. Imagine
+      that if the Earth stopped revolving around itself some places   would have
+      always day, while others would have night all the time.
+    Text: "Ottimo. Ora sai molto bene come si susseguono il giorno e la notte. \xC8
+      giorno per il lato della Terra che \xE8 illuminato dal Sole. Ma dato che la
+      Terra gira intorno a se stessa, la notte arriva quando questo lato non \xE8
+      pi\xF9 illuminato. Immagina che se la Terra smettesse di ruotare intorno a
+      se stessa in alcuni luoghi sarebbe sempre giorno, mentre in altri sarebbe notte
+      tutto il tempo."
+  - Name: Scenario 3
+    Text: 
+  - Name: English
+    Text: Italian
+  - Name: 'SCENARIO 3: GRAVITY'
+    Text: "SCENARIO 3: Gravit\xE0"
+  - Name: '(Scene A) The effect of gravity on a satellite: The force of gravity becomes
+      zero'
+    Text: "L'effetto della gravit\xE0 su un satellite: La forza di gravit\xE0 diventa
+      zero"
+  - Name: "(Scene B) The effect of velocity on satellite\u2019s orbit: The velocity
+      becomes zero"
+    Text: "L'effetto della velocit\xE0 sull'orbita del satellite: La velocit\xE0
+      diventa zero"
+  - Name: (Scene C) Orbit and velocity
+    Text: "Orbita e velocit\xE0"
+  - Name: View from the satellite on/off
+    Text: Vista dal satellite attiva/disattiva
+  - Name: Gravity on/off
+    Text: "Gravit\xE0 attiva/disattiva"
+  - Name: Remember that the force of gravity attracts the   satellite and makes it
+      revolve around the Earth. What would happen to the satellite   if the force
+      of gravity stopped? Make a hypothesis and test it.
+    Text: "\"Ricorda che la forza di gravit\xE0 attira il satellite   e lo fa ruotare
+      intorno alla Terra. Cosa accadrebbe al satellite   se la forza di gravit\xE0
+      si fermasse? Fai un'ipotesi e provala."
+  - Name: 1.The satellite would fall on the earth
+    Text: 1.Il satellite cadrebbe sulla terra
+  - Name: 2.The satellite would continue moving on a straight line
+    Text: 2.Il satellite continuerebbe a muoversi su una linea retta
+  - Name: 3. The satellite would fall down
+    Text: "3. Il satellite cadrebbe gi\xF9"
+  - Name: 4.The satellite would continue   moving on a curved line
+    Text: '"4.Il satellite continuerebbe a muoversi su una linea curva"'
+  - Name: 'Fine. Now test your hypothesis: Put the gravity off   and watch the result.'
+    Text: "Bene. Ora prova la tua ipotesi: Attiva la gravit\xE0 e guarda il risultato."
+  - Name: Your hypothesis is not true. If we could stop the   force of gravity, the
+      satellite would continue moving on a straight line. This   would happen because
+      there would be nothing to change its motion.
+    Text: "La tua ipotesi \xE8 sbagliata. Se potessimo fermare la forza di gravit\xE0,
+      il satellite continuerebbe a muoversi su una linea retta. Questo accade perch\xE9
+      non c'\xE8 nulla che possa cambiare il suo movimento."
+  - Name: Excellent! Your hypothesis is true. If we could   stop the force of gravity,
+      the satellite would continue moving on a straight   line, because there would
+      be nothing to change its motion.
+    Text: "Eccellente! La tua ipotesi \xE8 corretta. Se potessimo fermare la forza
+      di gravit\xE0, il satellite continuerebbe a muoversi su una linea retta, perch\xE8
+      nulla pu\xF2 cambiare il suo movimento\"."
+  - Name: You can see the earth as if you were in the satellite.   Put gravity off
+      at different points and watch from the window of the satellite.
+    Text: "Puoi vedere la terra come se fossi nel satellite.  Disattiva la gravit\xE0
+      in differenti momenti e guarda dal finestrino del satellite."
+  - Name: velocity on/off
+    Text: "velocit\xE0 attiva/disattiva"
+  - Name: Remember that the satellite revolves around the   Earth with a certain
+      velocity. What would happen to the satellite if, for some   reason, the satellite
+      stopped? Make a hypothesis and test it.
+    Text: "Ricorda che il satellite ruota intorno al Terra con una certa velocit\xE0.
+      Cosa succederebbe al satellite se, per qualche motivo, si fermasse? Fai un'ipotesi
+      e provala."
+  - Name: 1.The satellite would fall on the earth
+    Text: 1.Il satellite cadrebbe sulla terra
+  - Name: 2.The satellite would continue moving on a straight line
+    Text: 2.Il satellite continuerebbe a muoversi su una linea retta
+  - Name: 3.The satellite would fall down
+    Text: "3.Il satellite cadrebbe gi\xF9"
+  - Name: 4.The satellite would continue moving on a curved line
+    Text: 4.Il satellite continuerebbe a muoversi su una linea curva
+  - Name: 5.The satellite would stay at this point away from the earth
+    Text: 5.Il satellite rimarrebbe fermo a una certa distanza dalla terra
+  - Name: 'Fine. Now test your hypothesis: Put the velocity off   and watch the result.'
+    Text: 'Bene. Ora prova la tua ipotesi: Disattiva la velocita'' e guarda cosa
+      succede.'
+  - Name: Your hypothesis is not true. The force of gravity   still attracts the
+      satellite even if the satellite stops. That is why the   satellite falls towards
+      the center of the earth.
+    Text: "La tua ipotesi \xE8 sbagliata. La forza di gravit\xE0 attrae ancora il
+      satellite anche se questo \xE8 fermo. Per questo motivo il satellite cade verso
+      il centro della terra."
+  - Name: Excellent! Your hypothesis proved true. If the   satellite stops, then
+      the force of gravity would attract (pull) it towards the   center of the earth.
+    Text: "Eccellente! La tua ipotesi \xE8 corretta. Se il satellite si ferma, allora
+      la forza di gravit\xE0 lo attira (tira) verso il centro della terra."
+  - Name: "The hero of our fairy tale said to the engineer of the ship that even
+      if the satellite was above the \u201Cdown side\u201D of the Earth, and stopped
+      for some reason, it would move towards the Earth and it would fall on the ground
+      \u03BFn the same side\u201D. Can you test his hypothesis? Is it true? Look
+      from the window of the satellite."
+    Text: "L'eroe della nostra favola disse al macchinista della nave che anche se
+      il satellite fosse stato nella parte \"inferiore\" della Terra, e si fosse
+      fermato per qualche motivo, sarebbe comunque caduto sulla Terra, dalla stessa
+      parte. Puoi verificare la sua ipotesi? \xC8 vera? Guarda dal finestrino del
+      satellite."
+  - Name: "You can see that the satellite would fall on the \u201Cdown   side\u201D
+      of the Earth. Yiannis was right! It seems strange to us but in this case  
+      to \u201Cfall down\u201D means to move upwards. Remember that always to fall
+      \u201Cdown\u201D means   to move towards the center of the \u0395arth, due
+      to earth\u2019s attraction. And to go   \u201Cup\u201D means to move away from
+      the \u0395arth."
+    Text: "Puoi vedere il satellite cadere gi\xF9 verso la Terra. Yiannis aveva ragione!
+      Sembra strano, ma in questo caso \"cadere\" significa muoversi verso l'alto.
+      Ricordati che cadere \"gi\xF9\" significa sempre muoversi verso il centro della
+      \u03A4erra a causa dell'attrazione terrestre. E andare \"su\" significa allontanarsi
+      dalla \u03A4erra."
+  - Name: satellite velocity
+    Text: "Velocit\xE0 del satellite"
+  - Name: Put the satellite on an orbit around the Earth.   Choose the right velocity
+      for each orbit.
+    Text: "Metti il satellite in un orbita intorno alla Terra.   Scegli la giusta
+      velocit\xE0 per ogni orbita."
+  - Name: 'Now that you have put the satellite on the three different orbits , can
+      you tell which of the following is true:'
+    Text: "Adesso che hai messo il satellite in tre orbite diverse, puoi dirci quale
+      delle seguenti affermazioni \xE8 vera?"
+  - Name: 1.  The closer to the earth the orbit, the greater its velocity should
+      be
+    Text: "1. Pi\xF9 l'orbita \xE8 vicina alla Terra, maggiore \xE8 la velocit\xE0
+      del satellite"
+  - Name: 2.  The  closer to the earth the orbit, the less its velocity should be
+    Text: "2. Pi\xF9 l'orbita \xE8 vicina alla Terra, minore \xE8 la velocit\xE0
+      del satellite"
+  - Name: 3.  A satellite can move on any orbit regardless its velocity
+    Text: "3. Un satellite pu\xF2 muoversi lungo qualunque orbita indipendentemente
+      dalla sua velocit\xE0"
+  - Name: Excellent! The closer to the earth, the greater is the force of gravity
+      with which the earth attracts the satellite. Therefore, the satellite must
+      move faster in order not to fall on the earth.
+    Text: "Eccellente! Pi\xF9 il satellite \xE8 vicino alla Terra, maggiore \xE8
+      la forza di gravit\xE0 con cui la Terra lo attrae. Di conseguenza, il satellite
+      deve muoversi a una velocit\xE0 maggiore per non cadere sulla Terra."
+  - Name: 'Not really! Try again and you find out that the closer to the earth the
+      satellite is, the greater its velocity should be. And here is the reason: You
+      know that the closer to the earth, the greater is the force of gravity with
+      which the earth attracts the satellite. Therefore, the satellite must move
+      faster in order not to fall on the earth.'
+    Text: "No, purtroppo! Prova di nuovo e scoprirai che pi\xF9 il satellite \xE8
+      vicino alla Terra, maggiore \xE8 la sua velocit\xE0. E questa \xE8 la spiegazione:
+      sai che pi\xF9 il satellite \xE8 vicino alla Terra, maggiore \xE8 la forza
+      di gravit\xE0 con cui la Terra lo attrae. Di conseguenza, il satellite deve
+      muoversi a una velocit\xE0 maggiore per non cadere sulla Terra."
+  - Name: Try the first orbit
+    Text: Prova la prima orbita
+  - Name: Try the second orbit
+    Text: Prova la seconda orbita
+  - Name: Try the third orbit
+    Text: Prova la terza orbita
+  - Name: Set the speed and select orbit
+    Text: "Seleziona la velocit\xE0 e scegli l'orbita"
+  - Name: Fine! Now put the three small and light objects on the sea to test your
+      hypothesis.
+    Text: Bene! Ora metti i tre oggetti piccoli e leggeri sul mare per testare la
+      tua ipotesi.
+  - Name: Fine! Now put the two metal objects on the sea to test your hypothesis.
+    Text: Bene! Ora metti i due oggetti metallici sul mare per testare la tua ipotesi.
+  - Name: Fine! Now put the two wooden objects on the sea to test your hypothesis
+    Text: Bene! Ora metti i due oggetti di legno sul mare per testare la tua ipotesi
+  - Name: Fine! Now put the two glass objects on the sea to test your hypothesis.
+    Text: Bene! Ora metti i due oggetti di vetro sul mare per testare la tua ipotesi.
+  - Name: This is a big and heavy object. Try all the small and light objects
+    Text: "Questo \xE8 un oggetto grande e pesante. Prova tutti gli oggetti piccoli
+      e leggeri"
+  - Name: This is not made of metal. Try all the objects which are made of metal
+    Text: "Questo non \xE8 fatto di metallo. Prova tutti gli oggetti che sono fatti
+      di metallo"
+  - Name: This is not made of wood. Try all the objects which are made of wood
+    Text: "Questo non \xE8 fatto di legno. Prova tutti gli oggetti che sono in legno"
+  - Name: This is not made of glass. Try all the objects which are made of glass
+    Text: "Questo non \xE8 fatto di vetro. Prova tutti gli oggetti che sono fatti
+      di vetro"
+  - Name: Your experiment that only some small and light objects float while others
+      sink. Your hypothesis was not proved. Try another hypothesis.
+    Text: "Il tuo esperimento ha dimostrato che solo alcuni oggetti piccoli e leggeri
+      galleggiano mentre altri affondano. La tua ipotesi non \xE8 stata confermata.
+      Prova un\u2019altra ipotesi"
+  - Name: Your experiment that the objects which are made of metal do not float.
+      Your hypothesis was not proved. Try another hypothesis.
+    Text: "Il tuo esperimento ha dimostrato che gli oggetti di metallo affondano.
+      La tua ipotesi non \xE8 stata confermata. Prova un\u2019altra ipotesi"
+  - Name: Your experiment that the objects which are made of wood float no matter
+      whether they are big and heavy or small and light. Your hypothesis was proved.
+      Excellent!
+    Text: "Il tuo esperimento ha dimostrato che tutti gli oggetti fatti di legno
+      galleggiano. Non importa se sono grandi e pesanti o piccoli e leggeri. La tua
+      ipotesi \xE8 stata confermata. Ottimo!"
+  - Name: Your experiment that the objects which are made of glass do not float.
+      Your hypothesis was not proved. Try another hypothesis.
+    Text: "Il tuo esperimento che gli oggetti fatti di vetro non galleggiano. La
+      tua ipotesi non \xE8 stata dimostrata. Prova un'altra ipotesi."
+  - Name: Fine! Now put the three small and light objects on the sea to test your
+      hypothesis.
+    Text: Bene! Ora metti i tre oggetti piccoli e leggeri sul mare per testare la
+      tua ipotesi.
+  - Name: Fine! Now put the two metal objects on the sea to test your hypothesis.
+    Text: Bene! Ora metti i due oggetti di metallo sul mare per testare la tua ipotesi.
+  - Name: Fine! Now put the two wooden objects on the sea to test your hypothesis
+    Text: Bene! Ora netti i due oggetti di legno sul mare per testare la tua ipotesi.
+  - Name: Fine! Now put the two glass objects on the sea to test your hypothesis.
+    Text: Bene! Ora metti i due oggetti di vetro sul mare per testare la tua ipotesi.
+  - Name: This is a big and heavy object. Try all the small and light objects
+    Text: "Questo \xE8 un oggetto grande e pesante. Prova con tutti gli oggetti piccoli
+      e leggeri"
+  - Name: This is not made of metal. Try all the objects which are made of metal
+    Text: "Questo oggetto non \xE8 fatto di metallo. Prova con tutti gli oggetti
+      che sono fatti di metallo"
+  - Name: This is not made of wood. Try all the objects which are made of wood
+    Text: "Questo ogetto non \xE8 fatto di legno. Prova con tutti gli oggetti che
+      sono fatti di legno"
+  - Name: This is not made of glass. Try all the objects which are made of glass
+    Text: "Questo oggetto non \xE8 fatto di vetro. Prova con tutti gli oggetti che
+      sono fatti di vetro"
+  - Name: Your experiment showed that only some small and light objects float while
+      others sink. Your hypothesis was not proved. Try another hypothesis.
+    Text: "Il tuo esperimento ha mostrato che solo alcuni oggetti piccoli e leggeri
+      galleggiano mentre altri affondano. La tua ipotesi non \xE8 stata confermata.
+      Prova con un'altra ipotesi."
+  - Name: Your experiment showed that the objects which are made of metal do not
+      float. Your hypothesis was not proved. Try another hypothesis.
+    Text: "Il tuo esperimento ha mostrato che gli oggetti di metallo non galleggiano.
+      La tuo ipotesi non \xE8 stata confermata. Prova con un'altra ipotesi."
+  - Name: Your experiment showed that the objects which are made of wood float no
+      matter whether they are big and heavy or small and light. Your hypothesis was
+      proved. Excellent!
+    Text: "Il tuo esperimento ha mostrato che gli oggetti di legno galleggiano indipendentemente
+      dal fatto che siano grandi e pesanti o piccoli e leggeri. La tua ipotesi \xE8
+      stata confermata. Eccellente!"
+  - Name: Your experiment showed that the objects which are made of glass do not
+      float. Your hypothesis was not proved. Try another hypothesis.
+    Text: "Il tuo esperimento ha mostrato che gli oggetti di vetro non galleggiano.
+      La tua ipotesi non \xE8 stata confermata. Prova con un'altra ipotesi."
+  - Name: Fine! Now make these objects hollow and put them on the sea to test your
+      hypothesis
+    Text: Bene! Ora fai diventare questi oggetti cavi e mettili sul mare per testare
+      la tua ipotesi
+  - Name: Fine! Now make these objects curved and put them on the sea to test your
+      hypothesis
+    Text: Bene! Ora fai diventare questi oggetti curvi e mettili sul mare per testare
+      la tua ipotesi
+  - Name: Fine! Now make these objects solid and put them on the sea to test your
+      hypothesis
+    Text: Bene! Ora fai diventare questi oggetti solidi e mettili sul mare per testare
+      la tua ipotesi
+  - Name: Your experiment showed that the hollow object made of metal (or glass depending
+      on the selected object) floats. Try another object
+    Text: Il tuo esperimento ha mostrato che l'oggetto cavo di metallo (o di vetro
+      a seconda dell'oggetto selezionato) galleggia. Prova con un altro oggetto
+  - Name: Your experiment showed that the curved object made of metal (or glass depending
+      on the selected object) floats. Try another object
+    Text: Il tuo esperimento ha mostrato che l'oggetto curvo di metallo (o di vetro
+      a seconda dell'oggetto selezionato) galleggia. Prova con un altro oggetto
+  - Name: Your experiment showed that the solid object made of metal (or glass depending
+      on the selected object) floats. Try another object
+    Text: Il tuo esperimento ha mostrato che l'oggetto solido di metallo (o di vetro
+      a seconda dell'oggetto selezionato) galleggia. Prova con un altro oggetto
+  - Name: Your experiment showed that all hollow objects float. Your hypothesis was
+      proved. Perhaps another hypothesis is also true. Try another hypothesis
+    Text: "Il tuo esperimento ha mostrato che tutti gli oggetti cavi galleggiano.
+      La tua ipotesi \xE8 stata confermata. Forse anche un'altra ipotesi \xE8 vera.
+      Prova con un'altra ipotesi"
+  - Name: Your experiment showed that all the curved objects float. Your hypothesis
+      was proved. Perhaps another hypothesis is also true. Try another hypothesis
+    Text: "Il tuo esperimento ha mostrato che tutti gli oggetti curvi galleggiano.
+      La tua ipotesi \xE8 stata confermata. Forse anche un'altra ipotesi \xE8 vera.
+      Prova con un'altra ipotesi"
+  - Name: Your experiment showed that all the solid objects sink. Your hypothesis
+      was not proved. Perhaps another hypothesis is true. Try another hypothesis
+    Text: "Il tuo esperimento ha mostrato che tutti gli oggetti solidi affondano.
+      La tua ipotesi non \xE8 stata confermata. Forse un'altra ipotesi \xE8 vera.
+      Prova con un'altra ipotesi"
+  - Name: You are almost right
+    Text: Hai quasi ragione
+  - Name: Wood plank
+    Text: asse di legno
+  - Name: Wood door
+    Text: porta di legno
+  - Name: Big metal plate
+    Text: Grande lastra metallica
+  - Name: Small metal plate
+    Text: Piccola lastra metallica
+  - Name: Big glass
+    Text: Grande pezzo di vetro
+  - Name: Small glass
+    Text: Piccolo pezzo di vetro
+  - Name: SCAN THE PAGES OF THE BOOK
+    Text: SCANSIONA LE PAGINE DEL LIBRO
+  - Name: Can you help Yiannis?
+    Text: Puoi aiutare Yiannis?
+  - Name: Your previous experiment showed that these four objects do not float. What
+      would happen If you change their shape? Is it possible to float? Make a hypothesis
+      and then test it.
+    Text: "Il tuo precedente esperimento ha mostrato che questi quattro oggetti non
+      galleggiano. Cosa succederebbe se cambiassi la loro forma? \xC8 possibile galleggiare?
+      Fai un'ipotesi e poi verificala."
+  - Name: "a. \tHollow objects float"
+    Text: Gli oggetti cavi galleggiano
+  - Name: "b.\tCurved objects float"
+    Text: Gli oggetti curvi galleggiano
+  - Name: "c.\tSolid objects float"
+    Text: Gli oggetti pieni galleggiano
+  - Name: It is day March the 21st in this country. Make it night July the 3rd.
+    Text: "\xC8 il giorno 23 Marzo in questo paese. Vai alla notte del 3 luglio."
+  - Name: Put the satellite in an orbit around the Earth. Choose the right velocity
+      for the first orbit
+    Text: "Metti il satellite in orbita attorno alla Terra. Scegli la velocit\xE0
+      giusta per la prima orbita"
+  - Name: Choose the right velocity for the second orbit
+    Text: "Scegli la velocit\xE0 giusta per la seconda orbita"
+  - Name: Choose the right velocity for the third orbit
+    Text: "Scegli la velocit\xE0 giusta per la terza orbita"
+  - Name: SAFETY WARNING
+    Text: CLICCA PER PROSEGUIRE
+  - Name: "\u201CWe kindly remind you of the importance of parental supervision during
+      using the app by little kids. Please be aware of physical hazards in the real
+      world."
+    Text: "Vi ricordiamo l'importanza della supervisione dei genitori durante l'utilizzo
+      dell'applicazione da parte dei bambini. Si prega di prestare attenzione ad
+      eventuali pericoli circostanti muovendosi nell\u2019ambiente reale."
+  - Name: START USING THE APP
+    Text: CLICCA PER PROSEGUIRE
+  - Name: 1 orbit
+    Text: 1 orbita
+  - Name: 2 orbit
+    Text: 2 orbita
+  - Name: 3 orbit
+    Text: 3 orbita
+  - Name: velocity
+    Text: "velocit\xE0"
+--- !u!114 &1471621742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1471621738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 086ae75064fca9f46b315403da7f5d20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Source: {fileID: 4900000, guid: 6dee4a6068b8c5044982cd2ce34c1fe0, type: 3}
+  Language: Greek
+  Separator: =
+  NewLine: \n
+  Comment: ' // '
+  Cache: 0
+  entries:
+  - Name: Wrong Orbit
+    Text: "\u039B\u03AC\u03B8\u03BF\u03C2 \u03C4\u03B1\u03C7\u03CD\u03C4\u03B7\u03C4\u03B1
+      \u03B3\u03B9' \u03B1\u03C5\u03C4\u03AE\u03BD \u03C4\u03B7\u03BD \u03C4\u03C1\u03BF\u03C7\u03B9\u03AC!"
+  - Name: Right Orbit
+    Text: "\u03A3\u03C9\u03C3\u03C4\u03AE \u03C4\u03B1\u03C7\u03CD\u03C4\u03B7\u03C4\u03B1
+      \u03B3\u03B9' \u03B1\u03C5\u03C4\u03AE\u03BD \u03C4\u03B7\u03BD \u03C4\u03C1\u03BF\u03C7\u03B9\u03AC!"
+  - Name: Start
+    Text: "\u0388\u03BD\u03B1\u03C1\u03BE\u03B7"
+  - Name: OK
+    Text: "\u0395\u03BD\u03C4\u03AC\u03BE\u03B5\u03B9"
+  - Name: exit
+    Text: "\u0388\u03BE\u03BF\u03B4\u03BF\u03C2"
+  - Name: Scan the pages of the book
+    Text: "\u03A3\u03AC\u03C1\u03C9\u03C3\u03B5 \u03C4\u03B9\u03C2 \u03C3\u03B5\u03BB\u03AF\u03B4\u03B5\u03C2
+      \u03C4\u03BF\u03C5 \u03B2\u03B9\u03B2\u03BB\u03AF\u03BF\u03C5"
+  - Name: Floating and sinking
+    Text: "\u03A3\u0395\u039D\u0391\u03A1\u0399\u039F 1: \u0395\u03A0\u0399\u03A0\u039B\u0395\u03A5\u03A3\u0397
+      \u039A\u0391\u0399 \u0392\u03A5\u0398\u0399\u03A3\u0397"
+  - Name: (Scene A) Objects that float or sink
+    Text: "\u0391\u03BD\u03C4\u03B9\u03BA\u03B5\u03AF\u03BC\u03B5\u03BD\u03B1 \u03C0\u03BF\u03C5
+      \u03B5\u03C0\u03B9\u03C0\u03BB\u03AD\u03BF\u03C5\u03BD \u03AE \u03B2\u03C5\u03B8\u03AF\u03B6\u03BF\u03BD\u03C4\u03B1\u03B9"
+  - Name: (Scene B) The shape of the objects
+    Text: "\u03A4\u03BF \u03C3\u03C7\u03AE\u03BC\u03B1 \u03C4\u03C9\u03BD \u03B1\u03BD\u03C4\u03B9\u03BA\u03B5\u03B9\u03BC\u03AD\u03BD\u03C9\u03BD"
+  - Name: "Can you help Yiannis? What kind of objects do you think that float? Make
+      a hypothesis.\u201D Select one from the following:"
+    Text: "\u039C\u03C0\u03BF\u03C1\u03B5\u03AF\u03C2 \u03BD\u03B1 \u03B2\u03BF\u03B7\u03B8\u03AE\u03C3\u03B5\u03B9\u03C2
+      \u03C4\u03BF\u03BD \u0393\u03B9\u03AC\u03BD\u03BD\u03B7; \u03A4\u03B9 \u03B5\u03AF\u03B4\u03BF\u03C5\u03C2
+      \u03B1\u03BD\u03C4\u03B9\u03BA\u03B5\u03AF\u03BC\u03B5\u03BD\u03B1 \u03BD\u03BF\u03BC\u03AF\u03B6\u03B5\u03B9\u03C2
+      \u03CC\u03C4\u03B9 \u03B5\u03C0\u03B9\u03C0\u03BB\u03AD\u03BF\u03C5\u03BD;
+      \u039A\u03AC\u03BD\u03B5 \u03BC\u03B9\u03B1 \u03C5\u03C0\u03CC\u03B8\u03B5\u03C3\u03B7.
+      \u0394\u03B9\u03AC\u03BB\u03B5\u03BE\u03B5 \u03AD\u03BD\u03B1 \u03B1\u03C0\u03CC
+      \u03C4\u03B1 \u03B5\u03C0\u03CC\u03BC\u03B5\u03BD\u03B1:"
+  - Name: a. All big and heavy objects float
+    Text: "\u03B1. \u038C\u03BB\u03B1 \u03C4\u03B1 \u03BC\u03B5\u03B3\u03AC\u03BB\u03B1
+      \u03BA\u03B1\u03B9 \u03B2\u03B1\u03C1\u03B9\u03AC \u03B1\u03BD\u03C4\u03B9\u03BA\u03B5\u03AF\u03BC\u03B5\u03BD\u03B1
+      \u03B5\u03C0\u03B9\u03C0\u03BB\u03AD\u03BF\u03C5\u03BD"
+  - Name: b. All small and light objects float
+    Text: "\u03B2. \u038C\u03BB\u03B1 \u03C4\u03B1 \u03BC\u03B9\u03BA\u03C1\u03AC
+      \u03BA\u03B1\u03B9 \u03B5\u03BB\u03B1\u03C6\u03C1\u03B9\u03AC \u03B1\u03BD\u03C4\u03B9\u03BA\u03B5\u03AF\u03BC\u03B5\u03BD\u03B1
+      \u03B5\u03C0\u03B9\u03C0\u03BB\u03AD\u03BF\u03C5\u03BD"
+  - Name: c. All objects made of metal float
+    Text: "\u03B3. \u038C\u03BB\u03B1 \u03C4\u03B1 \u03B1\u03BD\u03C4\u03B9\u03BA\u03B5\u03AF\u03BC\u03B5\u03BD\u03B1
+      \u03B1\u03C0\u03CC \u03BC\u03AD\u03C4\u03B1\u03BB\u03BB\u03BF \u03B5\u03C0\u03B9\u03C0\u03BB\u03AD\u03BF\u03C5\u03BD"
+  - Name: d. All objects made of wood float
+    Text: "\u03B4. \u038C\u03BB\u03B1 \u03C4\u03B1 \u03B1\u03BD\u03C4\u03B9\u03BA\u03B5\u03AF\u03BC\u03B5\u03BD\u03B1
+      \u03B1\u03C0\u03CC \u03BE\u03CD\u03BB\u03BF \u03B5\u03C0\u03B9\u03C0\u03BB\u03AD\u03BF\u03C5\u03BD"
+  - Name: e. All objects made of glass float
+    Text: "\u03B5. \u038C\u03BB\u03B1 \u03C4\u03B1 \u03B1\u03BD\u03C4\u03B9\u03BA\u03B5\u03AF\u03BC\u03B5\u03BD\u03B1
+      \u03B1\u03C0\u03CC \u03B3\u03B9\u03B1\u03BB\u03AF \u03B5\u03C0\u03B9\u03C0\u03BB\u03AD\u03BF\u03C5\u03BD"
+  - Name: "\u201CFine! Now, you can make an experiment to test your hypothesis. Put
+      the three big and   heavy objects on the sea to test your hypothesis\u201D."
+    Text: "\u03A9\u03C1\u03B1\u03AF\u03B1! \u03A4\u03CE\u03C1\u03B1 \u03BC\u03C0\u03BF\u03C1\u03B5\u03AF\u03C2
+      \u03BD\u03B1 \u03BA\u03AC\u03BD\u03B5\u03B9\u03C2 \u03AD\u03BD\u03B1 \u03C0\u03B5\u03AF\u03C1\u03B1\u03BC\u03B1
+      \u03B3\u03B9\u03B1 \u03BD\u03B1 \u03B5\u03BB\u03AD\u03B3\u03BE\u03B5\u03B9\u03C2
+      \u03C4\u03B7\u03BD \u03C5\u03C0\u03CC\u03B8\u03B5\u03C3\u03AE \u03C3\u03BF\u03C5.
+      \u0392\u03AC\u03BB\u03B5 \u03C4\u03B1 \u03C4\u03C1\u03AF\u03B1 \u03BC\u03B5\u03B3\u03AC\u03BB\u03B1
+      \u03BA\u03B1\u03B9 \u03B2\u03B1\u03C1\u03B9\u03AC \u03B1\u03BD\u03C4\u03B9\u03BA\u03B5\u03AF\u03BC\u03B5\u03BD\u03B1
+      \u03C3\u03C4\u03B7 \u03B8\u03AC\u03BB\u03B1\u03C3\u03C3\u03B1 \u03B3\u03B9\u03B1
+      \u03BD\u03B1 \u03B5\u03BB\u03AD\u03B3\u03BE\u03B5\u03B9\u03C2 \u03C4\u03B7\u03BD
+      \u03C5\u03C0\u03CC\u03B8\u03B5\u03C3\u03AE \u03C3\u03BF\u03C5."
+  - Name: "\u201CThis is a small and light object. Try all the big and heavy objects\u201D"
+    Text: "\u0391\u03C5\u03C4\u03CC \u03B5\u03AF\u03BD\u03B1\u03B9 \u03AD\u03BD\u03B1
+      \u03BC\u03B9\u03BA\u03C1\u03CC \u03BA\u03B1\u03B9 \u03B5\u03BB\u03B1\u03C6\u03C1\u03CD
+      \u03B1\u03BD\u03C4\u03B9\u03BA\u03B5\u03AF\u03BC\u03B5\u03BD\u03BF. \u0394\u03BF\u03BA\u03AF\u03BC\u03B1\u03C3\u03B5
+      \u03CC\u03BB\u03B1 \u03C4\u03B1 \u03BC\u03B5\u03B3\u03AC\u03BB\u03B1 \u03BA\u03B1\u03B9
+      \u03B2\u03B1\u03C1\u03B9\u03AC \u03B1\u03BD\u03C4\u03B9\u03BA\u03B5\u03AF\u03BC\u03B5\u03BD\u03B1."
+  - Name: "Your   experiment showed that only some big and heavy objects float while
+      others sink.   Your hypothesis was not proved. Try another hypothesis.\u201D"
+    Text: "\u03A4\u03BF \u03C0\u03B5\u03AF\u03C1\u03B1\u03BC\u03AC \u03C3\u03BF\u03C5
+      \u03AD\u03B4\u03B5\u03B9\u03BE\u03B5 \u03CC\u03C4\u03B9 \u03BC\u03CC\u03BD\u03BF
+      \u03BC\u03B5\u03C1\u03B9\u03BA\u03AC \u03BC\u03B5\u03B3\u03AC\u03BB\u03B1 \u03BA\u03B1\u03B9
+      \u03B2\u03B1\u03C1\u03B9\u03AC \u03B1\u03BD\u03C4\u03B9\u03BA\u03B5\u03AF\u03BC\u03B5\u03BD\u03B1
+      \u03B5\u03C0\u03B9\u03C0\u03BB\u03AD\u03BF\u03C5\u03BD \u03B5\u03BD\u03CE \u03AC\u03BB\u03BB\u03B1
+      \u03B2\u03BF\u03C5\u03BB\u03B9\u03AC\u03B6\u03BF\u03C5\u03BD. \u0397 \u03C5\u03C0\u03CC\u03B8\u03B5\u03C3\u03AE
+      \u03C3\u03BF\u03C5 \u03B4\u03B5\u03BD \u03B5\u03C0\u03B1\u03BB\u03B7\u03B8\u03B5\u03CD\u03C4\u03B7\u03BA\u03B5.
+      \u0394\u03BF\u03BA\u03AF\u03BC\u03B1\u03C3\u03B5 \u03BC\u03B9\u03B1 \u03AC\u03BB\u03BB\u03B7
+      \u03C5\u03C0\u03CC\u03B8\u03B5\u03C3\u03B7."
+  - Name: try another hypothesis
+    Text: "\u03B4\u03BF\u03BA\u03AF\u03BC\u03B1\u03C3\u03B5 \u03BC\u03B9\u03B1 \u03AC\u03BB\u03BB\u03B7
+      \u03C5\u03C0\u03CC\u03B8\u03B5\u03C3\u03B7."
+  - Name: Scenario 2
+    Text: 
+  - Name: English
+    Text: Greek
+  - Name: Rotation button
+    Text: "\u039A\u03BF\u03C5\u03BC\u03C0\u03AF \u03C0\u03B5\u03C1\u03B9\u03C3\u03C4\u03C1\u03BF\u03C6\u03AE\u03C2"
+  - Name: calendar
+    Text: "\u0397\u03BC\u03B5\u03C1\u03BF\u03BB\u03CC\u03B3\u03B9\u03BF"
+  - Name: January
+    Text: "\u0399\u03B1\u03BD\u03BF\u03C5\u03AC\u03C1\u03B9\u03BF\u03C2"
+  - Name: February
+    Text: "\u03A6\u03B5\u03B2\u03C1\u03BF\u03C5\u03AC\u03C1\u03B9\u03BF\u03C2"
+  - Name: March
+    Text: "\u039C\u03AC\u03C1\u03C4\u03B9\u03BF\u03C2"
+  - Name: April
+    Text: "\u0391\u03C0\u03C1\u03AF\u03BB\u03B9\u03BF\u03C2"
+  - Name: May
+    Text: "\u039C\u03AC\u03B9\u03BF\u03C2"
+  - Name: June
+    Text: "\u0399\u03BF\u03CD\u03BD\u03B9\u03BF\u03C2"
+  - Name: July
+    Text: "\u0399\u03BF\u03CD\u03BB\u03B9\u03BF\u03C2"
+  - Name: August
+    Text: "\u0391\u03CD\u03B3\u03BF\u03C5\u03C3\u03C4\u03BF\u03C2"
+  - Name: September
+    Text: "\u03A3\u03B5\u03C0\u03C4\u03AD\u03BC\u03B2\u03C1\u03B9\u03BF\u03C2"
+  - Name: October
+    Text: "\u039F\u03BA\u03C4\u03CE\u03B2\u03C1\u03B9\u03BF\u03C2"
+  - Name: November
+    Text: "\u039D\u03BF\u03AD\u03BC\u03B2\u03C1\u03B9\u03BF\u03C2"
+  - Name: December
+    Text: "\u0394\u03B5\u03BA\u03AD\u03BC\u03B2\u03C1\u03B9\u03BF\u03C2"
+  - Name: Return
+    Text: "\u0395\u03C0\u03B9\u03C3\u03C4\u03C1\u03BF\u03C6\u03AE"
+  - Name: Continue
+    Text: "\u03A3\u03C5\u03BD\u03AD\u03C7\u03B5\u03B9\u03B1"
+  - Name: Day/Night Cycle
+    Text: "\u03A3\u0395\u039D\u0391\u03A1\u0399\u039F 2: \u0395\u039D\u0391\u039B\u039B\u0391\u0393\u0397
+      \u039C\u0395\u03A1\u0391\u03A3/NYXTA\u03A3"
+  - Name: "(Scene A) Earth \u2013 Sun relative size"
+    Text: "\u03A3\u03C7\u03B5\u03C4\u03B9\u03BA\u03CC \u03BC\u03AD\u03B3\u03B5\u03B8\u03BF\u03C2
+      \u0393\u03B7\u03C2-\u0389\u03BB\u03B9\u03BF\u03C5"
+  - Name: "(Scene B) Sun - Earth distance \u2013 Phenomenal Sun\u2019s size explained"
+    Text: "\u0391\u03C0\u03CC\u03C3\u03C4\u03B1\u03C3\u03B7 \u0393\u03B7\u03C2-\u0389\u03BB\u03B9\u03BF\u03C5 
+      \u0336 \u0336  \u0395\u03BE\u03AE\u03B3\u03B7\u03C3\u03B7 \u03C4\u03BF\u03C5
+      \u03C6\u03B1\u03B9\u03BD\u03BF\u03BC\u03B5\u03BD\u03B9\u03BA\u03BF\u03CD \u03BC\u03B5\u03B3\u03AD\u03B8\u03BF\u03C5\u03C2
+      \u03C4\u03BF\u03C5 \u0389\u03BB\u03B9\u03BF\u03C5"
+  - Name: "(Scene C) Earth\u2019s revolution around the Sun"
+    Text: "\u03A0\u03B5\u03C1\u03B9\u03C6\u03BF\u03C1\u03AC \u03C4\u03B7\u03C2 \u0393\u03B7\u03C2
+      \u03B3\u03CD\u03C1\u03C9 \u03B1\u03C0\u03CC \u03C4\u03BF\u03BD \u03AE\u03BB\u03B9\u03BF"
+  - Name: "(Scene D) Earth\u2019s rotation around itself"
+    Text: "\u03A0\u03B5\u03C1\u03B9\u03C3\u03C4\u03C1\u03BF\u03C6\u03AE \u03C4\u03B7\u03C2
+      \u0393\u03B7\u03C2 \u03B3\u03CD\u03C1\u03C9 \u03B1\u03C0\u03CC \u03C4\u03BF\u03BD
+      \u03B5\u03B1\u03C5\u03C4\u03CC \u03C4\u03B7\u03C2"
+  - Name: (Scene E) Day/night explanation
+    Text: "\u0395\u03BE\u03AE\u03B3\u03B7\u03C3\u03B7 \u03C4\u03B7\u03C2 \u03B5\u03BD\u03B1\u03BB\u03BB\u03B1\u03B3\u03AE\u03C2
+      \u03BC\u03AD\u03C1\u03B1\u03C2/\u03BD\u03CD\u03C7\u03C4\u03B1\u03C2"
+  - Name: The Sun looks like a ball of fire on the sky but   how big is the Sun?
+      Which of the following is true?
+    Text: "\u039F \u0389\u03BB\u03B9\u03BF\u03C2 \u03BC\u03BF\u03B9\u03AC\u03B6\u03B5\u03B9
+      \u03C3\u03B1\u03BD \u03BC\u03B9\u03B1 \u03BC\u03C0\u03AC\u03BB\u03B1 \u03B1\u03C0\u03CC
+      \u03C6\u03C9\u03C4\u03B9\u03AC \u03C3\u03C4\u03BF\u03BD \u03BF\u03C5\u03C1\u03B1\u03BD\u03CC
+      \u03B1\u03BB\u03BB\u03AC \u03C0\u03CC\u03C3\u03BF \u03BC\u03B5\u03B3\u03AC\u03BB\u03BF\u03C2
+      \u03B5\u03AF\u03BD\u03B1\u03B9 \u0389\u03BB\u03B9\u03BF\u03C2; \u03A0\u03BF\u03B9\u03BF
+      \u03B1\u03C0\u03CC \u03C4\u03B1 \u03C0\u03B1\u03C1\u03B1\u03BA\u03AC\u03C4\u03C9
+      \u03B5\u03AF\u03BD\u03B1\u03B9 \u03C3\u03C9\u03C3\u03C4\u03CC;"
+  - Name: a.The Sun is a little bigger than the Earth
+    Text: "\u03B1. \u039F \u0389\u03BB\u03B9\u03BF\u03C2 \u03B5\u03AF\u03BD\u03B1\u03B9
+      \u03BB\u03AF\u03B3\u03BF \u03BC\u03B5\u03B3\u03B1\u03BB\u03CD\u03C4\u03B5\u03C1\u03BF\u03C2
+      \u03B1\u03C0\u03CC \u03C4\u03B7 \u0393\u03B7."
+  - Name: b. The Sun is much bigger than the Earth
+    Text: "\u03B2. \u039F \u0389\u03BB\u03B9\u03BF\u03C2 \u03B5\u03AF\u03BD\u03B1\u03B9
+      \u03C0\u03BF\u03BB\u03CD \u03BC\u03B5\u03B3\u03B1\u03BB\u03CD\u03C4\u03B5\u03C1\u03BF\u03C2
+      \u03B1\u03C0\u03CC \u03C4\u03B7 \u0393\u03B7."
+  - Name: c. The Earth is a little bigger than the Sun
+    Text: "\u03B3. \u0397 \u0393\u03B7 \u03B5\u03AF\u03BD\u03B1\u03B9 \u03BB\u03AF\u03B3\u03BF
+      \u03BC\u03B5\u03B3\u03B1\u03BB\u03CD\u03C4\u03B5\u03C1\u03B7 \u03B1\u03C0\u03CC
+      \u03C4\u03BF\u03BD \u0389\u03BB\u03B9\u03BF."
+  - Name: d. The Earth is much bigger than the Sun
+    Text: "\u03B4. \u0397 \u0393\u03B7 \u03B5\u03AF\u03BD\u03B1\u03B9 \u03C0\u03BF\u03BB\u03CD
+      \u03BC\u03B5\u03B3\u03B1\u03BB\u03CD\u03C4\u03B5\u03C1\u03B7 \u03B1\u03C0\u03CC
+      \u03C4\u03BF\u03BD \u0389\u03BB\u03B9\u03BF."
+  - Name: You are right!
+    Text: "\u03A0\u03BF\u03BB\u03CD \u03C3\u03C9\u03C3\u03C4\u03AC!"
+  - Name: "The Sun\u2019s diameter is about 100 times bigger than   the Earth\u2019s
+      diameter. This means that a million Earths put together make the size of the
+      Sun."
+    Text: "\u0397 \u03B4\u03B9\u03AC\u03BC\u03B5\u03C4\u03C1\u03BF\u03C2 \u03C4\u03BF\u03C5
+      \u0389\u03BB\u03B9\u03BF\u03C5 \u03B5\u03AF\u03BD\u03B1\u03B9 \u03C0\u03B5\u03C1\u03AF\u03C0\u03BF\u03C5
+      100 \u03C6\u03BF\u03C1\u03AD\u03C2 \u03BC\u03B5\u03B3\u03B1\u03BB\u03CD\u03C4\u03B5\u03C1\u03B7
+      \u03B1\u03C0\u03CC \u03C4\u03B7 \u03B4\u03B9\u03AC\u03BC\u03B5\u03C4\u03C1\u03BF
+      \u03C4\u03B7\u03C2 \u0393\u03B7\u03C2. \u0391\u03C5\u03C4\u03CC \u03C3\u03B7\u03BC\u03B1\u03AF\u03BD\u03B5\u03B9
+      \u03CC\u03C4\u03B9 \u03AD\u03BD\u03B1 \u03B5\u03BA\u03B1\u03C4\u03BF\u03BC\u03BC\u03CD\u03C1\u03B9\u03BF
+      \u0393\u03B1\u03AF\u03B5\u03C2 \u03BC\u03B1\u03B6\u03AF \u03BA\u03AC\u03BD\u03BF\u03C5\u03BD
+      \u03C4\u03BF \u03BC\u03AD\u03B3\u03B5\u03B8\u03BF\u03C2 \u03C4\u03BF\u03C5
+      \u0389\u03BB\u03B9\u03BF\u03C5."
+  - Name: RETURN (SCENES MENU)
+    Text: "\u0395\u03A0\u0399\u03A3\u03A4\u03A1\u039F\u03A6\u0397"
+  - Name: You're wrong
+    Text: "\u0388\u03BA\u03B1\u03BD\u03B5\u03C2 \u03BB\u03AC\u03B8\u03BF\u03C2"
+  - Name: "Often things are not the way they look. In reality the Sun\u2019s diameter
+      is about 100 times bigger than the Earth\u2019s diameter. This means that a
+      million Earths put together make the size of the Sun."
+    Text: "\u03A3\u03C5\u03C7\u03BD\u03AC \u03C4\u03B1 \u03C0\u03C1\u03AC\u03B3\u03BC\u03B1\u03C4\u03B1
+      \u03B4\u03B5\u03BD \u03B5\u03AF\u03BD\u03B1\u03B9 \u03CC\u03C0\u03C9\u03C2
+      \u03C6\u03B1\u03AF\u03BD\u03BF\u03BD\u03C4\u03B1\u03B9. \u03A3\u03C4\u03B7\u03BD
+      \u03C0\u03C1\u03B1\u03B3\u03BC\u03B1\u03C4\u03B9\u03BA\u03CC\u03C4\u03B7\u03C4\u03B1
+      \u03B7 \u03B4\u03B9\u03AC\u03BC\u03B5\u03C4\u03C1\u03BF\u03C2 \u03C4\u03BF\u03C5
+      \u0389\u03BB\u03B9\u03BF\u03C5 \u03B5\u03AF\u03BD\u03B1\u03B9 \u03C0\u03B5\u03C1\u03AF\u03C0\u03BF\u03C5
+      100 \u03C6\u03BF\u03C1\u03AD\u03C2 \u03BC\u03B5\u03B3\u03B1\u03BB\u03CD\u03C4\u03B5\u03C1\u03B7
+      \u03B1\u03C0\u03CC \u03C4\u03B7 \u03B4\u03B9\u03AC\u03BC\u03B5\u03C4\u03C1\u03BF
+      \u03C4\u03B7\u03C2 \u0393\u03B7\u03C2. \u0391\u03C5\u03C4\u03CC \u03C3\u03B7\u03BC\u03B1\u03AF\u03BD\u03B5\u03B9
+      \u03CC\u03C4\u03B9 \u03AD\u03BD\u03B1 \u03B5\u03BA\u03B1\u03C4\u03BF\u03BC\u03BC\u03CD\u03C1\u03B9\u03BF
+      \u0393\u03B1\u03AF\u03B5\u03C2 \u03BC\u03B1\u03B6\u03AF \u03BA\u03AC\u03BD\u03BF\u03C5\u03BD
+      \u03C4\u03BF \u03BC\u03AD\u03B3\u03B5\u03B8\u03BF\u03C2 \u03C4\u03BF\u03C5
+      \u0389\u03BB\u03B9\u03BF\u03C5."
+  - Name: "The truth is that    The Sun\u2019s diameter is about 100 times bigger
+      than the Earth\u2019s diameter. his means that a million Earths put together
+      make the size of the Sun."
+    Text: "\u0397 \u03B1\u03BB\u03AE\u03B8\u03B5\u03B9\u03B1 \u03B5\u03AF\u03BD\u03B1\u03B9
+      \u03CC\u03C4\u03B9 \u03B7 \u03B4\u03B9\u03AC\u03BC\u03B5\u03C4\u03C1\u03BF\u03C2
+      \u03C4\u03BF\u03C5 \u0389\u03BB\u03B9\u03BF\u03C5 \u03B5\u03AF\u03BD\u03B1\u03B9
+      \u03C0\u03B5\u03C1\u03AF\u03C0\u03BF\u03C5 100 \u03C6\u03BF\u03C1\u03AD\u03C2
+      \u03BC\u03B5\u03B3\u03B1\u03BB\u03CD\u03C4\u03B5\u03C1\u03B7 \u03B1\u03C0\u03CC
+      \u03C4\u03B7 \u03B4\u03B9\u03AC\u03BC\u03B5\u03C4\u03C1\u03BF \u03C4\u03B7\u03C2
+      \u0393\u03B7\u03C2. \u0391\u03C5\u03C4\u03CC \u03C3\u03B7\u03BC\u03B1\u03AF\u03BD\u03B5\u03B9
+      \u03CC\u03C4\u03B9 \u03AD\u03BD\u03B1 \u03B5\u03BA\u03B1\u03C4\u03BF\u03BC\u03BC\u03CD\u03C1\u03B9\u03BF
+      \u0393\u03B1\u03AF\u03B5\u03C2 \u03BC\u03B1\u03B6\u03AF \u03BA\u03AC\u03BD\u03BF\u03C5\u03BD
+      \u03C4\u03BF \u03BC\u03AD\u03B3\u03B5\u03B8\u03BF\u03C2 \u03C4\u03BF\u03C5
+      \u0389\u03BB\u03B9\u03BF\u03C5."
+  - Name: Do you know how far away from us the Sun is? Which   of the following is
+      true?
+    Text: "\u039E\u03AD\u03C1\u03B5\u03B9\u03C2 \u03C0\u03CC\u03C3\u03BF \u03BC\u03B1\u03BA\u03C1\u03B9\u03AC
+      \u03B1\u03C0\u03CC \u03B5\u03BC\u03AC\u03C2 \u03B2\u03C1\u03AF\u03C3\u03BA\u03B5\u03C4\u03B1\u03B9
+      \u03BF \u0389\u03BB\u03B9\u03BF\u03C2; \u03A0\u03BF\u03B9\u03B1 \u03B1\u03C0\u03CC
+      \u03C4\u03B1 \u03C0\u03B1\u03C1\u03B1\u03BA\u03AC\u03C4\u03C9 \u03B5\u03AF\u03BD\u03B1\u03B9
+      \u03C3\u03C9\u03C3\u03C4\u03CC;"
+  - Name: a. The Sun is a little further from the Earth than the clouds
+    Text: "\u03B1. \u039F \u0389\u03BB\u03B9\u03BF\u03C2 \u03B5\u03AF\u03BD\u03B1\u03B9
+      \u03BB\u03AF\u03B3\u03BF \u03C0\u03B9\u03BF \u03BC\u03B1\u03BA\u03C1\u03B9\u03AC
+      \u03B1\u03C0\u03CC \u03C4\u03B7 \u0393\u03B7 \u03B1\u03C0\u03CC \u03CC\u03C4\u03B9
+      \u03B5\u03AF\u03BD\u03B1\u03B9 \u03C4\u03B1 \u03C3\u03CD\u03BD\u03BD\u03B5\u03C6\u03B1."
+  - Name: b. The Sun is about the same distance from the Earth as the moon
+    Text: "\u03B2. \u03BF \u0389\u03BB\u03B9\u03BF\u03C2 \u03B5\u03AF\u03BD\u03B1\u03B9
+      \u03C0\u03B5\u03C1\u03AF\u03C0\u03BF\u03C5 \u03C4\u03BF \u03AF\u03B4\u03B9\u03BF
+      \u03BC\u03B1\u03BA\u03C1\u03B9\u03AC \u03B1\u03C0\u03CC \u03C4\u03B7 \u0393\u03B7
+      \u03CC\u03C3\u03BF \u03BA\u03B1\u03B9 \u03C4\u03BF \u03C6\u03B5\u03B3\u03B3\u03AC\u03C1\u03B9."
+  - Name: c. The Sun is further away from the Earth than the clouds and the moon
+    Text: "\u03B3. \u039F \u0389\u03BB\u03B9\u03BF\u03C2 \u03B5\u03AF\u03BD\u03B1\u03B9
+      \u03C0\u03BF\u03BB\u03CD \u03C0\u03B9\u03BF \u03BC\u03B1\u03BA\u03C1\u03B9\u03AC
+      \u03B1\u03C0\u03CC \u03C4\u03B7 \u0393\u03B7 \u03B1\u03C0\u03CC \u03CC\u03C4\u03B9
+      \u03B5\u03AF\u03BD\u03B1\u03B9 \u03C4\u03B1 \u03C3\u03CD\u03BD\u03BD\u03B5\u03C6\u03B1
+      \u03BA\u03B1\u03B9 \u03C4\u03BF \u03C6\u03B5\u03B3\u03B3\u03AC\u03C1\u03B9."
+  - Name: The Sun is about 150 million km away from the Earth. That is why such a
+      huge object looks like a ball in the sky.
+    Text: "\u039F \u0389\u03BB\u03B9\u03BF\u03C2 \u03B5\u03AF\u03BD\u03B1\u03B9 \u03C0\u03B5\u03C1\u03AF\u03C0\u03BF\u03C5
+      150 \u03B5\u03BA\u03B1\u03C4\u03BF\u03BC\u03BC\u03CD\u03C1\u03B9\u03B1 \u03C7\u03B9\u03BB\u03B9\u03CC\u03BC\u03B5\u03C4\u03C1\u03B1
+      \u03BC\u03B1\u03BA\u03C1\u03B9\u03AC \u03B1\u03C0\u03CC \u03C4\u03B7 \u0393\u03B7.
+      \u0393\u03B9'  \u03B1\u03C5\u03C4\u03CC \u03C4\u03BF \u03BB\u03CC\u03B3\u03BF
+      \u03AD\u03BD\u03B1 \u03C4\u03CC\u03C3\u03BF \u03C4\u03B5\u03C1\u03AC\u03C3\u03C4\u03B9\u03BF
+      \u03B1\u03BD\u03C4\u03B9\u03BA\u03B5\u03AF\u03BC\u03B5\u03BD\u03BF \u03BC\u03BF\u03B9\u03AC\u03B6\u03B5\u03B9
+      \u03C3\u03B1\u03BD \u03BC\u03B9\u03B1 \u03BC\u03C0\u03AC\u03BB\u03B1 \u03C3\u03C4\u03BF\u03BD
+      \u03BF\u03C5\u03C1\u03B1\u03BD\u03CC."
+  - Name: Often things are not the way they look. The truth is that the   Sun is
+      much further away from the Earth than the clouds or even the moon. The Sun
+      is about 150 million km away from the Earth. That is why such a huge object
+      looks like a ball in the sky.
+    Text: "\u03A3\u03C5\u03C7\u03BD\u03AC \u03C4\u03B1 \u03C0\u03C1\u03AC\u03B3\u03BC\u03B1\u03C4\u03B1
+      \u03B4\u03B5\u03BD \u03B5\u03AF\u03BD\u03B1\u03B9 \u03CC\u03C0\u03C9\u03C2
+      \u03C6\u03B1\u03AF\u03BD\u03BF\u03BD\u03C4\u03B1\u03B9. \u03A3\u03C4\u03B7\u03BD
+      \u03C0\u03C1\u03B1\u03B3\u03BC\u03B1\u03C4\u03B9\u03BA\u03CC\u03C4\u03B7\u03C4\u03B1
+      \u03BF \u0389\u03BB\u03B9\u03BF\u03C2 \u03B5\u03AF\u03BD\u03B1\u03B9 \u03C0\u03BF\u03BB\u03CD
+      \u03C0\u03B9\u03BF \u03BC\u03B1\u03BA\u03C1\u03B9\u03AC \u03B1\u03C0\u03CC
+      \u03C4\u03B7 \u0393\u03B7 \u03B1\u03C0\u03CC \u03CC\u03C4\u03B9 \u03C4\u03B1
+      \u03C3\u03CD\u03BD\u03BD\u03B5\u03C6\u03B1 \u03AE \u03B1\u03BA\u03CC\u03BC\u03B7
+      \u03C4\u03BF \u03C6\u03B5\u03B3\u03B3\u03AC\u03C1\u03B9. \u039F \u0389\u03BB\u03B9\u03BF\u03C2
+      \u03B5\u03AF\u03BD\u03B1\u03B9 \u03C0\u03B5\u03C1\u03AF\u03C0\u03BF\u03C5 150
+      \u03B5\u03BA\u03B1\u03C4\u03BF\u03BC\u03BC\u03CD\u03C1\u03B9\u03B1 \u03C7\u03B9\u03BB\u03B9\u03CC\u03BC\u03B5\u03C4\u03C1\u03B1
+      \u03BC\u03B1\u03BA\u03C1\u03B9\u03AC \u03B1\u03C0\u03CC \u03C4\u03B7 \u0393\u03B7.
+      \u0393\u03B9'  \u03B1\u03C5\u03C4\u03CC \u03C4\u03BF \u03BB\u03CC\u03B3\u03BF
+      \u03AD\u03BD\u03B1 \u03C4\u03CC\u03C3\u03BF \u03C4\u03B5\u03C1\u03AC\u03C3\u03C4\u03B9\u03BF
+      \u03B1\u03BD\u03C4\u03B9\u03BA\u03B5\u03AF\u03BC\u03B5\u03BD\u03BF \u03BC\u03BF\u03B9\u03AC\u03B6\u03B5\u03B9
+      \u03C3\u03B1\u03BD \u03BC\u03B9\u03B1 \u03BC\u03C0\u03AC\u03BB\u03B1 \u03C3\u03C4\u03BF\u03BD
+      \u03BF\u03C5\u03C1\u03B1\u03BD\u03CC."
+  - Name: The earth revolves around the Sun. Do you know how   long it takes to come
+      a full circle? Make a   hypothesis and then test it.
+    Text: "\u0397 \u0393\u03B7 \u03B3\u03C5\u03C1\u03AF\u03B6\u03B5\u03B9 \u03B3\u03CD\u03C1\u03C9
+      \u03B1\u03C0\u03CC \u03C4\u03BF\u03BD \u0389\u03BB\u03B9\u03BF. \u039E\u03AD\u03C1\u03B5\u03B9\u03C2
+      \u03C3\u03B5 \u03C0\u03CC\u03C3\u03BF \u03C7\u03C1\u03CC\u03BD\u03BF \u03BA\u03AC\u03BD\u03B5\u03B9
+      \u03BC\u03B9\u03B1 \u03C0\u03B5\u03C1\u03B9\u03C3\u03C4\u03C1\u03BF\u03C6\u03AE;
+      \u039A\u03AC\u03BD\u03B5 \u03BC\u03B9\u03B1 \u03C5\u03C0\u03CC\u03B8\u03B5\u03C3\u03B7
+      \u03BA\u03B1\u03B9 \u03CD\u03C3\u03C4\u03B5\u03C1\u03B1 \u03AD\u03BB\u03B5\u03B3\u03BE\u03AD
+      \u03C4\u03B7\u03BD."
+  - Name: a. 24 hours
+    Text: "\u03B1. 24 \u03CE\u03C1\u03B5\u03C2"
+  - Name: b. A day and a night
+    Text: "\u03B2. \u039C\u03B9\u03B1 \u03BC\u03AD\u03C1\u03B1 \u03BA\u03B1\u03B9
+      \u03BC\u03B9\u03B1 \u03BD\u03CD\u03C7\u03C4\u03B1"
+  - Name: c. A year
+    Text: "\u03B3. \u0388\u03BD\u03B1 \u03C7\u03C1\u03CC\u03BD\u03BF"
+  - Name: Fine! Now test your hypothesis by making the earth move around the Sun
+      and looking at the calendar
+    Text: "\u03A9\u03C1\u03B1\u03AF\u03B1! \u03A4\u03CE\u03C1\u03B1 \u03BC\u03C0\u03BF\u03C1\u03B5\u03AF\u03C2
+      \u03BD\u03B1 \u03B5\u03BB\u03AD\u03B3\u03BE\u03B5\u03B9\u03C2 \u03C4\u03B7\u03BD
+      \u03C5\u03C0\u03CC\u03B8\u03B5\u03C3\u03AE \u03C3\u03BF\u03C5 \u03BA\u03AC\u03BD\u03BF\u03BD\u03C4\u03B1\u03C2
+      \u03C4\u03B7\u03BD \u0393\u03B7 \u03BD\u03B1 \u03BA\u03B9\u03BD\u03B7\u03B8\u03B5\u03AF
+      \u03B3\u03CD\u03C1\u03C9 \u03B1\u03C0\u03CC \u03C4\u03BF\u03BD \u0389\u03BB\u03B9\u03BF
+      \u03BA\u03B1\u03B9 \u03B2\u03BB\u03AD\u03C0\u03BF\u03BD\u03C4\u03B1\u03C2 \u03C4\u03BF
+      \u03B7\u03BC\u03B5\u03C1\u03BF\u03BB\u03CC\u03B3\u03B9\u03BF."
+  - Name: GO
+    Text: "\u0395\u039D\u0391\u03A1\u039E\u0397"
+  - Name: Your hypothesis is not true. You observed that it takes much longer than
+      one day for the Earth to make a revolution around the Sun. In fact the Earth
+      makes a complete revolution around the Sun in one year, that is in 365 days
+    Text: "\u0397 \u03C5\u03C0\u03CC\u03B8\u03B5\u03C3\u03AE \u03C3\u03BF\u03C5 \u03B4\u03B5\u03BD
+      \u03B5\u03AF\u03BD\u03B1\u03B9 \u03C3\u03C9\u03C3\u03C4\u03AE. \u03A0\u03B1\u03C1\u03B1\u03C4\u03AE\u03C1\u03B7\u03C3\u03B5\u03C2
+      \u03CC\u03C4\u03B9 \u03B7 \u0393\u03B7 \u03C7\u03C1\u03B5\u03B9\u03AC\u03B6\u03B5\u03C4\u03B1\u03B9
+      \u03C0\u03BF\u03BB\u03CD \u03C0\u03B5\u03C1\u03B9\u03C3\u03C3\u03CC\u03C4\u03B5\u03C1\u03BF
+      \u03C7\u03C1\u03CC\u03BD\u03BF \u03B3\u03B9\u03B1 \u03BD\u03B1 \u03BA\u03AC\u03BD\u03B5\u03B9
+      \u03BC\u03B9\u03B1 \u03C0\u03B5\u03C1\u03B9\u03C3\u03C4\u03C1\u03BF\u03C6\u03AE
+      \u03B3\u03CD\u03C1\u03C9 \u03B1\u03C0\u03CC \u03C4\u03BF\u03BD \u0389\u03BB\u03B9\u03BF. 
+      \u03A3\u03C4\u03B7\u03BD \u03C0\u03C1\u03B1\u03B3\u03BC\u03B1\u03C4\u03B9\u03BA\u03CC\u03C4\u03B7\u03C4\u03B1
+      \u03B7 \u0393\u03B7 \u03BA\u03AC\u03BD\u03B5\u03B9 \u03BC\u03B9\u03B1 \u03C0\u03BB\u03AE\u03C1\u03B7
+      \u03C0\u03B5\u03C1\u03B9\u03C3\u03C4\u03C1\u03BF\u03C6\u03AE \u03B3\u03CD\u03C1\u03C9
+      \u03B1\u03C0\u03CC \u03C4\u03BF\u03BD \u0389\u03BB\u03B9\u03BF \u03C3\u03B5
+      \u03AD\u03BD\u03B1 \u03C7\u03C1\u03CC\u03BD\u03BF, \u03B4\u03B7\u03BB\u03B1\u03B4\u03AE
+      \u03C3\u03B5 365 \u03BC\u03AD\u03C1\u03B5\u03C2."
+  - Name: Your hypothesis is true. As you observed the Earth makes a complete revolution
+      around the Sun in 365 days, that is in one year.
+    Text: "\u0397 \u03C5\u03C0\u03CC\u03B8\u03B5\u03C3\u03AE \u03C3\u03BF\u03C5 \u03B5\u03AF\u03BD\u03B1\u03B9
+      \u03C3\u03C9\u03C3\u03C4\u03AE. \u038C\u03C0\u03C9\u03C2 \u03C0\u03B1\u03C1\u03B1\u03C4\u03AE\u03C1\u03B7\u03C3\u03B5\u03C2
+      \u03B7 \u0393\u03B7 \u03BA\u03AC\u03BD\u03B5\u03B9 \u03BC\u03B9\u03B1 \u03C0\u03BB\u03AE\u03C1\u03B7
+      \u03C0\u03B5\u03C1\u03B9\u03C3\u03C4\u03C1\u03BF\u03C6\u03AE \u03B3\u03CD\u03C1\u03C9
+      \u03B1\u03C0\u03CC \u03C4\u03BF\u03BD \u0389\u03BB\u03B9\u03BF \u03C3\u03B5
+      365 \u03BC\u03AD\u03C1\u03B5\u03C2, \u03B4\u03B7\u03BB\u03B1\u03B4\u03AE \u03C3\u03B5
+      \u03AD\u03BD\u03B1 \u03C7\u03C1\u03CC\u03BD\u03BF."
+  - Name: You know that the Earth revolves around itself. Do   you know how long
+      it takes to make a revolution around itself? Make a   hypothesis and then test
+      it.
+    Text: "\u038C\u03C0\u03C9\u03C2 \u03BE\u03AD\u03C1\u03B5\u03B9\u03C2 \u03B7 \u0393\u03B7
+      \u03C0\u03B5\u03C1\u03B9\u03C3\u03C4\u03C1\u03AD\u03C6\u03B5\u03C4\u03B1\u03B9
+      \u03B3\u03CD\u03C1\u03C9 \u03B1\u03C0\u03CC \u03C4\u03BF\u03BD \u03B5\u03B1\u03C5\u03C4\u03CC
+      \u03C4\u03B7\u03C2. \u039E\u03AD\u03C1\u03B5\u03B9\u03C2 \u03C3\u03B5 \u03C0\u03CC\u03C3\u03BF
+      \u03C7\u03C1\u03CC\u03BD\u03BF \u03BA\u03AC\u03BD\u03B5\u03B9 \u03BC\u03B9\u03B1
+      \u03C0\u03B5\u03C1\u03B9\u03C3\u03C4\u03C1\u03BF\u03C6\u03AE \u03B3\u03CD\u03C1\u03C9
+      \u03B1\u03C0\u03CC \u03C4\u03BF\u03BD \u03B5\u03B1\u03C5\u03C4\u03CC \u03C4\u03B7\u03C2;
+      \u039A\u03AC\u03BD\u03B5 \u03BC\u03B9\u03B1 \u03C5\u03C0\u03CC\u03B8\u03B5\u03C3\u03B7
+      \u03BA\u03B1\u03B9 \u03CD\u03C3\u03C4\u03B5\u03C1\u03B1 \u03AD\u03BB\u03B5\u03B3\u03BE\u03AD
+      \u03C4\u03B7\u03BD."
+  - Name: a. One year
+    Text: "\u03B1. \u0388\u03BD\u03B1 \u03C7\u03C1\u03CC\u03BD\u03BF"
+  - Name: b. 24 hours
+    Text: "\u03B2. 24 \u03CE\u03C1\u03B5\u03C2"
+  - Name: c. 365 days
+    Text: "\u03B3. 365 \u03BC\u03AD\u03C1\u03B5\u03C2"
+  - Name: Your hypothesis is not true. As the chronometer   showed, it takes 24 hours,
+      that is one day and one night, for the Earth to   complete a revolution around
+      itself.
+    Text: "\u0397 \u03C5\u03C0\u03CC\u03B8\u03B5\u03C3\u03AE \u03C3\u03BF\u03C5 \u03B4\u03B5\u03BD
+      \u03B5\u03AF\u03BD\u03B1\u03B9 \u03C3\u03C9\u03C3\u03C4\u03AE. \u038C\u03C0\u03C9\u03C2
+      \u03AD\u03B4\u03B5\u03B9\u03BE\u03B5 \u03C4\u03BF \u03C7\u03C1\u03BF\u03BD\u03CC\u03BC\u03B5\u03C4\u03C1\u03BF,
+      \u03C7\u03C1\u03B5\u03B9\u03AC\u03B6\u03BF\u03BD\u03C4\u03B1\u03B9 24 \u03CE\u03C1\u03B5\u03C2,
+      \u03B4\u03B7\u03BB\u03B1\u03B4\u03AE \u03BC\u03B9\u03B1 \u03BC\u03AD\u03C1\u03B1
+      \u03BA\u03B1\u03B9 \u03BC\u03B9\u03B1 \u03BD\u03CD\u03C7\u03C4\u03B1, \u03B3\u03B9\u03B1
+      \u03BD\u03B1 \u03BA\u03AC\u03BD\u03B5\u03B9 \u03B7 \u0393\u03B7 \u03BC\u03B9\u03B1
+      \u03C0\u03B5\u03C1\u03B9\u03C3\u03C4\u03C1\u03BF\u03C6\u03AE \u03B3\u03CD\u03C1\u03C9
+      \u03B1\u03C0\u03CC \u03C4\u03BF\u03BD \u03B5\u03B1\u03C5\u03C4\u03CC \u03C4\u03B7\u03C2."
+  - Name: Your hypothesis is true. As the chronometer showed, it takes 24   hours,
+      that is one day and a night, for the Earth to complete a revolution   around
+      itself.
+    Text: "\u0397 \u03C5\u03C0\u03CC\u03B8\u03B5\u03C3\u03AE \u03C3\u03BF\u03C5 \u03B5\u03AF\u03BD\u03B1\u03B9
+      \u03C3\u03C9\u03C3\u03C4\u03AE. \u038C\u03C0\u03C9\u03C2 \u03AD\u03B4\u03B5\u03B9\u03BE\u03B5
+      \u03C4\u03BF \u03C7\u03C1\u03BF\u03BD\u03CC\u03BC\u03B5\u03C4\u03C1\u03BF,
+      \u03C7\u03C1\u03B5\u03B9\u03AC\u03B6\u03BF\u03BD\u03C4\u03B1\u03B9 24 \u03CE\u03C1\u03B5\u03C2,
+      \u03B4\u03B7\u03BB\u03B1\u03B4\u03AE \u03BC\u03B9\u03B1 \u03BC\u03AD\u03C1\u03B1
+      \u03BA\u03B1\u03B9 \u03BC\u03B9\u03B1 \u03BD\u03CD\u03C7\u03C4\u03B1, \u03B3\u03B9\u03B1
+      \u03BD\u03B1 \u03BA\u03AC\u03BD\u03B5\u03B9 \u03B7 \u0393\u03B7 \u03BC\u03B9\u03B1
+      \u03C0\u03B5\u03C1\u03B9\u03C3\u03C4\u03C1\u03BF\u03C6\u03AE \u03B3\u03CD\u03C1\u03C9
+      \u03B1\u03C0\u03CC \u03C4\u03BF\u03BD \u03B5\u03B1\u03C5\u03C4\u03CC \u03C4\u03B7\u03C2."
+  - Name: "\u201CVery well. Continue if you like\u201D. It is day   January the 3rd
+      in this country. Make it day, March the 23rd for this country."
+    Text: "\u03A0\u03BF\u03BB\u03CD \u03C9\u03C1\u03B1\u03AF\u03B1! \u03A3\u03C5\u03BD\u03AD\u03C7\u03B9\u03C3\u03B5
+      \u03B1\u03BD \u03B8\u03AD\u03BB\u03B5\u03B9\u03C2. \u03A3\u03B5 \u03B1\u03C5\u03C4\u03AE\u03BD
+      \u03C4\u03B7\u03BD \u03C7\u03CE\u03C1\u03B1 \u03B5\u03AF\u03BD\u03B1\u03B9
+      \u03B7\u03BC\u03AD\u03C1\u03B1 3 \u0399\u03B1\u03BD\u03BF\u03C5\u03B1\u03C1\u03AF\u03BF\u03C5.
+      \u039A\u03AC\u03BD\u03B5 \u03BD\u03B1 \u03B3\u03AF\u03BD\u03B5\u03B9 \u03B7\u03BC\u03AD\u03C1\u03B1
+      23 \u039C\u03B1\u03C1\u03C4\u03AF\u03BF\u03C5 \u03C3\u03B5 \u03B1\u03C5\u03C4\u03AE\u03BD
+      \u03C4\u03B7\u03BD \u03C7\u03CE\u03C1\u03B1."
+  - Name: "\u201CVery   well. Continue if you like\u201D"
+    Text: "\u03A3\u2019 \u03B1\u03C5\u03C4\u03AE\u03BD \u03C4\u03B7\u03BD \u03C7\u03CE\u03C1\u03B1
+      \u03B5\u03AF\u03BD\u03B1\u03B9 \u03BD\u03CD\u03C7\u03C4\u03B1 3 \u0399\u03B1\u03BD\u03BF\u03C5\u03B1\u03C1\u03AF\u03BF\u03C5.
+      \u039A\u03AC\u03BD\u03B5 \u03BD\u03B1 \u03B5\u03AF\u03BD\u03B1\u03B9 \u03BC\u03AD\u03C1\u03B1
+      3 \u0399\u03B1\u03BD\u03BF\u03C5\u03B1\u03C1\u03AF\u03BF\u03C5 \u03C3\u2019
+      \u03B1\u03C5\u03C4\u03AE\u03BD \u03C4\u03B7\u03BD \u03C7\u03CE\u03C1\u03B1"
+  - Name: It is day March the 23st in this country. Make it night   July the 3rd
+    Text: "\u03A3\u0384\u03B1\u03C5\u03C4\u03AE\u03BD \u03C4\u03B7\u03BD \u03C7\u03CE\u03C1\u03B1
+      \u03B5\u03AF\u03BD\u03B1\u03B9 \u03B7\u03BC\u03AD\u03C1\u03B1 23 \u039C\u03B1\u03C1\u03C4\u03AF\u03BF\u03C5.
+      \u039A\u03AC\u03BD\u03B5 \u03BD\u03B1 \u03B3\u03AF\u03BD\u03B5\u03B9 \u03BD\u03CD\u03C7\u03C4\u03B1
+      3 \u03A3\u03B5\u03C0\u03C4\u03B5\u03BC\u03B2\u03C1\u03AF\u03BF\u03C5."
+  - Name: "Very well. Continue if you like\u201D. It is night   July the 3d in this
+      country. Make it day    September the 23d."
+    Text: "\u03A0\u03BF\u03BB\u03CD \u03BA\u03B1\u03BB\u03AC. \u03A3\u03C5\u03BD\u03AD\u03C7\u03B9\u03C3\u03B5
+      \u03B1\u03BD \u03B8\u03AD\u03BB\u03B5\u03B9\u03C2. \u03A3' \u03B1\u03C5\u03C4\u03AE\u03BD
+      \u03C4\u03B7\u03BD \u03C7\u03CE\u03C1\u03B1 \u03B5\u03AF\u03BD\u03B1\u03B9
+      \u03BD\u03CD\u03C7\u03C4\u03B1 3 \u0399\u03BF\u03C5\u03BB\u03AF\u03BF\u03C5.
+      \u039A\u03AC\u03BD\u03B5 \u03BD\u03B1 \u03B3\u03AF\u03BD\u03B5\u03B9 \u03B7\u03BC\u03AD\u03C1\u03B1
+      23 \u03A3\u03B5\u03C0\u03C4\u03B5\u03BC\u03B2\u03C1\u03AF\u03BF\u03C5."
+  - Name: Excellent. You know very well how day and night   come. It is day for the
+      side of the Earth that is illuminated from the Sun. But   as the Earth revolves
+      around itself this side is not illuminated anymore and night   comes. Imagine
+      that if the Earth stopped revolving around itself some places   would have
+      always day, while others would have night all the time.
+    Text: "\u0395\u03BE\u03B1\u03B9\u03C1\u03B5\u03C4\u03B9\u03BA\u03AC! \u039E\u03AD\u03C1\u03B5\u03B9\u03C2
+      \u03C0\u03BF\u03BB\u03CD \u03BA\u03B1\u03BB\u03AC \u03C0\u03CE\u03C2 \u03B3\u03AF\u03BD\u03B5\u03C4\u03B1\u03B9
+      \u03B7 \u03BD\u03CD\u03C7\u03C4\u03B1 \u03BA\u03B1\u03B9 \u03B7 \u03B7\u03BC\u03AD\u03C1\u03B1.
+      \u0395\u03AF\u03BD\u03B1\u03B9 \u03BC\u03AD\u03C1\u03B1 \u03C3\u03C4\u03B7\u03BD
+      \u03C0\u03BB\u03B5\u03C5\u03C1\u03AC \u03C4\u03B7\u03C2 \u0393\u03B7\u03C2
+      \u03C0\u03BF\u03C5 \u03C6\u03C9\u03C4\u03AF\u03B6\u03B5\u03C4\u03B1\u03B9 \u03B1\u03C0\u03CC
+      \u03C4\u03BF\u03BD \u0389\u03BB\u03B9\u03BF. \u0391\u03BB\u03BB\u03AC \u03AD\u03C4\u03C3\u03B9
+      \u03CC\u03C0\u03C9\u03C2 \u03B7 \u0393\u03B7 \u03C0\u03B5\u03C1\u03B9\u03C3\u03C4\u03C1\u03AD\u03C6\u03B5\u03C4\u03B1\u03B9
+      \u03B3\u03CD\u03C1\u03C9 \u03B1\u03C0\u03CC \u03C4\u03BF\u03BD \u03B5\u03B1\u03C5\u03C4\u03CC
+      \u03C4\u03B7\u03C2, \u03B1\u03C5\u03C4\u03AE \u03B7 \u03C0\u03BB\u03B5\u03C5\u03C1\u03AC
+      \u03B4\u03B5\u03BD \u03C6\u03C9\u03C4\u03AF\u03B6\u03B5\u03C4\u03B1\u03B9 \u03C0\u03BB\u03AD\u03BF\u03BD
+      \u03BA\u03B1\u03B9 \u03BD\u03C5\u03C7\u03C4\u03CE\u03BD\u03B5\u03B9. \u03A6\u03B1\u03BD\u03C4\u03AC\u03C3\u03BF\u03C5
+      \u03CC\u03C4\u03B9 \u03B1\u03BD \u03B7 \u0393\u03B7 \u03C3\u03C4\u03B1\u03BC\u03B1\u03C4\u03BF\u03CD\u03C3\u03B5
+      \u03BD\u03B1 \u03C0\u03B5\u03C1\u03B9\u03C3\u03C4\u03C1\u03AD\u03C6\u03B5\u03C4\u03B1\u03B9
+      \u03B3\u03CD\u03C1\u03C9 \u03B1\u03C0\u03CC \u03C4\u03BF\u03BD \u03B5\u03B1\u03C5\u03C4\u03CC
+      \u03C4\u03B7\u03C2 \u03BA\u03AC\u03C0\u03BF\u03B9\u03B1 \u03BC\u03AD\u03C1\u03B7
+      \u03C4\u03B7\u03C2 \u0393\u03B7\u03C2 \u03B8\u03B1 \u03B5\u03AF\u03C7\u03B1\u03BD
+      \u03C0\u03AC\u03BD\u03C4\u03BF\u03C4\u03B5 \u03B7\u03BC\u03AD\u03C1\u03B1 \u03BA\u03B1\u03B9
+      \u03BA\u03AC\u03C0\u03BF\u03B9\u03B1 \u03AC\u03BB\u03BB\u03B1 \u03B8\u03B1
+      \u03B5\u03AF\u03C7\u03B1\u03BD  \u03C0\u03AC\u03BD\u03C4\u03BF\u03C4\u03B5
+      \u03BD\u03CD\u03C7\u03C4\u03B1."
+  - Name: Scenario 3
+    Text: 
+  - Name: English
+    Text: Greek
+  - Name: 'SCENARIO 3: GRAVITY'
+    Text: "\u03A3\u0395\u039D\u0391\u03A1\u0399\u039F 3: \u0392\u0391\u03A1\u03A5\u03A4\u0397\u03A4\u0391"
+  - Name: '(Scene A) The effect of gravity on a satellite: The force of gravity becomes
+      zero'
+    Text: "\u0397 \u03B5\u03C0\u03AF\u03B4\u03C1\u03B1\u03C3\u03B7 \u03C4\u03B7\u03C2
+      \u03B2\u03B1\u03C1\u03CD\u03C4\u03B7\u03C4\u03B1\u03C2 \u03C3\u03B5 \u03AD\u03BD\u03B1\u03BD
+      \u03B4\u03BF\u03C1\u03C5\u03C6\u03CC\u03C1\u03BF: \u0397 \u03B4\u03CD\u03BD\u03B1\u03BC\u03B7
+      \u03C4\u03B7\u03C2 \u03B2\u03B1\u03C1\u03CD\u03C4\u03B7\u03C4\u03B1\u03C2 \u03B3\u03AF\u03BD\u03B5\u03C4\u03B1\u03B9
+      \u03BC\u03B7\u03B4\u03AD\u03BD"
+  - Name: "(Scene B) The effect of velocity on satellite\u2019s orbit: The velocity
+      becomes zero"
+    Text: "\u0397 \u03B5\u03C0\u03AF\u03B4\u03C1\u03B1\u03C3\u03B7 \u03C4\u03B7\u03C2
+      \u03C4\u03B1\u03C7\u03CD\u03C4\u03B7\u03C4\u03B1\u03C2 \u03C3\u03C4\u03B7\u03BD
+      \u03C4\u03C1\u03BF\u03C7\u03B9\u03AC \u03C4\u03BF\u03C5 \u03B4\u03BF\u03C1\u03C5\u03C6\u03CC\u03C1\u03BF\u03C5.
+      \u0397 \u03C4\u03B1\u03C7\u03CD\u03C4\u03B7\u03C4\u03B1 \u03B3\u03AF\u03BD\u03B5\u03C4\u03B1\u03B9
+      \u03BC\u03B7\u03B4\u03AD\u03BD"
+  - Name: (Scene C) Orbit and velocity
+    Text: "\u03A4\u03C1\u03BF\u03C7\u03B9\u03AC \u03BA\u03B1\u03B9 \u03C4\u03B1\u03C7\u03CD\u03C4\u03B7\u03C4\u03B1"
+  - Name: View from the satellite on/off
+    Text: "\u0398\u03AD\u03B1 \u03B1\u03C0\u03CC \u03C4\u03BF\u03BD \u03B4\u03BF\u03C1\u03C5\u03C6\u03CC\u03C1\u03BF
+      \u03BD\u03B1\u03B9/\u03CC\u03C7\u03B9"
+  - Name: Gravity on/off
+    Text: "\u0392\u03B1\u03C1\u03CD\u03C4\u03B7\u03C4\u03B1 \u03BD\u03B1\u03B9/\u03CC\u03C7\u03B9"
+  - Name: Remember that the force of gravity attracts the   satellite and makes it
+      revolve around the Earth. What would happen to the satellite   if the force
+      of gravity stopped? Make a hypothesis and test it.
+    Text: "\u0398\u03C5\u03BC\u03AE\u03C3\u03BF\u03C5 \u03CC\u03C4\u03B9 \u03B7 \u03B4\u03CD\u03BD\u03B1\u03BC\u03B7
+      \u03C4\u03B7\u03C2 \u03B2\u03B1\u03C1\u03CD\u03C4\u03B7\u03C4\u03B1\u03C2 \u03AD\u03BB\u03BA\u03B5\u03B9
+      \u03C4\u03BF\u03BD \u03B4\u03BF\u03C1\u03C5\u03C6\u03CC\u03C1\u03BF \u03BA\u03B1\u03B9
+      \u03C4\u03BF\u03BD \u03BA\u03AC\u03BD\u03B5\u03B9 \u03BD\u03B1 \u03BA\u03B9\u03BD\u03B5\u03AF\u03C4\u03B1\u03B9
+      \u03B3\u03CD\u03C1\u03C9 \u03B1\u03C0\u03CC \u03C4\u03B7 \u0393\u03B7. \u03A4\u03B9
+      \u03B8\u03B1 \u03C3\u03C5\u03BD\u03AD\u03B2\u03B1\u03B9\u03BD\u03B5 \u03C3\u03C4\u03BF\u03BD
+      \u03B4\u03BF\u03C1\u03C5\u03C6\u03CC\u03C1\u03BF \u03B1\u03BD \u03B7 \u03B4\u03CD\u03BD\u03B1\u03BC\u03B7
+      \u03C4\u03B7\u03C2 \u03B2\u03B1\u03C1\u03CD\u03C4\u03B7\u03C4\u03B1\u03C2 \u03C3\u03C4\u03B1\u03BC\u03B1\u03C4\u03BF\u03CD\u03C3\u03B5;
+      \u039A\u03AC\u03BD\u03B5 \u03BC\u03B9\u03B1 \u03C5\u03C0\u03CC\u03B8\u03B5\u03C3\u03B7
+      \u03BA\u03B1\u03B9 \u03AD\u03BB\u03B5\u03B3\u03BE\u03AD \u03C4\u03B7\u03BD."
+  - Name: 1.The satellite would fall on the earth
+    Text: "1. \u039F \u03B4\u03BF\u03C1\u03C5\u03C6\u03CC\u03C1\u03BF\u03C2 \u03B8\u03B1
+      \u03AD\u03C0\u03B5\u03C6\u03C4\u03B5 \u03C3\u03C4\u03B7 \u0393\u03B7."
+  - Name: 2.The satellite would continue moving on a straight line
+    Text: "2. \u039F \u03B4\u03BF\u03C1\u03C5\u03C6\u03CC\u03C1\u03BF\u03C2 \u03B8\u03B1
+      \u03C3\u03C5\u03BD\u03AD\u03C7\u03B9\u03B6\u03B5 \u03BD\u03B1 \u03BA\u03B9\u03BD\u03B5\u03AF\u03C4\u03B1\u03B9
+      \u03C3\u03B5 \u03B5\u03C5\u03B8\u03B5\u03AF\u03B1 \u03B3\u03C1\u03B1\u03BC\u03BC\u03AE"
+  - Name: 3. The satellite would fall down
+    Text: "3. \u039F \u03B4\u03BF\u03C1\u03C5\u03C6\u03CC\u03C1\u03BF\u03C2 \u03B8\u03B1
+      \u03AD\u03C0\u03B5\u03C6\u03C4\u03B5 \u03BA\u03AC\u03C4\u03C9"
+  - Name: 4.The satellite would continue   moving on a curved line
+    Text: "4. \u039F \u03B4\u03BF\u03C1\u03C5\u03C6\u03CC\u03C1\u03BF\u03C2 \u03B8\u03B1
+      \u03C3\u03C5\u03BD\u03AD\u03C7\u03B9\u03B6\u03B5 \u03BD\u03B1 \u03BA\u03B9\u03BD\u03B5\u03AF\u03C4\u03B1\u03B9
+      \u03C3\u03B5 \u03BA\u03B1\u03BC\u03C0\u03CD\u03BB\u03B7 \u03B3\u03C1\u03B1\u03BC\u03BC\u03AE"
+  - Name: 'Fine. Now test your hypothesis: Put the gravity off   and watch the result.'
+    Text: "\u03A9\u03C1\u03B1\u03AF\u03B1. \u03A4\u03CE\u03C1\u03B1 \u03AD\u03BB\u03B5\u03B3\u03BE\u03B5
+      \u03C4\u03B7\u03BD \u03C5\u03C0\u03CC\u03B8\u03B5\u03C3\u03AE \u03C3\u03BF\u03C5:
+      \u039A\u03AC\u03BD\u03B5 \u03C4\u03B7 \u03B2\u03B1\u03C1\u03CD\u03C4\u03B7\u03C4\u03B1
+      \u03BD\u03B1 \u03C3\u03C4\u03B1\u03BC\u03B1\u03C4\u03AE\u03C3\u03B5\u03B9 \u03BA\u03B1\u03B9
+      \u03B4\u03B5\u03C2 \u03C4\u03B9 \u03B8\u03B1 \u03C3\u03C5\u03BC\u03B2\u03B5\u03AF."
+  - Name: Your hypothesis is not true. If we could stop the   force of gravity, the
+      satellite would continue moving on a straight line. This   would happen because
+      there would be nothing to change its motion.
+    Text: "\u0397 \u03C5\u03C0\u03CC\u03B8\u03B5\u03C3\u03AE \u03C3\u03BF\u03C5 \u03B4\u03B5\u03BD
+      \u03B5\u03AF\u03BD\u03B1\u03B9 \u03C3\u03C9\u03C3\u03C4\u03AE. \u0391\u03BD
+      \u03BC\u03C0\u03BF\u03C1\u03BF\u03CD\u03C3\u03B1\u03BC\u03B5 \u03BD\u03B1 \u03C3\u03C4\u03B1\u03BC\u03B1\u03C4\u03AE\u03C3\u03BF\u03C5\u03BC\u03B5
+      \u03C4\u03B7 \u03B4\u03CD\u03BD\u03B1\u03BC\u03B7 \u03C4\u03B7\u03C2 \u03B2\u03B1\u03C1\u03CD\u03C4\u03B7\u03C4\u03B1\u03C2,
+      \u03BF \u03B4\u03BF\u03C1\u03C5\u03C6\u03CC\u03C1\u03BF\u03C2 \u03B8\u03B1
+      \u03C3\u03C5\u03BD\u03AD\u03C7\u03B9\u03B6\u03B5 \u03BD\u03B1 \u03BA\u03B9\u03BD\u03B5\u03AF\u03C4\u03B1\u03B9
+      \u03C3\u03B5 \u03B5\u03C5\u03B8\u03B5\u03AF\u03B1 \u03B3\u03C1\u03B1\u03BC\u03BC\u03AE.
+      \u0391\u03C5\u03C4\u03CC \u03B8\u03B1 \u03C3\u03C5\u03BD\u03AD\u03B2\u03B1\u03B9\u03BD\u03B5
+      \u03B3\u03B9\u03B1\u03C4\u03AF \u03B4\u03B5\u03BD \u03B8\u03B1 \u03C5\u03C0\u03AE\u03C1\u03C7\u03B5
+      \u03C4\u03AF\u03C0\u03BF\u03C4\u03B5 \u03BD\u03B1 \u03B1\u03BB\u03BB\u03AC\u03BE\u03B5\u03B9
+      \u03C4\u03B7\u03BD \u03BA\u03AF\u03BD\u03B7\u03C3\u03AE \u03C4\u03BF\u03C5."
+  - Name: Excellent! Your hypothesis is true. If we could   stop the force of gravity,
+      the satellite would continue moving on a straight   line, because there would
+      be nothing to change its motion.
+    Text: "\u0395\u03BE\u03B1\u03B9\u03C1\u03B5\u03C4\u03B9\u03BA\u03AC! \u0397 \u03C5\u03C0\u03CC\u03B8\u03B5\u03C3\u03AE
+      \u03C3\u03BF\u03C5 \u03B5\u03AF\u03BD\u03B1\u03B9 \u03C3\u03C9\u03C3\u03C4\u03AE.
+      \u0391\u03BD \u03BC\u03C0\u03BF\u03C1\u03BF\u03CD\u03C3\u03B1\u03BC\u03B5 \u03BD\u03B1
+      \u03C3\u03C4\u03B1\u03BC\u03B1\u03C4\u03AE\u03C3\u03BF\u03C5\u03BC\u03B5 \u03C4\u03B7
+      \u03B4\u03CD\u03BD\u03B1\u03BC\u03B7 \u03C4\u03B7\u03C2 \u03B2\u03B1\u03C1\u03CD\u03C4\u03B7\u03C4\u03B1\u03C2,
+      \u03BF \u03B4\u03BF\u03C1\u03C5\u03C6\u03CC\u03C1\u03BF\u03C2 \u03B8\u03B1
+      \u03C3\u03C5\u03BD\u03AD\u03C7\u03B9\u03B6\u03B5 \u03BD\u03B1 \u03BA\u03B9\u03BD\u03B5\u03AF\u03C4\u03B1\u03B9
+      \u03C3\u03B5 \u03B5\u03C5\u03B8\u03B5\u03AF\u03B1 \u03B3\u03C1\u03B1\u03BC\u03BC\u03AE.
+      \u0391\u03C5\u03C4\u03CC \u03B8\u03B1 \u03C3\u03C5\u03BD\u03AD\u03B2\u03B1\u03B9\u03BD\u03B5
+      \u03B3\u03B9\u03B1\u03C4\u03AF \u03B4\u03B5\u03BD \u03B8\u03B1 \u03C5\u03C0\u03AE\u03C1\u03C7\u03B5
+      \u03C4\u03AF\u03C0\u03BF\u03C4\u03B5 \u03BD\u03B1 \u03B1\u03BB\u03BB\u03AC\u03BE\u03B5\u03B9
+      \u03C4\u03B7\u03BD \u03BA\u03AF\u03BD\u03B7\u03C3\u03AE \u03C4\u03BF\u03C5."
+  - Name: You can see the earth as if you were in the satellite.   Put gravity off
+      at different points and watch from the window of the satellite.
+    Text: "\u039C\u03C0\u03BF\u03C1\u03B5\u03AF\u03C2 \u03BD\u03B1 \u03B4\u03B5\u03B9\u03C2
+      \u03C4\u03B7 \u0393\u03B7 \u03C3\u03B1\u03BD \u03BD\u03B1 \u03B2\u03C1\u03B9\u03C3\u03BA\u03CC\u03C3\u03BF\u03C5\u03BD
+      \u03BC\u03AD\u03C3\u03B1 \u03C3\u03C4\u03BF \u03B4\u03BF\u03C1\u03C5\u03C6\u03CC\u03C1\u03BF.
+      \u039A\u03AC\u03BD\u03B5 \u03BD\u03B1 \u03C3\u03C4\u03B1\u03BC\u03B1\u03C4\u03AE\u03C3\u03B5\u03B9
+      \u03B7 \u03B2\u03B1\u03C1\u03CD\u03C4\u03B7\u03C4\u03B1 \u03C3\u03B5 \u03B4\u03B9\u03B1\u03C6\u03BF\u03C1\u03B5\u03C4\u03B9\u03BA\u03AC
+      \u03C3\u03B7\u03BC\u03B5\u03AF\u03B1 \u03C4\u03B7\u03C2 \u03C4\u03C1\u03BF\u03C7\u03B9\u03AC\u03C2
+      \u03BA\u03B1\u03B9 \u03BA\u03BF\u03AF\u03C4\u03B1\u03BE\u03B5 \u03B1\u03C0\u03CC
+      \u03C4\u03BF  \u03C0\u03B1\u03C1\u03AC\u03B8\u03C5\u03C1\u03BF \u03C4\u03BF\u03C5
+      \u03B4\u03BF\u03C1\u03C5\u03C6\u03CC\u03C1\u03BF\u03C5."
+  - Name: velocity on/off
+    Text: "\u03C4\u03B1\u03C7\u03CD\u03C4\u03B7\u03C4\u03B1 \u03BD\u03B1\u03B9/\u03CC\u03C7\u03B9"
+  - Name: Remember that the satellite revolves around the   Earth with a certain
+      velocity. What would happen to the satellite if, for some   reason, the satellite
+      stopped? Make a hypothesis and test it.
+    Text: "\u0398\u03C5\u03BC\u03AE\u03C3\u03BF\u03C5 \u03CC\u03C4\u03B9 \u03BF \u03B4\u03BF\u03C1\u03C5\u03C6\u03CC\u03C1\u03BF\u03C2
+      \u03C0\u03B5\u03C1\u03B9\u03C3\u03C4\u03C1\u03AD\u03C6\u03B5\u03C4\u03B1\u03B9
+      \u03B3\u03CD\u03C1\u03C9 \u03B1\u03C0\u03CC \u03C4\u03B7 \u0393\u03B7 \u03BC\u03B5
+      \u03BA\u03AC\u03C0\u03BF\u03B9\u03B1 \u03C3\u03C5\u03B3\u03BA\u03B5\u03BA\u03C1\u03B9\u03BC\u03AD\u03BD\u03B7
+      \u03C4\u03B1\u03C7\u03CD\u03C4\u03B7\u03C4\u03B1. \u03A4\u03B9 \u03B8\u03B1
+      \u03C3\u03C5\u03BD\u03AD\u03B2\u03B1\u03B9\u03BD\u03B5 \u03C3\u03C4\u03BF\u03BD
+      \u03B4\u03BF\u03C1\u03C5\u03C6\u03CC\u03C1\u03BF \u03B1\u03BD, \u03B3\u03B9\u03B1
+      \u03BA\u03AC\u03C0\u03BF\u03B9\u03BF \u03BB\u03CC\u03B3\u03BF, \u03BF \u03B4\u03BF\u03C1\u03C5\u03C6\u03CC\u03C1\u03BF\u03C2
+      \u03C3\u03C4\u03B1\u03BC\u03B1\u03C4\u03BF\u03CD\u03C3\u03B5; \u039A\u03AC\u03BD\u03B5
+      \u03BC\u03B9\u03B1 \u03C5\u03C0\u03CC\u03B8\u03B5\u03C3\u03B7 \u03BA\u03B1\u03B9
+      \u03AD\u03BB\u03B5\u03B3\u03BE\u03AD \u03C4\u03B7\u03BD."
+  - Name: 1.The satellite would fall on the earth
+    Text: "1. \u039F \u03B4\u03BF\u03C1\u03C5\u03C6\u03CC\u03C1\u03BF\u03C2 \u03B8\u03B1
+      \u03AD\u03C0\u03B5\u03C6\u03C4\u03B5 \u03C3\u03C4\u03B7 \u0393\u03B7."
+  - Name: 2.The satellite would continue moving on a straight line
+    Text: "2. \u039F \u03B4\u03BF\u03C1\u03C5\u03C6\u03CC\u03C1\u03BF\u03C2 \u03B8\u03B1
+      \u03C3\u03C5\u03BD\u03AD\u03C7\u03B9\u03B6\u03B5 \u03BD\u03B1 \u03BA\u03B9\u03BD\u03B5\u03AF\u03C4\u03B1\u03B9
+      \u03C3\u03B5 \u03B5\u03C5\u03B8\u03B5\u03AF\u03B1 \u03B3\u03C1\u03B1\u03BC\u03BC\u03AE"
+  - Name: 3.The satellite would fall down
+    Text: "3. \u039F \u03B4\u03BF\u03C1\u03C5\u03C6\u03CC\u03C1\u03BF\u03C2 \u03B8\u03B1
+      \u03AD\u03C0\u03B5\u03C6\u03C4\u03B5 \u03BA\u03AC\u03C4\u03C9"
+  - Name: 4.The satellite would continue moving on a curved line
+    Text: "4. \u039F \u03B4\u03BF\u03C1\u03C5\u03C6\u03CC\u03C1\u03BF\u03C2 \u03B8\u03B1
+      \u03C3\u03C5\u03BD\u03AD\u03C7\u03B9\u03B6\u03B5 \u03BD\u03B1 \u03BA\u03B9\u03BD\u03B5\u03AF\u03C4\u03B1\u03B9
+      \u03C3\u03B5 \u03BA\u03B1\u03BC\u03C0\u03CD\u03BB\u03B7 \u03B3\u03C1\u03B1\u03BC\u03BC\u03AE"
+  - Name: 5.The satellite would stay at this point away from the earth
+    Text: "5. \u039F \u03B4\u03BF\u03C1\u03C5\u03C6\u03CC\u03C1\u03BF\u03C2 \u03B8\u03B1
+      \u03AD\u03BC\u03B5\u03BD\u03B5 \u03C3\u03B5 \u03B5\u03BA\u03B5\u03AF\u03BD\u03BF
+      \u03C4\u03BF \u03C3\u03B7\u03BC\u03B5\u03AF\u03BF \u03BC\u03B1\u03BA\u03C1\u03B9\u03AC
+      \u03B1\u03C0\u03CC \u03C4\u03B7 \u0393\u03B7"
+  - Name: 'Fine. Now test your hypothesis: Put the velocity off   and watch the result.'
+    Text: "\u03A9\u03C1\u03B1\u03AF\u03B1! \u03A4\u03CE\u03C1\u03B1 \u03AD\u03BB\u03B5\u03B3\u03BE\u03B5
+      \u03C4\u03B7\u03BD \u03C5\u03C0\u03CC\u03B8\u03B5\u03C3\u03AE \u03C3\u03BF\u03C5:
+      \u039A\u03AC\u03BD\u03B5 \u03BD\u03B1 \u03BC\u03B7\u03BD \u03AD\u03C7\u03B5\u03B9
+      \u03C4\u03B1\u03C7\u03CD\u03C4\u03B7\u03C4\u03B1 \u03BF \u03B4\u03BF\u03C1\u03C5\u03C6\u03CC\u03C1\u03BF\u03C2
+      \u03BA\u03B1\u03B9 \u03B4\u03B5\u03C2 \u03C4\u03B9 \u03B8\u03B1 \u03C3\u03C5\u03BC\u03B2\u03B5\u03AF."
+  - Name: Your hypothesis is not true. The force of gravity   still attracts the
+      satellite even if the satellite stops. That is why the   satellite falls towards
+      the center of the earth.
+    Text: "\u0397 \u03C5\u03C0\u03CC\u03B8\u03B5\u03C3\u03AE \u03C3\u03BF\u03C5 \u03B4\u03B5\u03BD
+      \u03B5\u03AF\u03BD\u03B1\u03B9 \u03C3\u03C9\u03C3\u03C4\u03AE \u03B4\u03CD\u03BD\u03B1\u03BC\u03B7
+      \u03C4\u03B7\u03C2 \u03B2\u03B1\u03C1\u03CD\u03C4\u03B7\u03C4\u03B1\u03C2 \u03C3\u03C5\u03BD\u03B5\u03C7\u03AF\u03B6\u03B5\u03B9
+      \u03BD\u03B1 \u03AD\u03BB\u03BA\u03B5\u03B9 \u03C4\u03BF\u03BD \u03B4\u03BF\u03C1\u03C5\u03C6\u03CC\u03C1\u03BF
+      \u03B1\u03BA\u03CC\u03BC\u03B7 \u03BA\u03B9 \u03CC\u03C4\u03B1\u03BD \u03B1\u03C5\u03C4\u03CC\u03C2
+      \u03C3\u03C4\u03B1\u03BC\u03B1\u03C4\u03AE\u03C3\u03B5\u03B9. \u0393\u03B9\u2019
+      \u03B1\u03C5\u03C4\u03CC \u03BF \u03B4\u03BF\u03C1\u03C5\u03C6\u03CC\u03C1\u03BF\u03C2
+      \u03C0\u03AD\u03C6\u03C4\u03B5\u03B9 \u03C0\u03C1\u03BF\u03C2 \u03C4\u03BF
+      \u03BA\u03AD\u03BD\u03C4\u03C1\u03BF \u03C4\u03B7\u03C2 \u0393\u03B7\u03C2."
+  - Name: Excellent! Your hypothesis proved true. If the   satellite stops, then
+      the force of gravity would attract (pull) it towards the   center of the earth.
+    Text: "\u0395\u03BE\u03B1\u03B9\u03C1\u03B5\u03C4\u03B9\u03BA\u03AC! \u0397 \u03C5\u03C0\u03CC\u03B8\u03B5\u03C3\u03AE
+      \u03C3\u03BF\u03C5 \u03B5\u03AF\u03BD\u03B1\u03B9 \u03C3\u03C9\u03C3\u03C4\u03AE.
+      \u0391\u03BD \u03C3\u03C4\u03B1\u03BC\u03B1\u03C4\u03AE\u03C3\u03B5\u03B9 \u03BF
+      \u03B4\u03BF\u03C1\u03C5\u03C6\u03CC\u03C1\u03BF\u03C2 \u03B7 \u03B4\u03CD\u03BD\u03B1\u03BC\u03B7
+      \u03C4\u03B7\u03C2 \u03B2\u03B1\u03C1\u03CD\u03C4\u03B7\u03C4\u03B1\u03C2 \u03B8\u03B1
+      \u03C4\u03BF\u03BD \u03AD\u03BB\u03BE\u03B5\u03B9 (\u03C4\u03C1\u03B1\u03B2\u03AE\u03BE\u03B5\u03B9)
+      \u03C0\u03C1\u03BF\u03C2 \u03C4\u03BF \u03BA\u03AD\u03BD\u03C4\u03C1\u03BF
+      \u03C4\u03B7\u03C2 \u0393\u03B7\u03C2."
+  - Name: "The hero of our fairy tale said to the engineer of the ship that even
+      if the satellite was above the \u201Cdown side\u201D of the Earth, and stopped
+      for some reason, it would move towards the Earth and it would fall on the ground
+      \u03BFn the same side\u201D. Can you test his hypothesis? Is it true? Look
+      from the window of the satellite."
+    Text: "\u039F \u03AE\u03C1\u03C9\u03B1\u03C2 \u03C4\u03BF\u03C5 \u03C0\u03B1\u03C1\u03B1\u03BC\u03C5\u03B8\u03B9\u03BF\u03CD
+      \u03B5\u03AF\u03C0\u03B5 \u03C3\u03C4\u03BF\u03BD \u03BC\u03B7\u03C7\u03B1\u03BD\u03B9\u03BA\u03CC
+      \u03C4\u03BF\u03C5 \u03C0\u03BB\u03BF\u03AF\u03BF\u03C5 \u03CC\u03C4\u03B9
+      \u03B1\u03BA\u03CC\u03BC\u03B7 \u03BA\u03B9 \u03B1\u03BD \u03BF \u03B4\u03BF\u03C1\u03C5\u03C6\u03CC\u03C1\u03BF\u03C2
+      \u03AE\u03C4\u03B1\u03BD \u03C3\u03C4\u03BF  \"\u03BA\u03AC\u03C4\u03C9 \u03BC\u03AD\u03C1\u03BF\u03C2\"
+      \u03C4\u03B7\u03C2 \u0393\u03B7\u03C2, \u03BA\u03B1\u03B9 \u03B3\u03B9\u03B1
+      \u03BA\u03AC\u03C0\u03BF\u03B9\u03BF \u03BB\u03CC\u03B3\u03BF \u03C3\u03C4\u03B1\u03BC\u03B1\u03C4\u03BF\u03CD\u03C3\u03B5,
+      \u03B8\u03B1 \u03C0\u03AE\u03B3\u03B1\u03B9\u03BD\u03B5 \u03C0\u03C1\u03BF\u03C2
+      \u03C4\u03B7 \u0393\u03B7 \u03BA\u03B1\u03B9 \u03B8\u03B1 \u03AD\u03C0\u03B5\u03C6\u03C4\u03B5
+      \u03C3\u03C4\u03BF \u03AD\u03B4\u03B1\u03C6\u03BF\u03C2 \u03C3\u03C4\u03B7\u03BD
+      \u03AF\u03B4\u03B9\u03B1 \u03C0\u03BB\u03B5\u03C5\u03C1\u03AC. \u039C\u03C0\u03BF\u03C1\u03B5\u03AF\u03C2
+      \u03BD\u03B1 \u03B5\u03BB\u03AD\u03B3\u03BE\u03B5\u03B9\u03C2 \u03C4\u03B7\u03BD
+      \u03C5\u03C0\u03CC\u03B8\u03B5\u03C3\u03AE \u03C4\u03BF\u03C5; \u0395\u03AF\u03BD\u03B1\u03B9
+      \u03C3\u03C9\u03C3\u03C4\u03AE; \u039A\u03BF\u03AF\u03C4\u03B1\u03BE\u03B5
+      \u03B1\u03C0\u03CC \u03C4\u03BF \u03C0\u03B1\u03C1\u03AC\u03B8\u03C5\u03C1\u03BF
+      \u03C4\u03BF\u03C5 \u03B4\u03BF\u03C1\u03C5\u03C6\u03CC\u03C1\u03BF\u03C5."
+  - Name: "You can see that the satellite would fall on the \u201Cdown   side\u201D
+      of the Earth. Yiannis was right! It seems strange to us but in this case  
+      to \u201Cfall down\u201D means to move upwards. Remember that always to fall
+      \u201Cdown\u201D means   to move towards the center of the \u0395arth, due
+      to earth\u2019s attraction. And to go   \u201Cup\u201D means to move away from
+      the \u0395arth."
+    Text: "\u038C\u03C0\u03C9\u03C2 \u03BC\u03C0\u03BF\u03C1\u03B5\u03AF\u03C2 \u03BD\u03B1
+      \u03B4\u03B5\u03B9\u03C2 \u03BF \u03B4\u03BF\u03C1\u03C5\u03C6\u03CC\u03C1\u03BF\u03C2
+      \u03B8\u03B1 \u03AD\u03C0\u03B5\u03C6\u03C4\u03B5 \u03C3\u03C4\u03B7\u03BD
+      \"\u03BA\u03AC\u03C4\u03C9 \u03C0\u03BB\u03B5\u03C5\u03C1\u03AC\" \u03C4\u03B7\u03C2
+      \u0393\u03B7\u03C2. \u039F \u0393\u03B9\u03AC\u03BD\u03BD\u03B7\u03C2 \u03B5\u03AF\u03C7\u03B5
+      \u03B4\u03AF\u03BA\u03B9\u03BF! \u039C\u03B1\u03C2 \u03C6\u03B1\u03AF\u03BD\u03B5\u03C4\u03B1\u03B9
+      \u03C0\u03B1\u03C1\u03AC\u03BE\u03B5\u03BD\u03BF \u03B1\u03BB\u03BB\u03AC \u03C3'
+      \u03B1\u03C5\u03C4\u03AE\u03BD \u03C4\u03B7\u03BD \u03C0\u03B5\u03C1\u03AF\u03C0\u03C4\u03C9\u03C3\u03B7
+      \u03C4\u03BF \u03BD\u03B1 \"\u03C0\u03AD\u03C3\u03B5\u03B9 \u03BA\u03AC\u03C4\u03C9\"
+      \u03C3\u03B7\u03BC\u03B1\u03AF\u03BD\u03B5\u03B9 \u03BD\u03B1 \u03BA\u03B9\u03BD\u03B7\u03B8\u03B5\u03AF
+      \u03C0\u03C1\u03BF\u03C2 \u03C4\u03B1 \u03B5\u03C0\u03AC\u03BD\u03C9. \u0398\u03C5\u03BC\u03AE\u03C3\u03BF\u03C5
+      \u03CC\u03C4\u03B9 \u03C0\u03AC\u03BD\u03C4\u03BF\u03C4\u03B5 \u03C4\u03BF
+      \u03BD\u03B1 \"\u03C0\u03AD\u03C3\u03B5\u03B9 \u03BA\u03AC\u03C4\u03C9\" \u03AD\u03BD\u03B1
+      \u03C0\u03C1\u03AC\u03B3\u03BC\u03B1 \u03C3\u03B7\u03BC\u03B1\u03AF\u03BD\u03B5\u03B9
+      \u03BD\u03B1 \u03BA\u03B9\u03BD\u03B7\u03B8\u03B5\u03AF \u03C0\u03C1\u03BF\u03C2
+      \u03C4\u03BF \u03BA\u03AD\u03BD\u03C4\u03C1\u03BF \u03C4\u03B7\u03C2 \u0393\u03B7\u03C2,
+      \u03B5\u03BE\u03B1\u03B9\u03C4\u03AF\u03B1\u03C2 \u03C4\u03B7\u03C2 \u03AD\u03BB\u03BE\u03B7\u03C2
+      \u03C4\u03B7\u03C2 \u0393\u03B7\u03C2. \u039A\u03B1\u03B9 \u03C4\u03BF \u03BD\u03B1
+      \u03C0\u03AC\u03B5\u03B9 \"\u03B5\u03C0\u03AC\u03BD\u03C9\" \u03C3\u03B7\u03BC\u03B1\u03AF\u03BD\u03B5\u03B9
+      \u03BD\u03B1 \u03BA\u03B9\u03BD\u03B7\u03B8\u03B5\u03AF \u03BC\u03B1\u03BA\u03C1\u03B9\u03AC
+      \u03B1\u03C0\u03CC \u03C4\u03B7 \u0393\u03B7."
+  - Name: satellite velocity
+    Text: "\u03C4\u03B1\u03C7\u03CD\u03C4\u03B7\u03C4\u03B1 \u03C4\u03BF\u03C5 \u03B4\u03BF\u03C1\u03C5\u03C6\u03CC\u03C1\u03BF\u03C5"
+  - Name: Put the satellite on an orbit around the Earth.   Choose the right velocity
+      for each orbit.
+    Text: "\u0392\u03AC\u03BB\u03B5 \u03C4\u03BF\u03BD \u03B4\u03BF\u03C1\u03C5\u03C6\u03CC\u03C1\u03BF
+      \u03C3\u03B5 \u03C4\u03C1\u03BF\u03C7\u03B9\u03AC \u03B3\u03CD\u03C1\u03C9
+      \u03B1\u03C0\u03CC \u03C4\u03B7 \u0393\u03B7. \u0394\u03B9\u03AC\u03BB\u03B5\u03BE\u03B5
+      \u03C4\u03B7\u03BD \u03BA\u03B1\u03C4\u03AC\u03BB\u03BB\u03B7\u03BB\u03B7 \u03C4\u03B1\u03C7\u03CD\u03C4\u03B7\u03C4\u03B1
+      \u03B3\u03B9\u03B1 \u03BA\u03AC\u03B8\u03B5 \u03C4\u03C1\u03BF\u03C7\u03B9\u03AC."
+  - Name: 'Now that you have put the satellite on the three different orbits , can
+      you tell which of the following is true:'
+    Text: "\u03A4\u03CE\u03C1\u03B1 \u03C0\u03BF\u03C5 \u03AD\u03B2\u03B1\u03BB\u03B5\u03C2
+      \u03C4\u03BF\u03BD \u03B4\u03BF\u03C1\u03C5\u03C6\u03CC\u03C1\u03BF \u03C3\u03C4\u03B9\u03C2
+      \u03C4\u03C1\u03B5\u03B9\u03C2 \u03B4\u03B9\u03B1\u03C6\u03BF\u03C1\u03B5\u03C4\u03B9\u03BA\u03AD\u03C2
+      \u03C4\u03C1\u03BF\u03C7\u03B9\u03AD\u03C2, \u03BC\u03C0\u03BF\u03C1\u03B5\u03AF\u03C2
+      \u03BD\u03B1 \u03C0\u03B5\u03B9\u03C2 \u03C0\u03BF\u03B9\u03BF \u03B1\u03C0\u03CC
+      \u03C4\u03B1 \u03C0\u03B9\u03BF \u03BA\u03AC\u03C4\u03C9 \u03B5\u03AF\u03BD\u03B1\u03B9
+      \u03C4\u03BF \u03C3\u03C9\u03C3\u03C4\u03CC;"
+  - Name: 1.  The closer to the earth the orbit, the greater its velocity should
+      be
+    Text: "1. \u038C\u03C3\u03BF \u03C0\u03B9\u03BF \u03BA\u03BF\u03BD\u03C4\u03AC
+      \u03C3\u03C4\u03B7 \u0393\u03B7 \u03B5\u03AF\u03BD\u03B1\u03B9 \u03B7 \u03C4\u03C1\u03BF\u03C7\u03B9\u03AC,
+      \u03C4\u03CC\u03C3\u03BF \u03C0\u03B9\u03BF \u03BC\u03B5\u03B3\u03AC\u03BB\u03B7
+      \u03C0\u03C1\u03AD\u03C0\u03B5\u03B9 \u03BD\u03B1 \u03B5\u03AF\u03BD\u03B1\u03B9
+      \u03B7 \u03C4\u03B1\u03C7\u03CD\u03C4\u03B7\u03C4\u03B1 \u03C4\u03BF\u03C5
+      \u03B4\u03BF\u03C1\u03C5\u03C6\u03CC\u03C1\u03BF\u03C5"
+  - Name: 2.  The  closer to the earth the orbit, the less its velocity should be
+    Text: "2. \u038C\u03C3\u03BF \u03C0\u03B9\u03BF \u03BA\u03BF\u03BD\u03C4\u03AC
+      \u03C3\u03C4\u03B7 \u0393\u03B7 \u03B5\u03AF\u03BD\u03B1\u03B9 \u03B7 \u03C4\u03C1\u03BF\u03C7\u03B9\u03AC,
+      \u03C4\u03CC\u03C3\u03BF \u03C0\u03B9\u03BF \u03BC\u03B9\u03BA\u03C1\u03AE
+      \u03C0\u03C1\u03AD\u03C0\u03B5\u03B9 \u03BD\u03B1 \u03B5\u03AF\u03BD\u03B1\u03B9
+      \u03B7 \u03C4\u03B1\u03C7\u03CD\u03C4\u03B7\u03C4\u03B1 \u03C4\u03BF\u03C5
+      \u03B4\u03BF\u03C1\u03C5\u03C6\u03CC\u03C1\u03BF\u03C5"
+  - Name: 3.  A satellite can move on any orbit regardless its velocity
+    Text: "3. \u0388\u03BD\u03B1\u03C2 \u03B4\u03BF\u03C1\u03C5\u03C6\u03CC\u03C1\u03BF\u03C2
+      \u03BC\u03C0\u03BF\u03C1\u03B5\u03AF \u03BD\u03B1 \u03BA\u03B9\u03BD\u03B7\u03B8\u03B5\u03AF
+      \u03C3\u03B5 \u03BF\u03C0\u03BF\u03B9\u03B1\u03B4\u03AE\u03C0\u03BF\u03C4\u03B5
+      \u03C4\u03C1\u03BF\u03C7\u03B9\u03AC, \u03B1\u03BD\u03B5\u03BE\u03AC\u03C1\u03C4\u03B7\u03C4\u03B1
+      \u03B1\u03C0\u03CC \u03C4\u03B7\u03BD \u03C4\u03B1\u03C7\u03CD\u03C4\u03B7\u03C4\u03AC
+      \u03C4\u03BF\u03C5"
+  - Name: Excellent! The closer to the earth, the greater is the force of gravity
+      with which the earth attracts the satellite. Therefore, the satellite must
+      move faster in order not to fall on the earth.
+    Text: "\u0395\u03BE\u03B1\u03B9\u03C1\u03B5\u03C4\u03B9\u03BA\u03AC! \u038C\u03C3\u03BF
+      \u03C0\u03B9\u03BF \u03BA\u03BF\u03BD\u03C4\u03AC \u03B2\u03C1\u03AF\u03C3\u03BA\u03B5\u03C4\u03B1\u03B9
+      \u03C3\u03C4\u03B7 \u0393\u03B7, \u03C4\u03CC\u03C3\u03BF \u03BC\u03B5\u03B3\u03B1\u03BB\u03CD\u03C4\u03B5\u03C1\u03B7
+      \u03B5\u03AF\u03BD\u03B1\u03B9 \u03B7 \u03B4\u03CD\u03BD\u03B1\u03BC\u03B7
+      \u03C4\u03B7\u03C2 \u03B2\u03B1\u03C1\u03CD\u03C4\u03B7\u03C4\u03B1\u03C2 \u03BC\u03B5
+      \u03C4\u03B7\u03BD \u03BF\u03C0\u03BF\u03AF\u03B1 \u03C4\u03BF\u03BD \u03C4\u03C1\u03B1\u03B2\u03AC\u03B5\u03B9
+      \u03B7 \u0393\u03B7. \u0386\u03C1\u03B1, \u03BF \u03B4\u03BF\u03C1\u03C5\u03C6\u03CC\u03C1\u03BF\u03C2
+      \u03C0\u03C1\u03AD\u03C0\u03B5\u03B9 \u03BD\u03B1 \u03BA\u03B9\u03BD\u03B5\u03AF\u03C4\u03B1\u03B9
+      \u03C0\u03B9\u03BF \u03B3\u03C1\u03AE\u03B3\u03BF\u03C1\u03B1 \u03B3\u03B9\u03B1
+      \u03BD\u03B1 \u03BC\u03B7\u03BD \u03C0\u03AD\u03C3\u03B5\u03B9 \u03C3\u03C4\u03B7
+      \u0393\u03B7."
+  - Name: 'Not really! Try again and you find out that the closer to the earth the
+      satellite is, the greater its velocity should be. And here is the reason: You
+      know that the closer to the earth, the greater is the force of gravity with
+      which the earth attracts the satellite. Therefore, the satellite must move
+      faster in order not to fall on the earth.'
+    Text: "\u038C\u03C7\u03B9 \u03B1\u03BA\u03C1\u03B9\u03B2\u03CE\u03C2! \u03A0\u03C1\u03BF\u03C3\u03C0\u03AC\u03B8\u03B7\u03C3\u03B5
+      \u03BE\u03B1\u03BD\u03AC \u03BA\u03B1\u03B9 \u03B8\u03B1 \u03B4\u03B5\u03B9\u03C2
+      \u03CC\u03C4\u03B9 \u03CC\u03C3\u03BF \u03C0\u03B9\u03BF \u03BA\u03BF\u03BD\u03C4\u03AC
+      \u03C3\u03C4\u03B7 \u0393\u03B7 \u03B5\u03AF\u03BD\u03B1\u03B9 \u03BF \u03B4\u03BF\u03C1\u03C5\u03C6\u03CC\u03C1\u03BF\u03C2,
+      \u03C4\u03CC\u03C3\u03BF \u03BC\u03B5\u03B3\u03B1\u03BB\u03CD\u03C4\u03B5\u03C1\u03B7
+      \u03C0\u03C1\u03AD\u03C0\u03B5\u03B9 \u03BD\u03B1 \u03B5\u03AF\u03BD\u03B1\u03B9
+      \u03B7 \u03C4\u03B1\u03C7\u03CD\u03C4\u03B7\u03C4\u03AC \u03C4\u03BF\u03C5.
+      \u039A\u03B1\u03B9 \u03BF \u03BB\u03CC\u03B3\u03BF\u03C2 \u03B5\u03AF\u03BD\u03B1\u03B9
+      \u03BF \u03B5\u03BE\u03AE\u03C2: \u038C\u03C0\u03C9\u03C2 \u03BE\u03AD\u03C1\u03B5\u03B9\u03C2
+      \u03CC\u03C3\u03BF \u03C0\u03B9\u03BF \u03BA\u03BF\u03BD\u03C4\u03AC \u03B2\u03C1\u03AF\u03C3\u03BA\u03B5\u03C4\u03B1\u03B9
+      \u03C3\u03C4\u03B7 \u0393\u03B7 \u03BF \u03B4\u03BF\u03C1\u03C5\u03C6\u03CC\u03C1\u03BF\u03C2,
+      \u03C4\u03CC\u03C3\u03BF \u03BC\u03B5\u03B3\u03B1\u03BB\u03CD\u03C4\u03B5\u03C1\u03B7
+      \u03B5\u03AF\u03BD\u03B1\u03B9 \u03B7 \u03B4\u03CD\u03BD\u03B1\u03BC\u03B7
+      \u03C4\u03B7\u03C2 \u03B2\u03B1\u03C1\u03CD\u03C4\u03B7\u03C4\u03B1\u03C2 \u03BC\u03B5
+      \u03C4\u03B7\u03BD \u03BF\u03C0\u03BF\u03AF\u03B1 \u03C4\u03BF\u03BD \u03C4\u03C1\u03B1\u03B2\u03AC\u03B5\u03B9
+      \u03B7 \u0393\u03B7. \u0386\u03C1\u03B1, \u03BF \u03B4\u03BF\u03C1\u03C5\u03C6\u03CC\u03C1\u03BF\u03C2
+      \u03C0\u03C1\u03AD\u03C0\u03B5\u03B9 \u03BD\u03B1 \u03BA\u03B9\u03BD\u03B5\u03AF\u03C4\u03B1\u03B9
+      \u03C0\u03B9\u03BF \u03B3\u03C1\u03AE\u03B3\u03BF\u03C1\u03B1 \u03B3\u03B9\u03B1
+      \u03BD\u03B1 \u03BC\u03B7\u03BD \u03C0\u03AD\u03C3\u03B5\u03B9 \u03C3\u03C4\u03B7
+      \u0393\u03B7."
+  - Name: Try the first orbit
+    Text: "\u0394\u03BF\u03BA\u03AF\u03BC\u03B1\u03C3\u03B5 \u03C4\u03B7\u03BD \u03C0\u03C1\u03CE\u03C4\u03B7
+      \u03C4\u03C1\u03BF\u03C7\u03B9\u03AC"
+  - Name: Try the second orbit
+    Text: "\u0394\u03BF\u03BA\u03AF\u03BC\u03B1\u03C3\u03B5 \u03C4\u03B7 \u03B4\u03B5\u03CD\u03C4\u03B5\u03C1\u03B7
+      \u03C4\u03C1\u03BF\u03C7\u03B9\u03AC"
+  - Name: Try the third orbit
+    Text: "\u0394\u03BF\u03BA\u03AF\u03BC\u03B1\u03C3\u03B5 \u03C4\u03B7\u03BD \u03C4\u03C1\u03AF\u03C4\u03B7
+      \u03C4\u03C1\u03BF\u03C7\u03B9\u03AC"
+  - Name: Set the speed and select orbit
+    Text: "\u038C\u03C1\u03B9\u03C3\u03B5 \u03C4\u03B7\u03BD \u03C4\u03B1\u03C7\u03CD\u03C4\u03B7\u03C4\u03B1
+      \u03BA\u03B1\u03B9 \u03B4\u03B9\u03AC\u03BB\u03B5\u03BE\u03B5 \u03C4\u03C1\u03BF\u03C7\u03B9\u03AC"
+  - Name: Fine! Now put the three small and light objects on the sea to test your
+      hypothesis.
+    Text: "\u03A9\u03C1\u03B1\u03AF\u03B1! \u03A4\u03CE\u03C1\u03B1 \u03B2\u03AC\u03BB\u03B5
+      \u03C4\u03B1 \u03C4\u03C1\u03AF\u03B1 \u03BC\u03B9\u03BA\u03C1\u03AC \u03BA\u03B1\u03B9
+      \u03B5\u03BB\u03B1\u03C6\u03C1\u03B9\u03AC \u03B1\u03BD\u03C4\u03B9\u03BA\u03B5\u03AF\u03BC\u03B5\u03BD\u03B1
+      \u03C3\u03C4\u03B7 \u03B8\u03AC\u03BB\u03B1\u03C3\u03C3\u03B1 \u03B3\u03B9\u03B1
+      \u03BD\u03B1 \u03B5\u03BB\u03AD\u03B3\u03BE\u03B5\u03B9\u03C2 \u03C4\u03B7\u03BD
+      \u03C5\u03C0\u03CC\u03B8\u03B5\u03C3\u03AE \u03C3\u03BF\u03C5."
+  - Name: Fine! Now put the two metal objects on the sea to test your hypothesis.
+    Text: "\u03A9\u03C1\u03B1\u03AF\u03B1! \u03A4\u03CE\u03C1\u03B1 \u03B2\u03AC\u03BB\u03B5
+      \u03C4\u03B1 \u03B4\u03CD\u03BF \u03B1\u03BD\u03C4\u03B9\u03BA\u03B5\u03AF\u03BC\u03B5\u03BD\u03B1
+      \u03B1\u03C0\u03CC \u03BC\u03AD\u03C4\u03B1\u03BB\u03BB\u03BF \u03C3\u03C4\u03B7
+      \u03B8\u03AC\u03BB\u03B1\u03C3\u03C3\u03B1 \u03B3\u03B9\u03B1 \u03BD\u03B1
+      \u03B5\u03BB\u03AD\u03B3\u03BE\u03B5\u03B9\u03C2 \u03C4\u03B7\u03BD \u03C5\u03C0\u03CC\u03B8\u03B5\u03C3\u03AE
+      \u03C3\u03BF\u03C5."
+  - Name: Fine! Now put the two wooden objects on the sea to test your hypothesis
+    Text: "\u03A9\u03C1\u03B1\u03AF\u03B1! \u03A4\u03CE\u03C1\u03B1 \u03B2\u03AC\u03BB\u03B5
+      \u03C4\u03B1 \u03B4\u03CD\u03BF \u03B1\u03BD\u03C4\u03B9\u03BA\u03B5\u03AF\u03BC\u03B5\u03BD\u03B1
+      \u03B1\u03C0\u03CC \u03BE\u03CD\u03BB\u03BF \u03C3\u03C4\u03B7 \u03B8\u03AC\u03BB\u03B1\u03C3\u03C3\u03B1
+      \u03B3\u03B9\u03B1 \u03BD\u03B1 \u03B5\u03BB\u03AD\u03B3\u03BE\u03B5\u03B9\u03C2
+      \u03C4\u03B7\u03BD \u03C5\u03C0\u03CC\u03B8\u03B5\u03C3\u03AE \u03C3\u03BF\u03C5."
+  - Name: Fine! Now put the two glass objects on the sea to test your hypothesis.
+    Text: "\u03A9\u03C1\u03B1\u03AF\u03B1! \u03A4\u03CE\u03C1\u03B1 \u03B2\u03AC\u03BB\u03B5
+      \u03C4\u03B1 \u03B4\u03CD\u03BF \u03B1\u03BD\u03C4\u03B9\u03BA\u03B5\u03AF\u03BC\u03B5\u03BD\u03B1
+      \u03B1\u03C0\u03CC \u03B3\u03C5\u03B1\u03BB\u03AF \u03C3\u03C4\u03B7 \u03B8\u03AC\u03BB\u03B1\u03C3\u03C3\u03B1
+      \u03B3\u03B9\u03B1 \u03BD\u03B1 \u03B5\u03BB\u03AD\u03B3\u03BE\u03B5\u03B9\u03C2
+      \u03C4\u03B7\u03BD \u03C5\u03C0\u03CC\u03B8\u03B5\u03C3\u03AE \u03C3\u03BF\u03C5."
+  - Name: This is a big and heavy object. Try all the small and light objects
+    Text: "\u0391\u03C5\u03C4\u03CC \u03B5\u03AF\u03BD\u03B1\u03B9 \u03AD\u03BD\u03B1
+      \u03BC\u03B5\u03B3\u03AC\u03BB\u03BF \u03BA\u03B1\u03B9 \u03B2\u03B1\u03C1\u03CD
+      \u03B1\u03BD\u03C4\u03B9\u03BA\u03B5\u03AF\u03BC\u03B5\u03BD\u03BF. \u0394\u03BF\u03BA\u03AF\u03BC\u03B1\u03C3\u03B5
+      \u03CC\u03BB\u03B1 \u03C4\u03B1 \u03BC\u03B9\u03BA\u03C1\u03AC \u03BA\u03B1\u03B9
+      \u03B5\u03BB\u03B1\u03C6\u03C1\u03B9\u03AC \u03B1\u03BD\u03C4\u03B9\u03BA\u03B5\u03AF\u03BC\u03B5\u03BD\u03B1."
+  - Name: This is not made of metal. Try all the objects which are made of metal
+    Text: "\u0391\u03C5\u03C4\u03CC \u03B4\u03B5\u03BD \u03B5\u03AF\u03BD\u03B1\u03B9
+      \u03B1\u03C0\u03CC \u03BC\u03AD\u03C4\u03B1\u03BB\u03BB\u03BF. \u0394\u03BF\u03BA\u03AF\u03BC\u03B1\u03C3\u03B5
+      \u03CC\u03BB\u03B1 \u03C4\u03B1 \u03B1\u03BD\u03C4\u03B9\u03BA\u03B5\u03AF\u03BC\u03B5\u03BD\u03B1
+      \u03C0\u03BF\u03C5 \u03B5\u03AF\u03BD\u03B1\u03B9 \u03B1\u03C0\u03CC \u03BC\u03AD\u03C4\u03B1\u03BB\u03BF."
+  - Name: This is not made of wood. Try all the objects which are made of wood
+    Text: "\u0391\u03C5\u03C4\u03CC \u03B4\u03B5\u03BD \u03B5\u03AF\u03BD\u03B1\u03B9
+      \u03B1\u03C0\u03CC \u03BE\u03CD\u03BB\u03BF. \u0394\u03BF\u03BA\u03AF\u03BC\u03B1\u03C3\u03B5
+      \u03CC\u03BB\u03B1 \u03C4\u03B1 \u03B1\u03BD\u03C4\u03B9\u03BA\u03B5\u03AF\u03BC\u03B5\u03BD\u03B1
+      \u03C0\u03BF\u03C5 \u03B5\u03AF\u03BD\u03B1\u03B9 \u03B1\u03C0\u03CC \u03BE\u03CD\u03BB\u03BF."
+  - Name: This is not made of glass. Try all the objects which are made of glass
+    Text: "\u0391\u03C5\u03C4\u03CC \u03B4\u03B5\u03BD \u03B5\u03AF\u03BD\u03B1\u03B9
+      \u03B1\u03C0\u03CC \u03B3\u03C5\u03B1\u03BB\u03AF. \u0394\u03BF\u03BA\u03AF\u03BC\u03B1\u03C3\u03B5
+      \u03CC\u03BB\u03B1 \u03C4\u03B1 \u03B1\u03BD\u03C4\u03B9\u03BA\u03B5\u03AF\u03BC\u03B5\u03BD\u03B1
+      \u03B1\u03C0\u03CC \u03B3\u03C5\u03B1\u03BB\u03AF."
+  - Name: Your experiment that only some small and light objects float while others
+      sink. Your hypothesis was not proved. Try another hypothesis.
+    Text: "\u03A4\u03BF \u03C0\u03B5\u03AF\u03C1\u03B1\u03BC\u03AC \u03C3\u03BF\u03C5
+      \u03AD\u03B4\u03B5\u03B9\u03BE\u03B5 \u03CC\u03C4\u03B9 \u03BC\u03CC\u03BD\u03BF
+      \u03BC\u03B5\u03C1\u03B9\u03BA\u03AC \u03BC\u03B9\u03BA\u03C1\u03AC \u03BA\u03B1\u03B9
+      \u03B5\u03BB\u03B1\u03C6\u03C1\u03B9\u03AC \u03B1\u03BD\u03C4\u03B9\u03BA\u03B5\u03AF\u03BC\u03B5\u03BD\u03B1
+      \u03B5\u03C0\u03B9\u03C0\u03BB\u03AD\u03BF\u03C5\u03BD \u03B5\u03BD\u03CE \u03AC\u03BB\u03BB\u03B1
+      \u03B2\u03BF\u03C5\u03BB\u03B9\u03AC\u03B6\u03BF\u03C5\u03BD. \u0397 \u03C5\u03C0\u03CC\u03B8\u03B5\u03C3\u03AE
+      \u03C3\u03BF\u03C5 \u03B4\u03B5\u03BD \u03B1\u03C0\u03BF\u03B4\u03B5\u03AF\u03C7\u03B8\u03B7\u03BA\u03B5.
+      \u0394\u03BF\u03BA\u03AF\u03BC\u03B1\u03C3\u03B5 \u03BC\u03B9\u03B1 \u03AC\u03BB\u03BB\u03B7
+      \u03C5\u03C0\u03CC\u03B8\u03B5\u03C3\u03B7"
+  - Name: Your experiment that the objects which are made of metal do not float.
+      Your hypothesis was not proved. Try another hypothesis.
+    Text: "\u03A4\u03BF \u03C0\u03B5\u03AF\u03C1\u03B1\u03BC\u03AC \u03C3\u03BF\u03C5
+      \u03AD\u03B4\u03B5\u03B9\u03BE\u03B5 \u03CC\u03C4\u03B9 \u03C4\u03B1 \u03B1\u03BD\u03C4\u03B9\u03BA\u03B5\u03AF\u03BC\u03B5\u03BD\u03B1
+      \u03B1\u03C0\u03CC \u03BC\u03AD\u03C4\u03B1\u03BB\u03BB\u03BF \u03B4\u03B5\u03BD
+      \u03B5\u03C0\u03B9\u03C0\u03BB\u03AD\u03BF\u03C5\u03BD. \u0397 \u03C5\u03C0\u03CC\u03B8\u03B5\u03C3\u03AE
+      \u03C3\u03BF\u03C5 \u03B4\u03B5\u03BD \u03B1\u03C0\u03BF\u03B4\u03B5\u03AF\u03C7\u03B8\u03B7\u03BA\u03B5.
+      \u0394\u03BF\u03BA\u03AF\u03BC\u03B1\u03C3\u03B5 \u03BC\u03B9\u03B1 \u03AC\u03BB\u03BB\u03B7
+      \u03C5\u03C0\u03CC\u03B8\u03B5\u03C3\u03B7"
+  - Name: Your experiment that the objects which are made of wood float no matter
+      whether they are big and heavy or small and light. Your hypothesis was proved.
+      Excellent!
+    Text: "\u03A4\u03BF \u03C0\u03B5\u03AF\u03C1\u03B1\u03BC\u03AC \u03C3\u03BF\u03C5
+      \u03AD\u03B4\u03B5\u03B9\u03BE\u03B5 \u03CC\u03C4\u03B9 \u03C4\u03B1 \u03B1\u03BD\u03C4\u03B9\u03BA\u03B5\u03AF\u03BC\u03B5\u03BD\u03B1
+      \u03B1\u03C0\u03CC \u03BE\u03CD\u03BB\u03BF \u03B5\u03C0\u03B9\u03C0\u03BB\u03AD\u03BF\u03C5\u03BD
+      \u03B5\u03AF\u03C4\u03B5 \u03B5\u03AF\u03BD\u03B1\u03B9 \u03BC\u03B5\u03B3\u03AC\u03BB\u03B1
+      \u03BA\u03B1\u03B9 \u03B2\u03B1\u03C1\u03B9\u03AC \u03B5\u03AF\u03C4\u03B5
+      \u03B5\u03AF\u03BD\u03B1\u03B9 \u03BC\u03B9\u03BA\u03C1\u03AC \u03BA\u03B1\u03B9
+      \u03B5\u03BB\u03B1\u03C6\u03C1\u03B9\u03AC. \u0397 \u03C5\u03C0\u03CC\u03B8\u03B5\u03C3\u03AE
+      \u03C3\u03BF\u03C5 \u03B1\u03C0\u03BF\u03B4\u03B5\u03AF\u03C7\u03B8\u03B7\u03BA\u03B5!
+      \u0395\u03BE\u03B1\u03B9\u03C1\u03B5\u03C4\u03B9\u03BA\u03AC!"
+  - Name: Your experiment that the objects which are made of glass do not float.
+      Your hypothesis was not proved. Try another hypothesis.
+    Text: "\u03A4\u03BF \u03C0\u03B5\u03AF\u03C1\u03B1\u03BC\u03AC \u03C3\u03BF\u03C5
+      \u03AD\u03B4\u03B5\u03B9\u03BE\u03B5 \u03CC\u03C4\u03B9 \u03C4\u03B1 \u03B1\u03BD\u03C4\u03B9\u03BA\u03B5\u03AF\u03BC\u03B5\u03BD\u03B1
+      \u03B1\u03C0\u03CC \u03B3\u03C5\u03B1\u03BB\u03AF \u03B4\u03B5\u03BD \u03B5\u03C0\u03B9\u03C0\u03BB\u03AD\u03BF\u03C5\u03BD.
+      \u0397 \u03C5\u03C0\u03CC\u03B8\u03B5\u03C3\u03AE \u03C3\u03BF\u03C5 \u03B4\u03B5\u03BD
+      \u03B1\u03C0\u03BF\u03B4\u03B5\u03AF\u03C7\u03B8\u03B7\u03BA\u03B5. \u0394\u03BF\u03BA\u03AF\u03BC\u03B1\u03C3\u03B5
+      \u03BC\u03B9\u03B1 \u03AC\u03BB\u03BB\u03B7 \u03C5\u03C0\u03CC\u03B8\u03B5\u03C3\u03B7"
+  - Name: Fine! Now make these objects hollow and put them on the sea to test your
+      hypothesis
+    Text: "\u03A9\u03C1\u03B1\u03AF\u03B1! \u03A4\u03CE\u03C1\u03B1 \u03BA\u03AC\u03BD\u03B5
+      \u03B1\u03C5\u03C4\u03AC \u03C4\u03B1 \u03B1\u03BD\u03C4\u03B9\u03BA\u03B5\u03AF\u03BC\u03B5\u03BD\u03B1
+      \u03BD\u03B1 \u03B5\u03AF\u03BD\u03B1\u03B9 \u03BA\u03BF\u03CD\u03C6\u03B9\u03B1
+      \u03BA\u03B1\u03B9 \u03B2\u03AC\u03BB\u03B5 \u03C4\u03B1 \u03C3\u03C4\u03B7
+      \u03B8\u03AC\u03BB\u03B1\u03C3\u03C3\u03B1 \u03B3\u03B9\u03B1 \u03BD\u03B1
+      \u03B5\u03BB\u03AD\u03B3\u03BE\u03B5\u03B9\u03C2 \u03C4\u03B7\u03BD \u03C5\u03C0\u03CC\u03B8\u03B5\u03C3\u03AE
+      \u03C3\u03BF\u03C5."
+  - Name: Fine! Now make these objects curved and put them on the sea to test your
+      hypothesis
+    Text: "\u03A9\u03C1\u03B1\u03AF\u03B1! \u03A4\u03CE\u03C1\u03B1 \u03BA\u03AC\u03BD\u03B5
+      \u03B1\u03C5\u03C4\u03AC \u03C4\u03B1 \u03B1\u03BD\u03C4\u03B9\u03BA\u03B5\u03AF\u03BC\u03B5\u03BD\u03B1
+      \u03BD\u03B1 \u03B5\u03AF\u03BD\u03B1\u03B9 \u03BA\u03B1\u03BC\u03C0\u03C5\u03BB\u03C9\u03C4\u03AC
+      \u03BA\u03B1\u03B9 \u03B2\u03AC\u03BB\u03B5 \u03C4\u03B1 \u03C3\u03C4\u03B7
+      \u03B8\u03AC\u03BB\u03B1\u03C3\u03C3\u03B1 \u03B3\u03B9\u03B1 \u03BD\u03B1
+      \u03B5\u03BB\u03AD\u03B3\u03BE\u03B5\u03B9\u03C2 \u03C4\u03B7\u03BD \u03C5\u03C0\u03CC\u03B8\u03B5\u03C3\u03AE
+      \u03C3\u03BF\u03C5."
+  - Name: Fine! Now make these objects solid and put them on the sea to test your
+      hypothesis
+    Text: "\u03A9\u03C1\u03B1\u03AF\u03B1! \u03A4\u03CE\u03C1\u03B1 \u03BA\u03AC\u03BD\u03B5
+      \u03B1\u03C5\u03C4\u03AC \u03C4\u03B1 \u03B1\u03BD\u03C4\u03B9\u03BA\u03B5\u03AF\u03BC\u03B5\u03BD\u03B1
+      \u03BD\u03B1 \u03B5\u03AF\u03BD\u03B1\u03B9 \u03C3\u03C5\u03BC\u03C0\u03B1\u03B3\u03AE
+      \u03BA\u03B1\u03B9 \u03B2\u03AC\u03BB\u03B5 \u03C4\u03B1 \u03C3\u03C4\u03B7
+      \u03B8\u03AC\u03BB\u03B1\u03C3\u03C3\u03B1 \u03B3\u03B9\u03B1 \u03BD\u03B1
+      \u03B5\u03BB\u03AD\u03B3\u03BE\u03B5\u03B9\u03C2 \u03C4\u03B7\u03BD \u03C5\u03C0\u03CC\u03B8\u03B5\u03C3\u03AE
+      \u03C3\u03BF\u03C5."
+  - Name: Your experiment showed that the hollow object made of metal (or glass depending
+      on the selected object) floats. Try another object
+    Text: "\u03A4\u03BF \u03C0\u03B5\u03AF\u03C1\u03B1\u03BC\u03AC \u03C3\u03BF\u03C5
+      \u03AD\u03B4\u03B5\u03B9\u03BE\u03B5 \u03CC\u03C4\u03B9 \u03C4\u03BF \u03BA\u03BF\u03CD\u03C6\u03B9\u03BF
+      \u03B1\u03BD\u03C4\u03B9\u03BA\u03B5\u03AF\u03BC\u03B5\u03BD\u03BF \u03B1\u03C0\u03CC
+      \u03BC\u03AD\u03C4\u03B1\u03BB\u03BB\u03BF (\u03AE \u03B1\u03C0\u03CC \u03B3\u03C5\u03B1\u03BB\u03AF,
+      \u03B1\u03BD\u03AC\u03BB\u03BF\u03B3\u03B1 \u03BC\u03B5 \u03C4\u03BF \u03B1\u03BD\u03C4\u03B9\u03BA\u03B5\u03AF\u03BC\u03B5\u03BD\u03BF
+      \u03C0\u03BF\u03C5 \u03B4\u03B9\u03AC\u03BB\u03B5\u03BE\u03B5) \u03B5\u03C0\u03B9\u03C0\u03BB\u03AD\u03B5\u03B9.
+      \u0394\u03BF\u03BA\u03AF\u03BC\u03B1\u03C3\u03B5 \u03AD\u03BD\u03B1 \u03AC\u03BB\u03BB\u03BF
+      \u03B1\u03BD\u03C4\u03B9\u03BA\u03B5\u03AF\u03BC\u03B5\u03BD\u03BF."
+  - Name: Your experiment showed that the curved object made of metal (or glass depending
+      on the selected object) floats. Try another object
+    Text: "\u03A4\u03BF \u03C0\u03B5\u03AF\u03C1\u03B1\u03BC\u03AC \u03C3\u03BF\u03C5
+      \u03AD\u03B4\u03B5\u03B9\u03BE\u03B5 \u03CC\u03C4\u03B9 \u03C4\u03BF \u03BA\u03B1\u03BC\u03C0\u03C5\u03BB\u03C9\u03C4\u03CC
+      \u03B1\u03BD\u03C4\u03B9\u03BA\u03B5\u03AF\u03BC\u03B5\u03BD\u03BF \u03B1\u03C0\u03CC
+      \u03BC\u03AD\u03C4\u03B1\u03BB\u03BB\u03BF (\u03AE \u03B1\u03C0\u03CC \u03B3\u03C5\u03B1\u03BB\u03AF,
+      \u03B1\u03BD\u03AC\u03BB\u03BF\u03B3\u03B1 \u03BC\u03B5 \u03C4\u03BF \u03B1\u03BD\u03C4\u03B9\u03BA\u03B5\u03AF\u03BC\u03B5\u03BD\u03BF
+      \u03C0\u03BF\u03C5 \u03B4\u03B9\u03AC\u03BB\u03B5\u03BE\u03B5) \u03B5\u03C0\u03B9\u03C0\u03BB\u03AD\u03B5\u03B9.
+      \u0394\u03BF\u03BA\u03AF\u03BC\u03B1\u03C3\u03B5 \u03AD\u03BD\u03B1 \u03AC\u03BB\u03BB\u03BF
+      \u03B1\u03BD\u03C4\u03B9\u03BA\u03B5\u03AF\u03BC\u03B5\u03BD\u03BF."
+  - Name: Your experiment showed that the solid object made of metal (or glass depending
+      on the selected object) floats. Try another object
+    Text: "\u03A4\u03BF \u03C0\u03B5\u03AF\u03C1\u03B1\u03BC\u03AC \u03C3\u03BF\u03C5
+      \u03AD\u03B4\u03B5\u03B9\u03BE\u03B5 \u03CC\u03C4\u03B9 \u03C4\u03BF \u03C3\u03C5\u03BC\u03C0\u03B1\u03B3\u03AD\u03C2
+      \u03B1\u03BD\u03C4\u03B9\u03BA\u03B5\u03AF\u03BC\u03B5\u03BD\u03BF \u03B1\u03C0\u03CC
+      \u03BC\u03AD\u03C4\u03B1\u03BB\u03BB\u03BF (\u03AE \u03B1\u03C0\u03CC \u03B3\u03C5\u03B1\u03BB\u03AF,
+      \u03B1\u03BD\u03AC\u03BB\u03BF\u03B3\u03B1 \u03BC\u03B5 \u03C4\u03BF \u03B1\u03BD\u03C4\u03B9\u03BA\u03B5\u03AF\u03BC\u03B5\u03BD\u03BF
+      \u03C0\u03BF\u03C5 \u03B4\u03B9\u03AC\u03BB\u03B5\u03BE\u03B5) \u03B5\u03C0\u03B9\u03C0\u03BB\u03AD\u03B5\u03B9.
+      \u0394\u03BF\u03BA\u03AF\u03BC\u03B1\u03C3\u03B5 \u03AD\u03BD\u03B1 \u03AC\u03BB\u03BB\u03BF
+      \u03B1\u03BD\u03C4\u03B9\u03BA\u03B5\u03AF\u03BC\u03B5\u03BD\u03BF."
+  - Name: Your experiment showed that all hollow objects float. Your hypothesis was
+      proved. Perhaps another hypothesis is also true. Try another hypothesis
+    Text: "\u03A4\u03BF \u03C0\u03B5\u03AF\u03C1\u03B1\u03BC\u03AC \u03C3\u03BF\u03C5
+      \u03AD\u03B4\u03B5\u03B9\u03BE\u03B5 \u03CC\u03C4\u03B9 \u03CC\u03BB\u03B1
+      \u03C4\u03B1 \u03BA\u03BF\u03CD\u03C6\u03B9\u03B1 \u03B1\u03BD\u03C4\u03B9\u03BA\u03B5\u03AF\u03BC\u03B5\u03BD\u03B1
+      \u03B5\u03C0\u03B9\u03C0\u03BB\u03AD\u03BF\u03C5\u03BD.\u0397 \u03C5\u03C0\u03CC\u03B8\u03B5\u03C3\u03AE
+      \u03C3\u03BF\u03C5 \u03B1\u03C0\u03BF\u03B4\u03B5\u03AF\u03C7\u03B8\u03B7\u03BA\u03B5.
+      \u038A\u03C3\u03C9\u03C2 \u03BA\u03B1\u03B9 \u03BC\u03B9\u03B1 \u03AC\u03BB\u03BB\u03B7
+      \u03C5\u03C0\u03CC\u03B8\u03B5\u03C3\u03B7 \u03BD\u03B1 \u03B5\u03AF\u03BD\u03B1\u03B9
+      \u03B5\u03C0\u03AF\u03C3\u03B7\u03C2 \u03C3\u03C9\u03C3\u03C4\u03AE. \u0394\u03BF\u03BA\u03AF\u03BC\u03B1\u03C3\u03B5
+      \u03BA\u03B1\u03B9 \u03BC\u03B9\u03B1 \u03AC\u03BB\u03BB\u03B7 \u03C5\u03C0\u03CC\u03B8\u03B5\u03C3\u03B7."
+  - Name: Your experiment showed that all the curved objects float. Your hypothesis
+      was proved. Perhaps another hypothesis is also true. Try another hypothesis
+    Text: "\u03A4\u03BF \u03C0\u03B5\u03AF\u03C1\u03B1\u03BC\u03AC \u03C3\u03BF\u03C5
+      \u03AD\u03B4\u03B5\u03B9\u03BE\u03B5 \u03CC\u03C4\u03B9 \u03CC\u03BB\u03B1
+      \u03C4\u03B1 \u03BA\u03B1\u03BC\u03C0\u03C5\u03BB\u03C9\u03C4\u03AC \u03B1\u03BD\u03C4\u03B9\u03BA\u03B5\u03AF\u03BC\u03B5\u03BD\u03B1
+      \u03B5\u03C0\u03B9\u03C0\u03BB\u03AD\u03BF\u03C5\u03BD.\u0397 \u03C5\u03C0\u03CC\u03B8\u03B5\u03C3\u03AE
+      \u03C3\u03BF\u03C5 \u03B1\u03C0\u03BF\u03B4\u03B5\u03AF\u03C7\u03B8\u03B7\u03BA\u03B5.
+      \u038A\u03C3\u03C9\u03C2 \u03BA\u03B1\u03B9 \u03BC\u03B9\u03B1 \u03AC\u03BB\u03BB\u03B7
+      \u03C5\u03C0\u03CC\u03B8\u03B5\u03C3\u03B7 \u03BD\u03B1 \u03B5\u03AF\u03BD\u03B1\u03B9
+      \u03B5\u03C0\u03AF\u03C3\u03B7\u03C2 \u03C3\u03C9\u03C3\u03C4\u03AE. \u0394\u03BF\u03BA\u03AF\u03BC\u03B1\u03C3\u03B5
+      \u03BA\u03B1\u03B9 \u03BC\u03B9\u03B1 \u03AC\u03BB\u03BB\u03B7 \u03C5\u03C0\u03CC\u03B8\u03B5\u03C3\u03B7."
+  - Name: Your experiment showed that all the solid objects sink. Your hypothesis
+      was not proved. Perhaps another hypothesis is true. Try another hypothesis
+    Text: "\u03A4\u03BF \u03C0\u03B5\u03AF\u03C1\u03B1\u03BC\u03AC \u03C3\u03BF\u03C5
+      \u03AD\u03B4\u03B5\u03B9\u03BE\u03B5 \u03CC\u03C4\u03B9 \u03CC\u03BB\u03B1
+      \u03C4\u03B1 \u03C3\u03C5\u03BC\u03C0\u03B1\u03B3\u03AE \u03B1\u03BD\u03C4\u03B9\u03BA\u03B5\u03AF\u03BC\u03B5\u03BD\u03B1
+      \u03B2\u03BF\u03C5\u03BB\u03B9\u03AC\u03B6\u03BF\u03C5\u03BD. \u0397 \u03C5\u03C0\u03CC\u03B8\u03B5\u03C3\u03AE
+      \u03C3\u03BF\u03C5 \u03B4\u03B5\u03BD \u03B1\u03C0\u03BF\u03B4\u03B5\u03AF\u03C7\u03B8\u03B7\u03BA\u03B5.
+      \u038A\u03C3\u03C9\u03C2 \u03BC\u03B9\u03B1 \u03AC\u03BB\u03BB\u03B7 \u03C5\u03C0\u03CC\u03B8\u03B5\u03C3\u03B7
+      \u03BD\u03B1 \u03B5\u03AF\u03BD\u03B1\u03B9 \u03C3\u03C9\u03C3\u03C4\u03AE.
+      \u0394\u03BF\u03BA\u03AF\u03BC\u03B1\u03C3\u03B5 \u03BC\u03B9\u03B1 \u03AC\u03BB\u03BB\u03B7
+      \u03C5\u03C0\u03CC\u03B8\u03B5\u03C3\u03B7."
+  - Name: You are almost right
+    Text: "\u03A3\u03C7\u03B5\u03B4\u03CC\u03BD \u03C3\u03C9\u03C3\u03C4\u03AC"
+  - Name: Wood plank
+    Text: "\u039E\u03CD\u03BB\u03B9\u03BD\u03B7 \u03C3\u03B1\u03BD\u03AF\u03B4\u03B1"
+  - Name: Wood door
+    Text: "\u039E\u03CD\u03BB\u03B9\u03BD\u03B7 \u03C0\u03CC\u03C1\u03C4\u03B1"
+  - Name: Big metal plate
+    Text: "\u039C\u03B5\u03B3\u03AC\u03BB\u03B7 \u03C0\u03BB\u03AC\u03BA\u03B1 \u03B1\u03C0\u03CC
+      \u03BC\u03AD\u03C4\u03B1\u03BB\u03BB\u03BF"
+  - Name: Small metal plate
+    Text: "\u039C\u03B9\u03BA\u03C1\u03AE \u03C0\u03BB\u03AC\u03BA\u03B1 \u03B1\u03C0\u03CC
+      \u03BC\u03AD\u03C4\u03B1\u03BB\u03BB\u03BF"
+  - Name: Big glass
+    Text: "\u039C\u03B5\u03B3\u03AC\u03BB\u03BF \u03B3\u03C5\u03B1\u03BB\u03AF"
+  - Name: Small glass
+    Text: "\u039C\u03B9\u03BA\u03C1\u03CC \u03B3\u03C5\u03B1\u03BB\u03AF"
+  - Name: SCAN THE PAGES OF THE BOOK
+    Text: "\u03A3\u0391\u03A1\u03A9\u03A3\u03A4\u0395 \u03A4\u0399\u03A3 \u03A3\u0395\u039B\u0399\u0394\u0395\u03A3
+      \u03A4\u039F\u03A5 \u0392\u0399\u0392\u039B\u0399\u039F\u03A5"
+  - Name: Can you help Yiannis?
+    Text: "\u039C\u03C0\u03BF\u03C1\u03B5\u03AF\u03C2 \u03BD\u03B1 \u03B2\u03BF\u03B7\u03B8\u03AE\u03C3\u03B5\u03B9\u03C2
+      \u03C4\u03BF\u03BD \u0393\u03B9\u03AC\u03BD\u03BD\u03B7"
+  - Name: Your previous experiment showed that these four objects do not float. What
+      would happen If you change their shape? Is it possible to float? Make a hypothesis
+      and then test it.
+    Text: "\u03A4\u03BF \u03C0\u03C1\u03BF\u03B7\u03B3\u03BF\u03CD\u03BC\u03B5\u03BD\u03BF
+      \u03C0\u03B5\u03AF\u03C1\u03B1\u03BC\u03AC \u03C3\u03B1\u03C2 \u03AD\u03B4\u03B5\u03B9\u03BE\u03B5
+      \u03CC\u03C4\u03B9 \u03B1\u03C5\u03C4\u03AC \u03C4\u03B1 \u03C4\u03AD\u03C3\u03C3\u03B5\u03C1\u03B1
+      \u03B1\u03BD\u03C4\u03B9\u03BA\u03B5\u03AF\u03BC\u03B5\u03BD\u03B1 \u03B4\u03B5\u03BD
+      \u03B5\u03C0\u03B9\u03C0\u03BB\u03AD\u03BF\u03C5\u03BD. \u03A4\u03B9 \u03B8\u03B1
+      \u03C3\u03C5\u03BC\u03B2\u03B5\u03AF \u03B1\u03BD \u03B1\u03BB\u03BB\u03AC\u03BE\u03B5\u03C4\u03B5
+      \u03C4\u03BF \u03C3\u03C7\u03AE\u03BC\u03B1 \u03C4\u03BF\u03C5\u03C2; \u0395\u03AF\u03BD\u03B1\u03B9
+      \u03B4\u03C5\u03BD\u03B1\u03C4\u03CC\u03BD \u03BD\u03B1 \u03B5\u03C0\u03B9\u03C0\u03BB\u03AD\u03BF\u03C5\u03BC\u03B5;
+      \u039A\u03AC\u03BD\u03C4\u03B5 \u03BC\u03B9\u03B1 \u03C5\u03C0\u03CC\u03B8\u03B5\u03C3\u03B7
+      \u03BA\u03B1\u03B9 \u03C3\u03C4\u03B7 \u03C3\u03C5\u03BD\u03AD\u03C7\u03B5\u03B9\u03B1
+      \u03B4\u03BF\u03BA\u03B9\u03BC\u03AC\u03C3\u03C4\u03B5 \u03C4\u03B7\u03BD."
+  - Name: "a. \tHollow objects float"
+    Text: "\u03A4\u03B1 \u03BA\u03BF\u03AF\u03BB\u03B1 \u03B1\u03BD\u03C4\u03B9\u03BA\u03B5\u03AF\u03BC\u03B5\u03BD\u03B1
+      \u03B5\u03C0\u03B9\u03C0\u03BB\u03AD\u03BF\u03C5\u03BD"
+  - Name: "b.\tCurved objects float"
+    Text: "\u03A4\u03B1 \u03BA\u03B1\u03BC\u03C0\u03CD\u03BB\u03B1 \u03B1\u03BD\u03C4\u03B9\u03BA\u03B5\u03AF\u03BC\u03B5\u03BD\u03B1
+      \u03B5\u03C0\u03B9\u03C0\u03BB\u03AD\u03BF\u03C5\u03BD"
+  - Name: "c.\tSolid objects float"
+    Text: "\u03A4\u03B1 \u03C3\u03C4\u03B5\u03C1\u03B5\u03AC \u03B1\u03BD\u03C4\u03B9\u03BA\u03B5\u03AF\u03BC\u03B5\u03BD\u03B1
+      \u03B5\u03C0\u03B9\u03C0\u03BB\u03AD\u03BF\u03C5\u03BD"
+  - Name: It is day March the 21st in this country. Make it night July the 3rd.
+    Text: "\u0395\u03AF\u03BD\u03B1\u03B9 \u03B7\u03BC\u03AD\u03C1\u03B1 \u03C4\u03B7\u03C2
+      23\u03B7\u03C2 \u039C\u03B1\u03C1\u03C4\u03AF\u03BF\u03C5 \u03C3\u03B5 \u03B1\u03C5\u03C4\u03AE\u03BD
+      \u03C4\u03B7 \u03C7\u03CE\u03C1\u03B1. \u039A\u03AC\u03BD\u03C4\u03B5 \u03BD\u03B1
+      \u03B3\u03AF\u03BD\u03B5\u03B9 \u03B2\u03C1\u03AC\u03B4\u03C5 3 \u0399\u03BF\u03C5\u03BB\u03AF\u03BF\u03C5."
+  - Name: Put the satellite in an orbit around the Earth. Choose the right velocity
+      for the first orbit
+    Text: "\u03A4\u03BF\u03C0\u03BF\u03B8\u03B5\u03C4\u03AE\u03C3\u03C4\u03B5 \u03C4\u03BF\u03BD
+      \u03B4\u03BF\u03C1\u03C5\u03C6\u03CC\u03C1\u03BF \u03C3\u03B5 \u03C4\u03C1\u03BF\u03C7\u03B9\u03AC
+      \u03B3\u03CD\u03C1\u03C9 \u03B1\u03C0\u03CC \u03C4\u03B7 \u0393\u03B7. \u0395\u03C0\u03B9\u03BB\u03AD\u03BE\u03C4\u03B5
+      \u03C4\u03B7 \u03C3\u03C9\u03C3\u03C4\u03AE \u03C4\u03B1\u03C7\u03CD\u03C4\u03B7\u03C4\u03B1
+      \u03B3\u03B9\u03B1 \u03C4\u03B7\u03BD \u03C0\u03C1\u03CE\u03C4\u03B7 \u03C4\u03C1\u03BF\u03C7\u03B9\u03AC"
+  - Name: Choose the right velocity for the second orbit
+    Text: "\u0395\u03C0\u03B9\u03BB\u03AD\u03BE\u03C4\u03B5 \u03C4\u03B7 \u03C3\u03C9\u03C3\u03C4\u03AE
+      \u03C4\u03B1\u03C7\u03CD\u03C4\u03B7\u03C4\u03B1 \u03B3\u03B9\u03B1 \u03C4\u03B7
+      \u03B4\u03B5\u03CD\u03C4\u03B5\u03C1\u03B7 \u03C4\u03C1\u03BF\u03C7\u03B9\u03AC"
+  - Name: Choose the right velocity for the third orbit
+    Text: "\u0395\u03C0\u03B9\u03BB\u03AD\u03BE\u03C4\u03B5 \u03C4\u03B7 \u03C3\u03C9\u03C3\u03C4\u03AE
+      \u03C4\u03B1\u03C7\u03CD\u03C4\u03B7\u03C4\u03B1 \u03B3\u03B9\u03B1 \u03C4\u03B7\u03BD
+      \u03C4\u03C1\u03AF\u03C4\u03B7 \u03C4\u03C1\u03BF\u03C7\u03B9\u03AC"
+  - Name: SAFETY WARNING
+    Text: "\u03A0\u03A1\u039F\u0395\u0399\u0394\u039F\u03A0\u039F\u0399\u0397\u03A3\u0397
+      \u0391\u03A3\u03A6\u0391\u039B\u0395\u0399\u0391\u03A3"
+  - Name: "\u201CWe kindly remind you of the importance of parental supervision during
+      using the app by little kids. Please be aware of physical hazards in the real
+      world."
+    Text: "\u03A3\u03B1\u03C2 \u03C5\u03C0\u03B5\u03BD\u03B8\u03C5\u03BC\u03AF\u03B6\u03BF\u03C5\u03BC\u03B5
+      \u03C4\u03B7 \u03C3\u03B7\u03BC\u03B1\u03C3\u03AF\u03B1 \u03C4\u03B7\u03C2
+      \u03B3\u03BF\u03BD\u03B9\u03BA\u03AE\u03C2 \u03B5\u03C0\u03AF\u03B2\u03BB\u03B5\u03C8\u03B7\u03C2
+      \u03BA\u03B1\u03C4\u03AC \u03C4\u03B7 \u03C7\u03C1\u03AE\u03C3\u03B7 \u03C4\u03B7\u03C2
+      \u03B5\u03C6\u03B1\u03C1\u03BC\u03BF\u03B3\u03AE\u03C2 \u03B1\u03C0\u03CC \u03BC\u03B9\u03BA\u03C1\u03AC
+      \u03C0\u03B1\u03B9\u03B4\u03B9\u03AC. \u039B\u03AC\u03B2\u03B5\u03C4\u03B5
+      \u03C5\u03C0\u03CC\u03C8\u03B7 \u03C4\u03BF\u03C5\u03C2 \u03C6\u03C5\u03C3\u03B9\u03BA\u03BF\u03CD\u03C2
+      \u03BA\u03B9\u03BD\u03B4\u03CD\u03BD\u03BF\u03C5\u03C2 \u03C3\u03C4\u03BF\u03BD
+      \u03C0\u03C1\u03B1\u03B3\u03BC\u03B1\u03C4\u03B9\u03BA\u03CC \u03BA\u03CC\u03C3\u03BC\u03BF"
+  - Name: START USING THE APP
+    Text: "\u039E\u03B5\u03BA\u03B9\u03BD\u03AE\u03C3\u03C4\u03B5 \u03C4\u03B7 \u03C7\u03C1\u03AE\u03C3\u03B7
+      \u03C4\u03B7\u03C2 \u03B5\u03C6\u03B1\u03C1\u03BC\u03BF\u03B3\u03AE\u03C2"
+  - Name: 1 orbit
+    Text: "1 \u03C4\u03C1\u03BF\u03C7\u03B9\u03AC"
+  - Name: 2 orbit
+    Text: "2 \u03C4\u03C1\u03BF\u03C7\u03B9\u03AC"
+  - Name: 3 orbit
+    Text: "3 \u03C4\u03C1\u03BF\u03C7\u03B9\u03AC"
+  - Name: velocity
+    Text: "\u03C4\u03B1\u03C7\u03CD\u03C4\u03B7\u03C4\u03B1"
+--- !u!114 &1471621743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1471621738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 086ae75064fca9f46b315403da7f5d20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Source: {fileID: 4900000, guid: 719e0aee5f754344887559930d898298, type: 3}
+  Language: English
+  Separator: =
+  NewLine: \n
+  Comment: ' // '
+  Cache: 0
+  entries:
+  - Name: Wrong Orbit
+    Text: Wrong velocity for this orbit!
+  - Name: Right Orbit
+    Text: Correct velocity for this orbit!
+  - Name: Start
+    Text: Start
+  - Name: OK
+    Text: OK
+  - Name: exit
+    Text: Exit
+  - Name: Scan the pages of the book
+    Text: Scan the pages of the book
+  - Name: Floating and sinking
+    Text: 'SCENARIO 1: FLOATING AND SINKING'
+  - Name: (Scene A) Objects that float or sink
+    Text: Objects that float or sink
+  - Name: (Scene B) The shape of the objects
+    Text: The shape of the objects
+  - Name: "Can you help Yiannis? What kind of objects do you think that float? Make
+      a hypothesis.\u201D Select one from the following:"
+    Text: 'Can you help Yiannis? What kind of objects do you think that float? Make
+      a hypothesis. Select one from the following:'
+  - Name: a. All big and heavy objects float
+    Text: a. All big and heavy objects float
+  - Name: b. All small and light objects float
+    Text: b. All small and light objects float
+  - Name: c. All objects made of metal float
+    Text: c. All objects made of metal float
+  - Name: d. All objects made of wood float
+    Text: d. All objects made of wood float
+  - Name: e. All objects made of glass float
+    Text: e. All objects made of glass float
+  - Name: "\u201CFine! Now, you can make an experiment to test your hypothesis. Put
+      the three big and   heavy objects on the sea to test your hypothesis\u201D."
+    Text: Fine! Now, you can make an experiment to test your hypothesis. Put the
+      three big and heavy objects on the sea to test your hypothesis.
+  - Name: "\u201CThis is a small and light object. Try all the big and heavy objects\u201D"
+    Text: This is a small and light object. Try all the big and heavy objects
+  - Name: "Your   experiment showed that only some big and heavy objects float while
+      others sink.   Your hypothesis was not proved. Try another hypothesis.\u201D"
+    Text: Your experiment showed that only some big and heavy objects float while
+      others sink. Your hypothesis was not proved. Try another hypothesis.
+  - Name: try another hypothesis
+    Text: Try another hypothesis
+  - Name: Scenario 2
+    Text: Scenario 2
+  - Name: English
+    Text: English
+  - Name: Rotation button
+    Text: Rotation button
+  - Name: calendar
+    Text: calendar
+  - Name: January
+    Text: January
+  - Name: February
+    Text: February
+  - Name: March
+    Text: March
+  - Name: April
+    Text: April
+  - Name: May
+    Text: May
+  - Name: June
+    Text: June
+  - Name: July
+    Text: July
+  - Name: August
+    Text: August
+  - Name: September
+    Text: September
+  - Name: October
+    Text: October
+  - Name: November
+    Text: November
+  - Name: December
+    Text: December
+  - Name: Return
+    Text: Return
+  - Name: Continue
+    Text: Continue
+  - Name: Day/Night Cycle
+    Text: 'SCENARIO 2: THE DAY/NIGHT CYCLE'
+  - Name: "(Scene A) Earth \u2013 Sun relative size"
+    Text: "Earth \u2013 Sun relative size"
+  - Name: "(Scene B) Sun - Earth distance \u2013 Phenomenal Sun\u2019s size explained"
+    Text: "Sun - Earth distance \u2013 Phenomenal Sun\u2019s size explained"
+  - Name: "(Scene C) Earth\u2019s revolution around the Sun"
+    Text: "Earth\u2019s revolution around the Sun"
+  - Name: "(Scene D) Earth\u2019s rotation around itself"
+    Text: "Earth\u2019s rotation around itself"
+  - Name: (Scene E) Day/night explanation
+    Text: Day/night explanation
+  - Name: The Sun looks like a ball of fire on the sky but   how big is the Sun?
+      Which of the following is true?
+    Text: The Sun looks like a ball of fire on the sky but how big is the Sun? Which
+      of the following is true?
+  - Name: a.The Sun is a little bigger than the Earth
+    Text: a.The Sun is a little bigger than the Earth
+  - Name: b. The Sun is much bigger than the Earth
+    Text: b. The Sun is much bigger than the Earth
+  - Name: c. The Earth is a little bigger than the Sun
+    Text: c. The Earth is a little bigger than the Sun
+  - Name: d. The Earth is much bigger than the Sun
+    Text: d. The Earth is much bigger than the Sun
+  - Name: You are right!
+    Text: You are right!
+  - Name: "The Sun\u2019s diameter is about 100 times bigger than   the Earth\u2019s
+      diameter. This means that a million Earths put together make the size of the
+      Sun."
+    Text: "The Sun\u2019s diameter is about 100 times bigger than the Earth\u2019s
+      diameter. This means that a million Earths put together make the size of the
+      Sun."
+  - Name: RETURN (SCENES MENU)
+    Text: RETURN
+  - Name: You're wrong
+    Text: You're wrong
+  - Name: "Often things are not the way they look. In reality the Sun\u2019s diameter
+      is about 100 times bigger than the Earth\u2019s diameter. This means that a
+      million Earths put together make the size of the Sun."
+    Text: "Often things are not the way they look. In reality the Sun\u2019s diameter
+      is about 100 times bigger than the Earth\u2019s diameter. This means that a
+      million Earths put together make the size of the Sun."
+  - Name: "The truth is that    The Sun\u2019s diameter is about 100 times bigger
+      than the Earth\u2019s diameter. his means that a million Earths put together
+      make the size of the Sun."
+    Text: "The truth is that The Sun\u2019s diameter is about 100 times bigger than
+      the Earth\u2019s diameter. his means that a million Earths put together make
+      the size of the Sun."
+  - Name: Do you know how far away from us the Sun is? Which   of the following is
+      true?
+    Text: Do you know how far away from us the Sun is? Which of the following is
+      true?
+  - Name: a. The Sun is a little further from the Earth than the clouds
+    Text: a. The Sun is a little further from the Earth than the clouds
+  - Name: b. The Sun is about the same distance from the Earth as the moon
+    Text: b. The Sun is about the same distance from the Earth as the moon
+  - Name: c. The Sun is further away from the Earth than the clouds and the moon
+    Text: c. The Sun is further away from the Earth than the clouds and the moon
+  - Name: The Sun is about 150 million km away from the Earth. That is why such a
+      huge object looks like a ball in the sky.
+    Text: The Sun is about 150 million km away from the Earth. That is why such a
+      huge object looks like a ball in the sky.
+  - Name: Often things are not the way they look. The truth is that the   Sun is
+      much further away from the Earth than the clouds or even the moon. The Sun
+      is about 150 million km away from the Earth. That is why such a huge object
+      looks like a ball in the sky.
+    Text: Often things are not the way they look. The truth is that the Sun is much
+      further away from the Earth than the clouds or even the moon. The Sun is about
+      150 million km away from the Earth. That is why such a huge object looks like
+      a ball in the sky.
+  - Name: The earth revolves around the Sun. Do you know how   long it takes to come
+      a full circle? Make a   hypothesis and then test it.
+    Text: The Earth revolves around the Sun. Do you know how long it takes to come
+      a full circle? Make a hypothesis and then test it.
+  - Name: a. 24 hours
+    Text: a. 24 hours
+  - Name: b. A day and a night
+    Text: b. A day and a night
+  - Name: c. A year
+    Text: c. A year
+  - Name: Fine! Now test your hypothesis by making the earth move around the Sun
+      and looking at the calendar
+    Text: Fine! Now test your hypothesis by making the earth move around the Sun
+      and looking at the calendar
+  - Name: GO
+    Text: GO
+  - Name: Your hypothesis is not true. You observed that it takes much longer than
+      one day for the Earth to make a revolution around the Sun. In fact the Earth
+      makes a complete revolution around the Sun in one year, that is in 365 days
+    Text: Your hypothesis is not true. You observed that it takes much longer than
+      one day for the Earth to make a revolution around the Sun. In fact the Earth
+      makes a complete revolution around the Sun in one year, that is in 365 days
+  - Name: Your hypothesis is true. As you observed the Earth makes a complete revolution
+      around the Sun in 365 days, that is in one year.
+    Text: Your hypothesis is true. As you observed the Earth makes a complete revolution
+      around the Sun in 365 days, that is in one year.
+  - Name: You know that the Earth revolves around itself. Do   you know how long
+      it takes to make a revolution around itself? Make a   hypothesis and then test
+      it.
+    Text: You know that the Earth revolves around itself. Do you know how long it
+      takes to make a revolution around itself? Make a hypothesis and then test it.
+  - Name: a. One year
+    Text: a. One year
+  - Name: b. 24 hours
+    Text: b. 24 hours
+  - Name: c. 365 days
+    Text: c. 365 days
+  - Name: Your hypothesis is not true. As the chronometer   showed, it takes 24 hours,
+      that is one day and one night, for the Earth to   complete a revolution around
+      itself.
+    Text: Your hypothesis is not true. As the chronometer showed, it takes 24 hours,
+      that is one day and one night, for the Earth to complete a revolution around
+      itself.
+  - Name: Your hypothesis is true. As the chronometer showed, it takes 24   hours,
+      that is one day and a night, for the Earth to complete a revolution   around
+      itself.
+    Text: Your hypothesis is true. As the chronometer showed, it takes 24 hours,
+      that is one day and a night, for the Earth to complete a revolution around
+      itself.
+  - Name: "\u201CVery well. Continue if you like\u201D. It is day   January the 3rd
+      in this country. Make it day, March the 23rd for this country."
+    Text: Very well. Continue if you like. It is day January the 3rd in this country.
+      Make it day, March the 23rd for this country.
+  - Name: "\u201CVery   well. Continue if you like\u201D"
+    Text: It is night, January the 3rd in this country. Make it January 3rd, day
+      for this country
+  - Name: It is day March the 23st in this country. Make it night   July the 3rd
+    Text: It is day March the 23st in this country. Make it night July the 3rd
+  - Name: "Very well. Continue if you like\u201D. It is night   July the 3d in this
+      country. Make it day    September the 23d."
+    Text: Very well. Continue if you like. It is night July the 3d in this country.
+      Make it day September the 23d.
+  - Name: Excellent. You know very well how day and night   come. It is day for the
+      side of the Earth that is illuminated from the Sun. But   as the Earth revolves
+      around itself this side is not illuminated anymore and night   comes. Imagine
+      that if the Earth stopped revolving around itself some places   would have
+      always day, while others would have night all the time.
+    Text: Excellent. You know very well how day and night come. It is day for the
+      side of the Earth that is illuminated from the Sun. But as the Earth revolves
+      around itself this side is not illuminated anymore and night comes. Imagine
+      that if the Earth stopped revolving around itself some places would have always
+      day, while others would have night all the time.
+  - Name: Scenario 3
+    Text: Scenario 3
+  - Name: English
+    Text: English
+  - Name: 'SCENARIO 3: GRAVITY'
+    Text: 'SCENARIO 3: GRAVITY'
+  - Name: '(Scene A) The effect of gravity on a satellite: The force of gravity becomes
+      zero'
+    Text: 'The effect of gravity on a satellite: The force of gravity becomes zero'
+  - Name: "(Scene B) The effect of velocity on satellite\u2019s orbit: The velocity
+      becomes zero"
+    Text: "The effect of velocity on satellite\u2019s orbit: The velocity becomes
+      zero"
+  - Name: (Scene C) Orbit and velocity
+    Text: Orbit and velocity
+  - Name: View from the satellite on/off
+    Text: View from the satellite on/off
+  - Name: Gravity on/off
+    Text: Gravity off
+  - Name: Remember that the force of gravity attracts the   satellite and makes it
+      revolve around the Earth. What would happen to the satellite   if the force
+      of gravity stopped? Make a hypothesis and test it.
+    Text: Remember that the force of gravity attracts the satellite and makes it
+      revolve around the Earth. What would happen to the satellite if the force of
+      gravity stopped? Make a hypothesis and test it.
+  - Name: 1.The satellite would fall on the earth
+    Text: 1.The satellite would fall on the earth
+  - Name: 2.The satellite would continue moving on a straight line
+    Text: 2.The satellite would continue moving on a straight line
+  - Name: 3. The satellite would fall down
+    Text: 3. The satellite would fall down
+  - Name: 4.The satellite would continue   moving on a curved line
+    Text: 4.The satellite would continue moving on a curved line
+  - Name: 'Fine. Now test your hypothesis: Put the gravity off   and watch the result.'
+    Text: 'Fine. Now test your hypothesis: Put the gravity off and watch the result.'
+  - Name: Your hypothesis is not true. If we could stop the   force of gravity, the
+      satellite would continue moving on a straight line. This   would happen because
+      there would be nothing to change its motion.
+    Text: Your hypothesis is not true. If we could stop the force of gravity, the
+      satellite would continue moving on a straight line. This would happen because
+      there would be nothing to change its motion.
+  - Name: Excellent! Your hypothesis is true. If we could   stop the force of gravity,
+      the satellite would continue moving on a straight   line, because there would
+      be nothing to change its motion.
+    Text: Excellent! Your hypothesis is true. If we could stop the force of gravity,
+      the satellite would continue moving on a straight line, because there would
+      be nothing to change its motion.
+  - Name: You can see the earth as if you were in the satellite.   Put gravity off
+      at different points and watch from the window of the satellite.
+    Text: You can see the earth as if you were in the satellite. Put gravity off
+      at different points and watch from the window of the satellite.
+  - Name: velocity on/off
+    Text: Velocity off
+  - Name: Remember that the satellite revolves around the   Earth with a certain
+      velocity. What would happen to the satellite if, for some   reason, the satellite
+      stopped? Make a hypothesis and test it.
+    Text: Remember that the satellite revolves around the Earth with a certain velocity.
+      What would happen to the satellite if, for some reason, the satellite stopped?
+      Make a hypothesis and test it.
+  - Name: 1.The satellite would fall on the earth
+    Text: 1.The satellite would fall on the earth
+  - Name: 2.The satellite would continue moving on a straight line
+    Text: 2.The satellite would continue moving on a straight line
+  - Name: 3.The satellite would fall down
+    Text: 3.The satellite would fall down
+  - Name: 4.The satellite would continue moving on a curved line
+    Text: 4.The satellite would continue moving on a curved line
+  - Name: 5.The satellite would stay at this point away from the earth
+    Text: 5.The satellite would stay at this point away from the earth
+  - Name: 'Fine. Now test your hypothesis: Put the velocity off   and watch the result.'
+    Text: 'Fine. Now test your hypothesis: Put the velocity off and watch the result.'
+  - Name: Your hypothesis is not true. The force of gravity   still attracts the
+      satellite even if the satellite stops. That is why the   satellite falls towards
+      the center of the earth.
+    Text: Your hypothesis is not true. The force of gravity still attracts the satellite
+      even if the satellite stops. That is why the satellite falls towards the center
+      of the earth.
+  - Name: Excellent! Your hypothesis proved true. If the   satellite stops, then
+      the force of gravity would attract (pull) it towards the   center of the earth.
+    Text: Excellent! Your hypothesis proved true. If the satellite stops, then the
+      force of gravity would attract (pull) it towards the center of the earth.
+  - Name: "The hero of our fairy tale said to the engineer of the ship that even
+      if the satellite was above the \u201Cdown side\u201D of the Earth, and stopped
+      for some reason, it would move towards the Earth and it would fall on the ground
+      \u03BFn the same side\u201D. Can you test his hypothesis? Is it true? Look
+      from the window of the satellite."
+    Text: "The hero of our fairy tale said to the engineer of the ship that even
+      if the satellite was above the \u201Cdown side\u201D of the Earth, and stopped
+      for some reason, it would move towards the Earth and it would fall on the ground
+      \u03BFn the same side\u201D. Can you test his hypothesis? Is it true? Look
+      from the window of the satellite."
+  - Name: "You can see that the satellite would fall on the \u201Cdown   side\u201D
+      of the Earth. Yiannis was right! It seems strange to us but in this case  
+      to \u201Cfall down\u201D means to move upwards. Remember that always to fall
+      \u201Cdown\u201D means   to move towards the center of the \u0395arth, due
+      to earth\u2019s attraction. And to go   \u201Cup\u201D means to move away from
+      the \u0395arth."
+    Text: "You can see that the satellite would fall on the \u201Cdown side\u201D
+      of the Earth. Yiannis was right! It seems strange to us but in this case to
+      \u201Cfall down\u201D means to move upwards. Remember that always to fall \u201Cdown\u201D
+      means to move towards the center of the \u0395arth, due to earth\u2019s attraction.
+      And to go \u201Cup\u201D means to move away from the \u0395arth."
+  - Name: satellite velocity
+    Text: satellite velocity
+  - Name: Put the satellite on an orbit around the Earth.   Choose the right velocity
+      for each orbit.
+    Text: Put the satellite on an orbit around the Earth. Choose the right velocity
+      for each orbit.
+  - Name: 'Now that you have put the satellite on the three different orbits , can
+      you tell which of the following is true:'
+    Text: 'Now that you have put the satellite on the three different orbits , can
+      you tell which of the following is true:'
+  - Name: 1.  The closer to the earth the orbit, the greater its velocity should
+      be
+    Text: 1.  The closer to the earth the orbit, the greater its velocity should
+      be
+  - Name: 2.  The  closer to the earth the orbit, the less its velocity should be
+    Text: 2.  The closer to the earth the orbit, the less its velocity should be
+  - Name: 3.  A satellite can move on any orbit regardless its velocity
+    Text: 3.  A satellite can move on any orbit regardless its velocity
+  - Name: Excellent! The closer to the earth, the greater is the force of gravity
+      with which the earth attracts the satellite. Therefore, the satellite must
+      move faster in order not to fall on the earth.
+    Text: Excellent! The closer to the earth, the greater is the force of gravity
+      with which the earth attracts the satellite. Therefore, the satellite must
+      move faster in order not to fall on the earth.
+  - Name: 'Not really! Try again and you find out that the closer to the earth the
+      satellite is, the greater its velocity should be. And here is the reason: You
+      know that the closer to the earth, the greater is the force of gravity with
+      which the earth attracts the satellite. Therefore, the satellite must move
+      faster in order not to fall on the earth.'
+    Text: 'Not really! Try again and you find out that the closer to the earth the
+      satellite is, the greater its velocity should be. And here is the reason: You
+      know that the closer to the earth, the greater is the force of gravity with
+      which the earth attracts the satellite. Therefore, the satellite must move
+      faster in order not to fall on the earth.'
+  - Name: Try the first orbit
+    Text: Try the first orbit
+  - Name: Try the second orbit
+    Text: Try the second orbit
+  - Name: Try the third orbit
+    Text: Try the third orbit
+  - Name: Set the speed and select orbit
+    Text: Set the speed and select orbit
+  - Name: Fine! Now put the three small and light objects on the sea to test your
+      hypothesis.
+    Text: Fine! Now put the three small and light objects on the sea to test your
+      hypothesis.
+  - Name: Fine! Now put the two metal objects on the sea to test your hypothesis.
+    Text: Fine! Now put the two metal objects on the sea to test your hypothesis.
+  - Name: Fine! Now put the two wooden objects on the sea to test your hypothesis
+    Text: Fine! Now put the two wooden objects on the sea to test your hypothesis
+  - Name: Fine! Now put the two glass objects on the sea to test your hypothesis.
+    Text: Fine! Now put the two glass objects on the sea to test your hypothesis.
+  - Name: This is a big and heavy object. Try all the small and light objects
+    Text: This is a big and heavy object. Try all the small and light objects
+  - Name: This is not made of metal. Try all the objects which are made of metal
+    Text: This is not made of metal. Try all the objects which are made of metal
+  - Name: This is not made of wood. Try all the objects which are made of wood
+    Text: This is not made of wood. Try all the objects which are made of wood
+  - Name: This is not made of glass. Try all the objects which are made of glass
+    Text: This is not made of glass. Try all the objects which are made of glass
+  - Name: Your experiment that only some small and light objects float while others
+      sink. Your hypothesis was not proved. Try another hypothesis.
+    Text: Your experiment showed that only some small and light objects float while
+      others sink. Your hypothesis was not proved. Try another hypothesis.
+  - Name: Your experiment that the objects which are made of metal do not float.
+      Your hypothesis was not proved. Try another hypothesis.
+    Text: Your experiment showed that the objects which are made of metal do not
+      float. Your hypothesis was not proved. Try another hypothesis.
+  - Name: Your experiment that the objects which are made of wood float no matter
+      whether they are big and heavy or small and light. Your hypothesis was proved.
+      Excellent!
+    Text: Your experiment showed that the objects which are made of wood float no
+      matter whether they are big and heavy or small and light. Your hypothesis was
+      proved. Excellent!
+  - Name: Your experiment that the objects which are made of glass do not float.
+      Your hypothesis was not proved. Try another hypothesis.
+    Text: Your experiment showed that the objects which are made of glass do not
+      float. Your hypothesis was not proved. Try another hypothesis.
+  - Name: Fine! Now make these objects hollow and put them on the sea to test your
+      hypothesis
+    Text: Fine! Now make these objects hollow and put them on the sea to test your
+      hypothesis
+  - Name: Fine! Now make these objects curved and put them on the sea to test your
+      hypothesis
+    Text: Fine! Now make these objects curved and put them on the sea to test your
+      hypothesis
+  - Name: Fine! Now make these objects solid and put them on the sea to test your
+      hypothesis
+    Text: Fine! Now make these objects solid and put them on the sea to test your
+      hypothesis
+  - Name: Your experiment showed that the hollow object made of metal (or glass depending
+      on the selected object) floats. Try another object
+    Text: Your experiment showed that the hollow object made of metal (or glass depending
+      on the selected object) floats. Try another object
+  - Name: Your experiment showed that the curved object made of metal (or glass depending
+      on the selected object) floats. Try another object
+    Text: Your experiment showed that the curved object made of metal (or glass depending
+      on the selected object) floats. Try another object
+  - Name: Your experiment showed that the solid object made of metal (or glass depending
+      on the selected object) floats. Try another object
+    Text: Your experiment showed that the curved object made of metal (or glass depending
+      on the selected object) floats. Try another object
+  - Name: Your experiment showed that all hollow objects float. Your hypothesis was
+      proved. Perhaps another hypothesis is also true. Try another hypothesis
+    Text: Your experiment showed that all hollow objects float. Your hypothesis was
+      proved. Perhaps another hypothesis is also true. Try another hypothesis
+  - Name: Your experiment showed that all the curved objects float. Your hypothesis
+      was proved. Perhaps another hypothesis is also true. Try another hypothesis
+    Text: Your experiment showed that all the curved objects float. Your hypothesis
+      was proved. Perhaps another hypothesis is also true. Try another hypothesis
+  - Name: Your experiment showed that all the solid objects sink. Your hypothesis
+      was not proved. Perhaps another hypothesis is true. Try another hypothesis
+    Text: Your experiment showed that all the solid objects sink. Your hypothesis
+      was not proved. Perhaps another hypothesis is true. Try another hypothesis
+  - Name: You are almost right
+    Text: You are almost right
+  - Name: Wood plank
+    Text: Wooden plank
+  - Name: Wood door
+    Text: Wooden door
+  - Name: Big metal plate
+    Text: Big metal plate
+  - Name: Small metal plate
+    Text: Small metal plate
+  - Name: Big glass
+    Text: Big glass
+  - Name: Small glass
+    Text: Small glass
+  - Name: SCAN THE PAGES OF THE BOOK
+    Text: SCAN THE PAGES OF THE BOOK
+  - Name: Can you help Yiannis?
+    Text: Can you help Yiannis?
+  - Name: Your previous experiment showed that these four objects do not float. What
+      would happen If you change their shape? Is it possible to float? Make a hypothesis
+      and then test it.
+    Text: Your previous experiment showed that these four objects do not float. What
+      would happen If you change their shape? Is it possible to float? Make a hypothesis
+      and then test it.
+  - Name: "a. \tHollow objects float"
+    Text: "a. \tHollow objects float"
+  - Name: "b.\tCurved objects float"
+    Text: "b.\tCurved objects float"
+  - Name: "c.\tSolid objects float"
+    Text: "c.\tSolid objects float"
+  - Name: It is day March the 21st in this country. Make it night July the 3rd.
+    Text: It is day March the 23st in this country. Make it night July the 3rd.
+  - Name: Put the satellite in an orbit around the Earth. Choose the right velocity
+      for the first orbit
+    Text: Put the satellite in an orbit around the Earth. Choose the right velocity
+      for the first orbit
+  - Name: Choose the right velocity for the second orbit
+    Text: Choose the right velocity for the second orbit
+  - Name: Choose the right velocity for the third orbit
+    Text: Choose the right velocity for the third orbit
+  - Name: Put the satellite in an orbit around the Earth. Choose the right velocity
+      for each orbit
+    Text: Put the satellite in an orbit around the Earth. Choose the right velocity
+      for each orbit
+  - Name: SAFETY WARNING
+    Text: SAFETY WARNING
+  - Name: "\u201CWe kindly remind you of the importance of parental supervision during
+      using the app by little kids. Please be aware of physical hazards in the real
+      world."
+    Text: We kindly remind you of the importance of parental supervision during using
+      the app by little kids. Please be aware of physical hazards in the real world.
+  - Name: START USING THE APP
+    Text: START USING THE APP
+  - Name: 1 orbit
+    Text: 1 orbit
+  - Name: 2 orbit
+    Text: 2 orbit
+  - Name: 3 orbit
+    Text: 3 orbit
+  - Name: velocity
+    Text: velocity
+--- !u!1 &1658680747
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1658680748}
+  - component: {fileID: 1658680751}
+  - component: {fileID: 1658680750}
+  - component: {fileID: 1658680749}
+  m_Layer: 5
+  m_Name: ButtonScene2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1658680748
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1658680747}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 763187431}
+  m_Father: {fileID: 2052865170}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 674.6638, y: -477.04828}
+  m_SizeDelta: {x: 418.35, y: 87.6}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1658680749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1658680747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 0
+  m_TargetGraphic: {fileID: 1658680750}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1658680750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1658680747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1658680751
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1658680747}
+  m_CullTransparentMesh: 0
+--- !u!1 &1722883209
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1722883210}
+  - component: {fileID: 1722883213}
+  - component: {fileID: 1722883212}
+  - component: {fileID: 1722883211}
+  m_Layer: 0
+  m_Name: Camera Device
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1722883210
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1722883209}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2138433758}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1722883211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1722883209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dca8017ddc105e5488bf7ba9b4a177cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  arCamera: {fileID: 1026109058}
+  FocusMode: 2
+  CameraSize: {x: 1280, y: 720}
+  CameraOpenMethod: 0
+  CameraType: 1
+  CameraIndex: 0
+  cameraPreference: 0
+--- !u!114 &1722883212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1722883209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 827d788c59357834d9adc4815a9a065c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1722883213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1722883209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfaf5bea4c10a8141a92abc840879a12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1736744926
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1736744929}
+  - component: {fileID: 1736744928}
+  m_Layer: 0
+  m_Name: ImageTargetScenario3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1736744928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736744926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f8c7feab99e861479c02aee5b54b004, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ActiveControl: 0
+  HorizontalFlip: 0
+  SourceType: 0
+  ImageFileSource:
+    PathType: 1
+    Path: 2_5260563398264883032-1.jpg
+    Name: 2_5260563398264883032-1
+    Scale: 1
+  TargetDataFileSource:
+    PathType: 1
+    Path: 
+  trackerHasSet: 1
+  tracker: {fileID: 777782269}
+--- !u!4 &1736744929
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736744926}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!1 &1986309228
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1986309231}
+  - component: {fileID: 1986309230}
+  m_Layer: 0
+  m_Name: ImageTargetScenario2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1986309230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1986309228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f8c7feab99e861479c02aee5b54b004, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ActiveControl: 0
+  HorizontalFlip: 0
+  SourceType: 0
+  ImageFileSource:
+    PathType: 1
+    Path: 2_5260563398264883033-1.jpg
+    Name: 2_5260563398264883033-1
+    Scale: 1
+  TargetDataFileSource:
+    PathType: 1
+    Path: 
+  trackerHasSet: 1
+  tracker: {fileID: 777782269}
+--- !u!4 &1986309231
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1986309228}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!1 &2052865169
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2052865170}
+  - component: {fileID: 2052865173}
+  - component: {fileID: 2052865172}
+  m_Layer: 5
+  m_Name: TEMP_MarkerScaning
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2052865170
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2052865169}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1454030800}
+  - {fileID: 11337634}
+  - {fileID: 1369357554}
+  - {fileID: 1658680748}
+  m_Father: {fileID: 102559186}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2052865172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2052865169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.09803922}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2052865173
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2052865169}
+  m_CullTransparentMesh: 0
+--- !u!1 &2138433754
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2138433758}
+  - component: {fileID: 2138433757}
+  - component: {fileID: 2138433756}
+  - component: {fileID: 2138433755}
+  m_Layer: 0
+  m_Name: AR Session (EasyAR)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2138433755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2138433754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e61c430477d9c324db3b8fbf8ea02a63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CenterMode: 0
+  HorizontalFlipNormal: 0
+  HorizontalFlipFront: 1
+  specificTargetCenter: {fileID: 0}
+--- !u!114 &2138433756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2138433754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e26e4bdeab275034ab325a8c22a2b607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FrameSource: 0
+  FrameFilter: 0
+  FramePlayer: 2
+  FrameRecorder: 2
+  SpecifiedComponents:
+    FramePlayer: {fileID: 0}
+    FrameSource: {fileID: 0}
+    FrameRecorder: {fileID: 0}
+    FrameFilters: []
+--- !u!114 &2138433757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2138433754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 845309652a1ed494d89639fa567f4a29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowPopupMessage: 1
+--- !u!4 &2138433758
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2138433754}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1722883210}
+  - {fileID: 777782268}
+  - {fileID: 1238512210}
+  - {fileID: 2145575592}
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2145575591
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2145575592}
+  - component: {fileID: 2145575593}
+  m_Layer: 0
+  m_Name: Frame Recorder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2145575592
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2145575591}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2138433758}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2145575593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2145575591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b40768300a6291547a6e26ee2c5018cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FilePathType: 0
+  FilePath: 
